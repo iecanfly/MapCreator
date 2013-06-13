@@ -1,0 +1,20 @@
+<decorators defaultdir="/decorators">
+    <excludes>
+        <pattern>/40*.jsp</pattern>
+        <pattern>/*ajax=true*</pattern>
+        <pattern>/struts/*</pattern>
+        <pattern>/resources/*</pattern>
+    </excludes>
+    <decorator name="map" page="mapDefault.jsp">
+        <pattern>/map*</pattern>
+    </decorator>
+    <decorator name="printSingle" page="printSingleDefault.jsp">
+        <pattern>/print/*Single/*</pattern>
+    </decorator>
+    <decorator name="printMultiple" page="printMultipleDefault.jsp">
+        <pattern>/print/*Multiple/*</pattern>
+    </decorator>
+    <decorator name="default" page="default.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+</decorators>

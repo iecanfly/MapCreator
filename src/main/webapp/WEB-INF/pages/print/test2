@@ -1,0 +1,48 @@
+
+
+
+<!DOCTYPE html>
+
+<html style="overflow: hidden">
+    <head>
+        <title>A-13</title>
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.2"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/library/DistanceTool/1.2/src/DistanceTool_min.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/library/GeoUtils/1.2/src/GeoUtils_min.js"></script>
+		<link rel="stylesheet" media="screen" href="/assets/stylesheets/main.css">
+        <script src="/assets/javascripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="/assets/javascripts/jquery-ui-1.8.18.min.js" type="text/javascript"></script>
+        <script src="/assets/javascripts/classHelper.js" type="text/javascript"></script>
+        <script src="/assets/javascripts/latlon.js" type="text/javascript"></script>
+        <!-- DO NOT CHANGE THE ORDER OF JS! map.js should be on top of other custom made js files -->
+        <script src="/assets/javascripts/printMap.js" type="text/javascript"></script>
+        <script src="/assets/javascripts/printPage.js" type="text/javascript"></script>
+        <script src="/assets/javascripts/dao/blockDAO.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        	var blockInfo = {};
+        	blockInfo["blockName"] = "A";
+        	blockInfo["blockNumber"] = "13";
+        	blockInfo["coord"] = "29.902112,121.53495;29.902065,121.534465;29.900171,121.533962;29.898746,121.533387;29.897165,121.532614;29.89538,121.531931;29.89383,121.531482;29.893126,121.531321;29.893016,121.531967;29.89311,121.534051;29.894049,121.534483;29.895505,121.534806;29.897619,121.535273;29.898887,121.535525;29.900374,121.535866;29.901595,121.536064;29.902002,121.535902";
+        	blockInfo["markerCoord"] = "";
+        	blockInfo["printCoord"] = "";
+        	blockInfo["printZoomLevel"] = "";
+
+        	var printMap;
+
+        	$(document).ready(function(){
+        		printMap = new Territory.PrintMap(blockInfo);
+        	});
+
+        </script>
+    </head>
+    <body id="printBody">
+        <div style="width: 100%; height: 100%; border:none;" id="printContainer"></div>
+        <h4 style="height:45px;width:120px;text-align:center; border:2px solid; background-color:white; position:absolute;top: -35px;left: 5px;font-size: 200%">A-13</h4>
+        <span class="recommendedWorkerNumSpan" style="position:absolute;top:512px;left: 3px;padding:3px 3px 3px 3px;">
+        	<img src="/assets/images/num_people.png">
+        </span>
+        <span style="font-family: Microsoft YaHei;font-size:150%;position:absolute;top:513px;left: 51px;" >4</span>
+        <div id="busInfoDiv" style="width: 95px; border:1px solid;background-color:white; position:absolute;top:5px;left: 690px;font-size: 68%;font-family: Microsoft YaHei;padding:3px 3px 3px 3px;"></div>
+    </body>
+</html>
+

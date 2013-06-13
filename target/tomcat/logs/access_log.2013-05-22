@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [22/May/2013:14:10:38 +0800] "GET /map/ningbo_east_temp HTTP/1.1" 404 - http-bio-8070-exec-1 0
+0:0:0:0:0:0:0:1 - - [22/May/2013:14:10:39 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8070-exec-2 0
+0:0:0:0:0:0:0:1 - - [22/May/2013:14:11:03 +0800] "GET /map/ningbo_east_temp HTTP/1.1" 404 - http-bio-8070-exec-3 0
+0:0:0:0:0:0:0:1 - - [22/May/2013:14:11:03 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8070-exec-4 0
+0:0:0:0:0:0:0:1 - - [22/May/2013:14:14:06 +0800] "GET /map/ningbo_east_temp HTTP/1.1" 404 - http-bio-8070-exec-1 0
+0:0:0:0:0:0:0:1 - - [22/May/2013:14:14:06 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8070-exec-2 0
