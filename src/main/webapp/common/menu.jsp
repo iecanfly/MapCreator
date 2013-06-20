@@ -10,8 +10,10 @@
     </c:if>
     <menu:displayMenu name="MainMenu"/>
     <menu:displayMenu name="MapMenu" />
+    <menu:displayMenu name="EditBlockMenu" />
+    <menu:displayMenu name="EditACLMenu" />
     <menu:displayMenu name="UserMenu"/>
-    <menu:displayMenu name="AdminMenu"/>
+    <menu:displayMenu name="SuperAdminMenu"/>
     <menu:displayMenu name="Logout"/>
 </ul>
 </div>

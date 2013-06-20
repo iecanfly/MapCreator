@@ -1,6 +1,6 @@
 package com.gooki.webapp.taglib;
 
-import org.appfuse.model.LabelValue;
+import com.gooki.model.LabelValue;
 import org.displaytag.tags.el.ExpressionEvaluator;
 
 import javax.servlet.jsp.JspException;

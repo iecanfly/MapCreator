@@ -1,15 +1,15 @@
 package com.gooki.dao.hibernate;
 
 import com.gooki.dao.CongDao;
-import com.gooki.model.Block;
 import com.gooki.model.Cong;
-import org.appfuse.dao.BaseDaoTestCase;
+import com.gooki.dao.BaseDaoTestCase;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 
 /**
  * Created with IntelliJ IDEA.
@@ -30,6 +30,14 @@ public class CongDaoHibernateTest extends BaseDaoTestCase {
     public void testFindBlockByCongName() throws Exception {
         Cong cong = congDao.findByCongName("ningbo_east_temp");
         assertNotNull(cong);
+    }
+
+    @Test
+    public void testRemoveCongName() throws Exception {
+        Cong cong = congDao.findByCongName("ningbo_east_temp");
+        congDao.removeCongByName(cong.getName());
+        cong = congDao.findByCongName("ningbo_east_temp");
+        assertNull(cong);
     }
 
     @After

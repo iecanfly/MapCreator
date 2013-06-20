@@ -1,9 +1,10 @@
 package com.gooki.dao;
 
 import com.gooki.model.Cong;
-import org.appfuse.dao.GenericDao;
+import com.gooki.dao.GenericDao;
 
 
 public interface CongDao extends GenericDao<Cong, Long>{
 	Cong findByCongName(String cong);
+    void removeCongByName(String congName);
 }

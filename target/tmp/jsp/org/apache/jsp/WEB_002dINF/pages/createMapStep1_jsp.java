@@ -346,7 +346,10 @@ public final class createMapStep1_jsp extends org.apache.jasper.runtime.HttpJspB
         if (_jspx_meth_fmt_message_6((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_set_2, _jspx_page_context))
           return true;
         out.write("\";\n");
-        out.write("    new Territory.CreateMap();\n");
+        out.write("    $(document).ready(function(){\n");
+        out.write("        new Territory.CreateMap();\n");
+        out.write("    });\n");
+        out.write("\n");
         out.write("</script>\n");
         int evalDoAfterBody = _jspx_th_c_set_2.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)

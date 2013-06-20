@@ -244,11 +244,9 @@ public final class createMapStep2_jsp extends org.apache.jasper.runtime.HttpJspB
         out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${cong}", java.lang.String.class, (PageContext)_jspx_page_context, null));
         out.write("';\n");
         out.write("    var newCong;\n");
-        out.write("\n");
         out.write("    $(document).ready(function(){\n");
         out.write("        newCong = new Territory.NewCong();\n");
-        out.write("    })\n");
-        out.write("\n");
+        out.write("    });\n");
         out.write("</script>\n");
         int evalDoAfterBody = _jspx_th_c_set_2.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)

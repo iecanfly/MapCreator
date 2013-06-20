@@ -6,10 +6,10 @@
     <meta name="menu" content="MapMenu"/>
 </head>
 <div class="row-fluid">
-   <div class="span10"/></div>
+   <div class="span12"/></div>
 </div>
 <div class="row-fluid">
-   <div class="span10"/></div>
+   <div class="span12"/></div>
 </div>
 
 <body>

@@ -47,11 +47,9 @@
 <script type="text/javascript">
     var cong = '${cong}';
     var newCong;
-
     $(document).ready(function(){
         newCong = new Territory.NewCong();
-    })
-
+    });
 </script>
 </c:set>
 

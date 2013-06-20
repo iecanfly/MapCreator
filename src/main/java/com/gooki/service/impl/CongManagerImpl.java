@@ -4,8 +4,8 @@ package com.gooki.service.impl;
 import com.gooki.dao.CongDao;
 import com.gooki.model.Cong;
 import com.gooki.service.CongManager;
-import com.gooki.webapp.exception.CongExistsException;
-import org.appfuse.service.impl.GenericManagerImpl;
+import com.gooki.service.SecurityContextService;
+import com.gooki.service.UserManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,27 +14,19 @@ import java.util.List;
 @Service("congManager")
 public class CongManagerImpl extends GenericManagerImpl<Cong, Long> implements CongManager {
     private CongDao congDao;
+    private UserManager userManager;
+    private SecurityContextService securityContextService;
 
     @Autowired
-    public CongManagerImpl(CongDao congDao) {
+    public CongManagerImpl(CongDao congDao, UserManager userManager, SecurityContextService securityContextService) {
         super(congDao);
         this.congDao = congDao;
+        this.userManager = userManager;
+        this.securityContextService = securityContextService;
     }
 
-    public void setCongDao(CongDao congDao) {
-        this.congDao = congDao;
-    }
-
-    public Cong saveCong(Cong cong) throws CongExistsException {
-        return congDao.save(cong);
-    }
-
-    public void removeCong(Cong block) {
-        //To change body of implemented methods use File | Settings | File Templates.
-    }
-
-    public void removeCong(String congId) {
-        //To change body of implemented methods use File | Settings | File Templates.
+    public void removeCongByName(String congName) {
+        congDao.removeCongByName(congName);
     }
 
     public Cong findByCongName(String name) {

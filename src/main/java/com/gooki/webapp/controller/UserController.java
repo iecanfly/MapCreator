@@ -1,8 +1,8 @@
 package com.gooki.webapp.controller;
 
-import org.appfuse.Constants;
-import org.appfuse.dao.SearchException;
-import org.appfuse.service.UserManager;
+import com.gooki.Constants;
+import com.gooki.dao.SearchException;
+import com.gooki.service.UserManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ExtendedModelMap;
@@ -36,7 +36,7 @@ public class UserController {
     public ModelAndView handleRequest(@RequestParam(required = false, value = "q") String query) throws Exception {
         Model model = new ExtendedModelMap();
         try {
-            model.addAttribute("", userManager.search(query));
+            model.addAttribute(Constants.USER_LIST, userManager.search(query));
         } catch (SearchException se) {
             model.addAttribute("searchError", se.getMessage());
             model.addAttribute(userManager.getUsers());

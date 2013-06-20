@@ -1,6 +1,3 @@
-var Territory = Territory || {};
-Territory.DAO = {};
-
 Territory.NewCong = Class.extend({
 	_this : null,
 	_map : null,

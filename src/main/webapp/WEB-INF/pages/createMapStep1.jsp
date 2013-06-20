@@ -64,7 +64,10 @@
 <c:set var="scripts" scope="request">
 <script type="text/javascript">
     var placeholder = "<fmt:message key="mapMenu.select.heading"/>";
-    new Territory.CreateMap();
+    $(document).ready(function(){
+        new Territory.CreateMap();
+    });
+
 </script>
 </c:set>
 

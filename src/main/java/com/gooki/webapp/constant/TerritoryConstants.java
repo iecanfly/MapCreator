@@ -7,11 +7,11 @@ public enum TerritoryConstants {
     CONGREGATION("cong"),
     CONGREGATION_LIST("congList"),
     JSON_OK_RESPONSE("OK"),
-    JSON_FAIL_RESPONSE("KO")
-    ;
+    JSON_FAIL_RESPONSE("KO"),
+    JSON_NO_PERMISSION_RESPONSE("NO_PERMISSION");
+
+    private String value;
 		
-	String value;
-	
 	private TerritoryConstants(String value) {
 		this.value = value;
 	}

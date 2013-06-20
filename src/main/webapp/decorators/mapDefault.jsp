@@ -12,13 +12,17 @@
 
     <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/styles/lib/bootstrap-2.2.1.min.css'/>" />
     <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/styles/lib/bootstrap-responsive-2.2.1.min.css'/>" />
-    <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/styles/lib/datatable.css'/>" />
     <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/scripts/datepicker/css/datepicker.css'/>" />
     <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/styles/style.css'/>" />
     <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/scripts/lib/select2/select2.css'/>" />
     <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/styles/main.css'/>" />
 
     <decorator:head/>
+
+    <script type="text/javascript">
+        var Territory = Territory || {};
+        Territory.DAO = {};
+    </script>
 
     <script type="text/javascript" src="<c:url value='/scripts/lib/jquery-1.8.2.min.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/lib/bootstrap-2.2.1.min.js'/>"></script>
@@ -30,16 +34,15 @@
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.2"></script>
     <script type="text/javascript" src="http://api.map.baidu.com/library/DistanceTool/1.2/src/DistanceTool_min.js"></script>
     <script type="text/javascript" src="http://api.map.baidu.com/library/GeoUtils/1.2/src/GeoUtils_min.js"></script>
-    <script type="text/javascript" src="<c:url value='/scripts/datatable.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/classHelper.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/printPage.js'/>"></script>
-    <script type="text/javascript" src="<c:url value='/scripts/map.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/createMap.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/createCong.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/dialogue.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/dao/congDAO.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/dao/blockDAO.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/dao/recordDAO.js'/>"></script>
+    <script type="text/javascript" src="<c:url value='/scripts/map.js'/>"></script>
 
 </head>
 <body<decorator:getProperty property="body.id" writeEntireProperty="true"/><decorator:getProperty property="body.class" writeEntireProperty="true"/>>

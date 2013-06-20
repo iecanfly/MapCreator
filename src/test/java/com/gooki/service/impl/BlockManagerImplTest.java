@@ -54,4 +54,17 @@ public class BlockManagerImplTest {
         verify(blockDao).saveBlockAfterDuplicateCheck(block);
 	}
 
+    @Test
+    public void testUpdateBlock() throws Exception {
+        blockManagerImpl.updateBlock(block);
+        verify(blockDao).update(block);
+    }
+
+    @Test
+    public void testRemoveBlock() throws Exception {
+        Block b = new Block();
+        blockManagerImpl.removeBlock(b);
+        verify(blockDao).remove(b);
+    }
+
 }

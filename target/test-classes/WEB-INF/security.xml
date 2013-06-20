@@ -11,9 +11,11 @@
 
     <http auto-config="true">
         <intercept-url pattern="/app/admin/**" access="ROLE_ADMIN"/>
-        <intercept-url pattern="/app/passwordHint*" access="ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER"/>
-        <intercept-url pattern="/app/signup*" access="ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER"/>
-        <intercept-url pattern="/app/**" access="ROLE_ADMIN,ROLE_USER"/>
+        <intercept-url pattern="/app/passwordHint*" access="ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER,ROLE_APPROVED_USER"/>
+        <intercept-url pattern="/app/signup*" access="ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER,ROLE_APPROVED_USER"/>
+        <intercept-url pattern="/app/**" access="ROLE_ADMIN,ROLE_USER,ROLE_APPROVED_USER"/>
+        <intercept-url pattern="/app/blocks/delete" access="ROLE_ADMIN,ROLE_APPROVED_USER"/>
+        <intercept-url pattern="/app/blocks/update" access="ROLE_ADMIN,ROLE_APPROVED_USER"/>
         <form-login login-page="/login" authentication-failure-url="/login?error=true" login-processing-url="/j_security_check"/>
         <remember-me user-service-ref="userDao" key="e37f4b31-0c45-11dd-bd0b-0800200c9a66"/>
     </http>
@@ -31,8 +33,7 @@
 
     <!-- Override the default password-encoder (SHA) by uncommenting the following and changing the class -->
     <!-- <bean id="passwordEncoder" class="org.springframework.security.authentication.encoding.ShaPasswordEncoder"/> -->
-
-    <global-method-security>
+    <global-method-security pre-post-annotations="enabled">
         <protect-pointcut expression="execution(* *..service.UserManager.getUsers(..))" access="ROLE_ADMIN"/>
         <protect-pointcut expression="execution(* *..service.UserManager.removeUser(..))" access="ROLE_ADMIN"/>
     </global-method-security>

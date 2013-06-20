@@ -1,10 +1,10 @@
 package com.gooki.webapp.controller;
 
 import org.apache.commons.lang.StringUtils;
-import org.appfuse.Constants;
-import org.appfuse.model.User;
-import org.appfuse.service.RoleManager;
-import org.appfuse.service.UserExistsException;
+import com.gooki.Constants;
+import com.gooki.model.User;
+import com.gooki.service.RoleManager;
+import com.gooki.service.UserExistsException;
 import com.gooki.webapp.util.RequestUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;

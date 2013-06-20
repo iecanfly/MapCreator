@@ -2,17 +2,17 @@ package com.gooki.dao.hibernate;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 
 import java.util.List;
 
 import com.gooki.dao.BlockDao;
 import com.gooki.webapp.exception.BlockExistsException;
-import org.appfuse.dao.BaseDaoTestCase;
+import com.gooki.dao.BaseDaoTestCase;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.internal.runners.statements.ExpectException;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.gooki.model.Block;
@@ -75,6 +75,14 @@ public class BlockDaoHibernateTest extends BaseDaoTestCase {
     public void testFindBlock()  throws Exception {
         assertNotNull(blockDao.findBlock("ningbo_east_temp", "C", "1"));
         assertEquals(2557, blockDao.findBlock("ningbo_east_temp", "C", "1").getId().longValue());
+    }
+
+    @Test
+    public void testUpdate()  throws Exception {
+        Block block = blockDao.findBlock("ningbo_east_temp", "C", "1");
+        block.setBlock("D");
+        blockDao.update(block);
+        assertNull(blockDao.findBlock("ningbo_east_temp", "C", "1"));
     }
 
     @After

@@ -54,7 +54,7 @@ public class MapController extends TerritoryBaseController {
         Map<String, Object> map = new HashMap<String, Object>();
 
         try {
-            congManager.saveCong(cong);
+            congManager.save(cong);
             map.put("status", TerritoryConstants.JSON_OK_RESPONSE.getValue());
             map.put("message", "The map has been successfully created.");
         } catch (Exception e) {

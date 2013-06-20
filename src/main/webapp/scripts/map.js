@@ -1,6 +1,3 @@
-var Territory = Territory || {};
-Territory.DAO = {};
-
 Territory.Map = Class.extend({
 	_this : null,
 	_map : null,
@@ -68,6 +65,7 @@ Territory.Map = Class.extend({
 
 	_openSaveBlockDialogue : function(pts) {
 		_dialogue.openSaveBlockDialogue(pts);
+
 	},
 	
 	openBlockViewCoverage : function() {

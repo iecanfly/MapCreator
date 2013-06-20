@@ -9,7 +9,7 @@ Territory.DAO.Block = Class.extend({
 		var me = this;
 		$.ajax({
 			  type : "POST",
-			  url : "/blocks",
+			  url : "/blocks/new",
 			  data : JSON.stringify({cong: cong , block: block, number: number, coord: coord }),
               dataType : 'json',
               contentType : "application/json"
@@ -41,14 +41,31 @@ Territory.DAO.Block = Class.extend({
 				_territoryMap.drawBlocks(msg.data);
 			});
 	},
+
+	updateBlock : function(block, callback) {
+        $.ajax({
+            url: "/blocks/update",
+            type: "POST",
+            dataType : 'json',
+            contentType : "application/json",
+            data : JSON.stringify({ id: block.id, block: block.block, cong:block.cong, coord:block.coord, number: block.number, recommendedWorkerNum: block.recommendedWorkerNum })
+        }).done(function(result) {
+            alert(result.message);
+        });
+    },
 	
-	deleteBlock : function(cong, block) {
-		var me = this;
+	deleteBlock : function(id, callback) {
 		$.ajax({
-			  url: "/blocks/delete/" + cong + "/" + block
-			}).done(function(msg) {
-				me.getAllBlocks(cong);
-			});
+            url: "/blocks/delete",
+            type: "POST",
+            dataType : 'json',
+            contentType : "application/json",
+            data : id
+        }).done(function(result) {
+            callback(id, result);
+        });
+        
 	}
-	
+    
+
 });

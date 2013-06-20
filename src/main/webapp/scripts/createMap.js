@@ -1,6 +1,3 @@
-var Territory = Territory || {};
-Territory.DAO = {};
-
 Territory.CreateMap = Class.extend({
 	_this : null,
 	_congDAO : null,

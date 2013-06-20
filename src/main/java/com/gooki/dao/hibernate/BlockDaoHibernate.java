@@ -6,7 +6,7 @@ import java.util.List;
 import com.gooki.dao.BlockDao;
 import com.gooki.webapp.constant.TerritoryConstants;
 import com.gooki.webapp.exception.BlockExistsException;
-import org.appfuse.dao.hibernate.GenericDaoHibernate;
+import com.gooki.dao.hibernate.GenericDaoHibernate;
 import org.hibernate.Criteria;
 import org.hibernate.criterion.Criterion;
 import org.hibernate.criterion.Disjunction;
@@ -16,7 +16,7 @@ import org.springframework.stereotype.Repository;
 
 import com.gooki.model.Block;
 
-@Repository()
+@Repository("blockDao")
 public class BlockDaoHibernate extends GenericDaoHibernate<Block, Long> implements BlockDao {
 
     public BlockDaoHibernate() {
@@ -41,6 +41,10 @@ public class BlockDaoHibernate extends GenericDaoHibernate<Block, Long> implemen
         getSession().save(block);
 
         return block;
+    }
+
+    public void update(Block block) {
+        getSession().update(block);
     }
 
     @Override

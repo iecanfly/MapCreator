@@ -4,10 +4,12 @@ package com.gooki.model;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
-import org.appfuse.model.BaseObject;
+import com.gooki.model.BaseObject;
+import com.gooki.model.User;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 @Entity
 @Table(name = "cong")
@@ -16,8 +18,8 @@ public class Cong extends BaseObject implements Serializable {
     @GeneratedValue(strategy = javax.persistence.GenerationType.AUTO)
     private Long id;
 
-    @Column(name = "name", nullable = false, length = 100)
-    private String name;
+    @Column(name = "name",nullable = false, length = 100)
+    private String name = "";
 
     @Column(name = "center_coord", nullable = false, length = 45)
     private String centerCoord;

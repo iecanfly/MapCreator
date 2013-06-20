@@ -82,10 +82,10 @@ public final class mapMain_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <meta name=\"menu\" content=\"MapMenu\"/>\n");
       out.write("</head>\n");
       out.write("<div class=\"row-fluid\">\n");
-      out.write("   <div class=\"span10\"/></div>\n");
+      out.write("   <div class=\"span12\"/></div>\n");
       out.write("</div>\n");
       out.write("<div class=\"row-fluid\">\n");
-      out.write("   <div class=\"span10\"/></div>\n");
+      out.write("   <div class=\"span12\"/></div>\n");
       out.write("</div>\n");
       out.write("\n");
       out.write("<body>\n");

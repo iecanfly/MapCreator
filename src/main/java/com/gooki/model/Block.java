@@ -4,7 +4,7 @@ package com.gooki.model;
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
-import org.appfuse.model.BaseObject;
+import com.gooki.model.BaseObject;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -13,7 +13,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @Entity
-@Table(name = "block")
+@Table(name = "block", uniqueConstraints = {@UniqueConstraint(columnNames = {"cong", "block", "number"})})
 public class Block implements Serializable {
     private static final long serialVersionUID = 1L;
 

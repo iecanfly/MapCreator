@@ -206,8 +206,8 @@
         </row>
         <row>
             <value description="id">-3</value>
-            <value description="username">iecanfly</value>
-            <value description="password">a40546cc4fd6a12572828bb803380888ad1bfdab</value>
+            <value description="username">pop</value>
+            <value description="password">0a96e16fde366b51fe825a0e5b550f27d6dcfc40</value>
             <value description="first_name">David</value>
             <value description="last_name">Lee</value>
             <value description="address"></value>
@@ -260,6 +260,14 @@
         <row>
             <value description="user_id">-3</value>
             <value description="role_id">-3</value>
+        </row>
+    </table>
+    <table name="user_cong">
+        <column>user_id</column>
+        <column>cong_id</column>
+        <row>
+            <value description="user_id">-3</value>
+            <value description="cong_id">5</value>
         </row>
     </table>
 </dataset>
