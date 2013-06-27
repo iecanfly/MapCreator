@@ -5,9 +5,9 @@
     <ignored path="hibernate.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/TerritoryDao.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365433486053" ignored="false" />
-    <file path="/UserController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371621560382" ignored="false" />
-    <file path="/UserFormController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365498862008" ignored="false" />
-    <file path="/fragment.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371714941287" ignored="false" />
+    <file path="/UserController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372079651534" ignored="false" />
+    <file path="/UserFormController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372077470056" ignored="false" />
+    <file path="/fragment.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372318582322" ignored="false" />
     <file path="/Dummy.txt" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371707593973" ignored="false" />
     <file path="/applicationContext.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371638485638" ignored="false" />
     <file path="/TerritoryDaoHibernateTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365670158885" ignored="false" />
@@ -16,38 +16,38 @@
     <file path="/TerritoryManager.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365499934038" ignored="false" />
     <file path="/sample-data.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371716123054" ignored="false" />
     <file path="/TerritoryDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365527606249" ignored="false" />
-    <file path="/a.dummy" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371734692483" ignored="false" />
+    <file path="/a.dummy" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372073445465" ignored="false" />
     <file path="/BlockDao.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371179033266" ignored="false" />
     <file path="/Territory.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365670608702" ignored="false" />
-    <file path="/TerritoryConstants.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371623737350" ignored="false" />
+    <file path="/TerritoryConstants.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372051404999" ignored="false" />
     <file path="/TerritoryExistsException.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365670913845" ignored="false" />
-    <file path="/BlockDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371178971207" ignored="false" />
+    <file path="/BlockDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372318988793" ignored="false" />
     <file path="/TerritoryController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365671314051" ignored="false" />
     <file path="/BlockManagerImplTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371607401618" ignored="false" />
     <file path="/BlockDaoHibernateTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371179084459" ignored="false" />
     <file path="/Block.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371693429070" ignored="false" />
     <file path="/persistence.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371712746695" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371607612433" ignored="false" />
-    <file path="/Cong.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371714626290" ignored="false" />
+    <file path="/Cong.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371738713230" ignored="false" />
     <file path="/Record.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365691273542" ignored="false" />
     <file path="/BlockController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371625756873" ignored="false" />
     <file path="/BlockManagerImpl.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371543527152" ignored="false" />
-    <file path="/ApplicationResources.properties" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371647602235" ignored="false" />
+    <file path="/ApplicationResources.properties" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371794965481" ignored="false" />
     <file path="/blockMain.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371050833717" ignored="false" />
     <file path="/map.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371533552523" ignored="false" />
-    <file path="/default.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371370084499" ignored="false" />
+    <file path="/default.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372072169403" ignored="false" />
     <file path="/jquery-ui-1.8.18.custom.css" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365932460000" ignored="false" />
-    <file path="/main.css" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371368712630" ignored="false" />
+    <file path="/main.css" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372318514506" ignored="false" />
     <file path="/decorators.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369143416434" ignored="false" />
     <file path="/mapDefault.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371379335173" ignored="false" />
     <file path="/sidecontrol.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366193735066" ignored="false" />
-    <file path="/CongManager.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371609228295" ignored="false" />
+    <file path="/CongManager.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372077312697" ignored="false" />
     <file path="/CongDao.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371628268507" ignored="false" />
     <file path="/CongDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371635492865" ignored="false" />
     <file path="/CongDaoHibernateTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371609835896" ignored="false" />
-    <file path="/CongManagerImpl.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371639441127" ignored="false" />
+    <file path="/CongManagerImpl.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372077445532" ignored="false" />
     <file path="/CongManagerImplTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371639773592" ignored="false" />
-    <file path="/MapController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371113183301" ignored="false" />
+    <file path="/MapController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371737766654" ignored="false" />
     <file path="/dialogue.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369239990394" ignored="false" />
     <file path="$PROJECT_DIR$/../leyuan/territory/app/views/first.scala.html" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366853674670" ignored="false" />
     <file path="/GlobalExceptionHandler.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366902777706" ignored="false" />
@@ -57,7 +57,7 @@
     <file path="/noCongFound.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366962772529" ignored="false" />
     <file path="/CongNotExistsException.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366961529415" ignored="false" />
     <file path="/blockDAO.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371623372490" ignored="false" />
-    <file path="/dialog.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369145469262" ignored="false" />
+    <file path="/dialog.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372318259739" ignored="false" />
     <file path="/UserControllerTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366970755436" ignored="false" />
     <file path="/ajaxResponse.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366972244125" ignored="false" />
     <file path="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371122815502" ignored="false" />
@@ -111,9 +111,9 @@
     <file path="/editBlocksDefault.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371365407003" ignored="false" />
     <file path="/createMapStep1.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371372134922" ignored="false" />
     <file path="/editBlocks.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371623810400" ignored="false" />
-    <file path="/security.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371734770185" ignored="false" />
+    <file path="/security.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372054083048" ignored="false" />
     <file path="/MapSecurityService.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371625152432" ignored="false" />
-    <file path="/MapSecurityServiceImpl.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371735881714" ignored="false" />
+    <file path="/MapSecurityServiceImpl.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372071984827" ignored="false" />
     <file path="/UserCongManager.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371653793197" ignored="false" />
     <file path="/UserCongDao.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371608949061" ignored="false" />
     <file path="/UserCongDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371609064435" ignored="false" />
@@ -122,10 +122,10 @@
     <file path="/UserCongDaoHibernateTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371624562178" ignored="false" />
     <file path="/SecurityContextService.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371639305715" ignored="false" />
     <file path="/SecurityContextServiceImpl.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371640771805" ignored="false" />
-    <file path="/AclController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371653784739" ignored="false" />
-    <file path="/editAclDefault.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371647682302" ignored="false" />
+    <file path="/AclController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372072451696" ignored="false" />
+    <file path="/editAclDefault.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371737020554" ignored="false" />
     <file path="/MapUser.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371695406740" ignored="false" />
-    <file path="/User.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371735443223" ignored="false" />
+    <file path="/User.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371827908461" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/org/appfuse/model/User.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371709907115" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/org/appfuse/model/Role.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371709907115" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/org/appfuse/service/impl/RoleManagerImpl.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371709907115" ignored="false" />
@@ -134,6 +134,12 @@
     <file path="$PROJECT_DIR$/src/main/java/org/appfuse/dao/hibernate/UserDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371709907115" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/org/appfuse/dao/hibernate/LookupDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371709907115" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/org/appfuse/dao/hibernate/RoleDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371709907115" ignored="false" />
+    <file path="/userform.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371828761136" ignored="false" />
+    <file path="/editAcl.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372071224466" ignored="false" />
+    <file path="/editAcls.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372074045306" ignored="false" />
+    <file path="/aclDAO.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372072653856" ignored="false" />
+    <file path="/UserManager.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372079609689" ignored="false" />
+    <file path="/UserManagerImpl.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372079638510" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,21 +180,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/MapSecurityServiceImpl.java" line="30" class="com.gooki.service.impl.MapSecurityServiceImpl" package="com.gooki.service.impl">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.3.RELEASE/spring-webmvc-3.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/handler/UserRoleAuthorizationInterceptor.java" line="50" class="org.springframework.web.servlet.handler.UserRoleAuthorizationInterceptor" package="org.springframework.web.servlet.handler">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -205,21 +196,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
       <breakpoint url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.3.RELEASE/spring-webmvc-3.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/handler/UserRoleAuthorizationInterceptor.java" line="49" class="org.springframework.web.servlet.handler.UserRoleAuthorizationInterceptor" package="org.springframework.web.servlet.handler">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/UserManagerImpl.java" line="48" class="com.gooki.service.impl.UserManagerImpl" package="com.gooki.service.impl">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -280,64 +256,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserManagerImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/UserManagerImpl.java">
+      <file leaf-file-name="UserController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="28" selection-start="1023" selection-end="1129" vertical-scroll-proportion="0.0">
+            <state line="25" column="27" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDaoHibernate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/UserDaoHibernate.java">
+      <file leaf-file-name="mapDefault.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/mapDefault.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="13" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0">
+            <state line="12" column="28" selection-start="594" selection-end="594" vertical-scroll-proportion="31.041666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="security.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
+      <file leaf-file-name="dialog.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/common/dialog.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="114" selection-start="934" selection-end="934" vertical-scroll-proportion="-1.36">
+            <state line="87" column="113" selection-start="3071" selection-end="3096" vertical-scroll-proportion="-12.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urlrewrite.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
+      <file leaf-file-name="dialogue.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="24" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.0">
+            <state line="233" column="4" selection-start="6713" selection-end="6713" vertical-scroll-proportion="-6.16">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapSecurityServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/MapSecurityServiceImpl.java">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectiveMethodExecutor.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/3.1.3.RELEASE/spring-expression-3.1.3.RELEASE.jar!/org/springframework/expression/spel/support/ReflectiveMethodExecutor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="53" selection-start="603" selection-end="603" vertical-scroll-proportion="-7.2">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MethodReference.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/3.1.3.RELEASE/spring-expression-3.1.3.RELEASE.jar!/org/springframework/expression/spel/ast/MethodReference.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="53" selection-start="650" selection-end="650" vertical-scroll-proportion="-7.2">
+            <state line="45" column="45" selection-start="2382" selection-end="2382" vertical-scroll-proportion="-16.4">
               <folding />
             </state>
           </provider>
@@ -346,27 +304,43 @@
       <file leaf-file-name="BlockController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/BlockController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="3562" selection-end="3562" vertical-scroll-proportion="1.308943">
+            <state line="92" column="0" selection-start="3980" selection-end="3980" vertical-scroll-proportion="0.33333334">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/model/User.java">
+      <file leaf-file-name="BlockManagerImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/BlockManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="317" column="25" selection-start="8553" selection-end="8553" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2420#2426#0" expanded="true" />
-              </folding>
+            <state line="24" column="26" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample-data.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/sample-data.xml">
+      <file leaf-file-name="BlockDaoHibernate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="20" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
+            <state line="27" column="156" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/UserManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="20" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserManagerImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/UserManagerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="146" column="4" selection-start="4682" selection-end="4682" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -389,22 +363,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/model/MapUser.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/model/UserCong.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/impl/MapSecurityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/sample-data.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/decorators/default.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/dao/aclDAO.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/AclController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/editAcls.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/CongManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/impl/CongManagerImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gooki/service/impl/CongManagerImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/AclController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/MapController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/model/Cong.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/sample-data.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/BlockController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/impl/MapSecurityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/UserFormController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/UserManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/impl/UserManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/common/dialog.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/styles/main.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java" />
       </list>
     </option>
   </component>
@@ -792,7 +766,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -815,62 +823,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'displaytag'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'ApplicationResources'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1891,13 +1843,13 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.gooki.dao.hibernate" />
-      <recent name="com.gooki.service.impl" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="org.appfuse.dao.BaseDaoTestCase" />
       <recent name="basedaotestcase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.gooki.dao.hibernate" />
+      <recent name="com.gooki.service.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gooki.webapp.controller" />
@@ -1907,24 +1859,24 @@
       <recent name="com.gooki.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/scripts/dao" />
       <recent name="$PROJECT_DIR$/src/main/webapp/scripts" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages" />
       <recent name="$PROJECT_DIR$/src/main/webapp/styles/lib" />
       <recent name="$PROJECT_DIR$/src/main/webapp/images" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/decorators" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.gooki.service" />
       <recent name="com.gooki.dao" />
       <recent name="com.gooki.service.impl" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.gooki" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/styles/lib" />
       <recent name="$PROJECT_DIR$/src/main/webapp/scripts/lib" />
       <recent name="$PROJECT_DIR$/src/main/webapp/common" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gooki" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.Territory-hibernate">
@@ -2359,7 +2311,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855093" sideWeight="0.7369077" order="2" side_tool="false" content_ui="tabs" />
@@ -2369,9 +2321,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32169577" sideWeight="0.6599713" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32294264" sideWeight="0.7324247" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32294264" sideWeight="0.8938307" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32294264" sideWeight="0.26757532" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32294264" sideWeight="0.1061693" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1812227" sideWeight="0.21823618" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2451,132 +2403,131 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js</url>
+          <line>234</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/default-data.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/CongDaoHibernate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="43" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
+        <state line="17" column="7" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/GenericManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+        <state line="16" column="17" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/RoleManagerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/CongManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+        <state line="13" column="21" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/CongManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="25" selection-start="8051" selection-end="8051" vertical-scroll-proportion="-3.1851852">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0">
+        <state line="39" column="44" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/LookupManagerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/MapSecurityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
+        <state line="30" column="0" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/UserFormController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="114" selection-start="934" selection-end="934" vertical-scroll-proportion="-1.36">
-          <folding />
+        <state line="174" column="0" selection-start="6886" selection-end="6886" vertical-scroll-proportion="-6.2">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/UserManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="24" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/sample-data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/UserDaoHibernate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="13" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0">
+        <state line="17" column="20" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/UserManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="28" selection-start="1023" selection-end="1129" vertical-scroll-proportion="0.0">
+        <state line="146" column="4" selection-start="4682" selection-end="4682" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="317" column="25" selection-start="8553" selection-end="8553" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2420#2426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/MapSecurityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
+        <state line="25" column="27" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/3.1.3.RELEASE/spring-expression-3.1.3.RELEASE.jar!/org/springframework/expression/spel/support/ReflectiveMethodExecutor.class">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/mapDefault.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="53" selection-start="603" selection-end="603" vertical-scroll-proportion="-7.2">
+        <state line="12" column="28" selection-start="594" selection-end="594" vertical-scroll-proportion="31.041666">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/3.1.3.RELEASE/spring-expression-3.1.3.RELEASE.jar!/org/springframework/expression/spel/ast/MethodReference.class">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/dialog.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="53" selection-start="650" selection-end="650" vertical-scroll-proportion="-7.2">
+        <state line="87" column="113" selection-start="3071" selection-end="3096" vertical-scroll-proportion="-12.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="45" selection-start="2382" selection-end="2382" vertical-scroll-proportion="-16.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="233" column="4" selection-start="6713" selection-end="6713" vertical-scroll-proportion="-6.16">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/BlockManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="26" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="156" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/BlockController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="3562" selection-end="3562" vertical-scroll-proportion="1.308943">
+        <state line="92" column="0" selection-start="3980" selection-end="3980" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>

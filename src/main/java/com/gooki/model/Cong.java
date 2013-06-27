@@ -9,7 +9,9 @@ import com.gooki.model.User;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "cong")
@@ -26,6 +28,15 @@ public class Cong extends BaseObject implements Serializable {
 
     @Column(name = "zoom_level", nullable = false, length = 45)
     private String zoomLevel;
+
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(
+            name = "user_cong",
+            joinColumns = { @JoinColumn(name = "cong_id") },
+            inverseJoinColumns = @JoinColumn(name = "user_id")
+    )
+    private Set<User> users = new HashSet<User>();
+
 
     public void setId(Long id) {
         this.id = id;
@@ -57,6 +68,14 @@ public class Cong extends BaseObject implements Serializable {
 
     public String getZoomLevel() {
         return zoomLevel;
+    }
+
+    public Set<User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(Set<User> users) {
+        this.users = users;
     }
 
     public String toString() {

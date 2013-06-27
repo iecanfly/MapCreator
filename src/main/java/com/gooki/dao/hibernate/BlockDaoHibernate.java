@@ -25,7 +25,7 @@ public class BlockDaoHibernate extends GenericDaoHibernate<Block, Long> implemen
 
 	@SuppressWarnings("unchecked")
 	public List<Block> findByCongName(String cong) {
-		return getSession().createCriteria(Block.class).add(Restrictions.eq("cong", cong)).list();
+		return getSession().createCriteria(Block.class).add(Restrictions.eq("cong", cong)).addOrder(Order.asc("block")).addOrder(Order.asc("number")).list();
 	}
 
     public Block saveBlockAfterDuplicateCheck(Block block) throws BlockExistsException {

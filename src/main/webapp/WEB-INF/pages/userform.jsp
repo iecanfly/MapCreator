@@ -198,6 +198,16 @@
                 </select>
             </div>
         </fieldset>
+        <fieldset class="control-group">
+            <label for="userCongs" class="control-label"><fmt:message key="userProfile.assignRoles"/></label>
+            <div class="controls">
+                    <select id="userCongs" name="userCongs" multiple="true">
+                        <c:forEach items="${allCongList}" var="cong">
+                            <option value="${cong.name}" ${fn:contains(user.congs, cong.name) ? 'selected' : ''}>${cong.name}</option>
+                        </c:forEach>
+                    </select>
+            </div>
+        </fieldset>
     </c:when>
     <c:when test="${not empty user.username}">
         <fieldset class="control-group">
@@ -212,6 +222,15 @@
             <form:hidden path="accountExpired"/>
             <form:hidden path="accountLocked"/>
             <form:hidden path="credentialsExpired"/>
+        </fieldset>
+        <fieldset class="control-group">
+            <label class="control-label"><fmt:message key="user.congs"/>:</label>
+            <div class="controls readonly">
+                <c:forEach var="cong" items="${user.congList}" varStatus="status">
+                    <c:out value="${cong.label}"/><c:if test="${!status.last}">,</c:if>
+                    <input type="hidden" name="userCongs" value="<c:out value="${cong.label}"/>"/>
+                </c:forEach>
+            </div>
         </fieldset>
     </c:when>
 </c:choose>

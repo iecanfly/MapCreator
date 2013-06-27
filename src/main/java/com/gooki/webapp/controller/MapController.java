@@ -1,7 +1,9 @@
 package com.gooki.webapp.controller;
 
 import com.gooki.model.Cong;
+import com.gooki.model.User;
 import com.gooki.service.CongManager;
+import com.gooki.service.SecurityContextService;
 import com.gooki.webapp.exception.BlockExistsException;
 import com.gooki.webapp.exception.CongNotExistsException;
 import org.apache.commons.logging.LogFactory;
@@ -23,7 +25,11 @@ import java.util.Map;
 
 @Controller
 public class MapController extends TerritoryBaseController {
-    @Autowired private CongManager congManager;
+    @Autowired
+    private CongManager congManager;
+
+    @Autowired
+    private SecurityContextService securityContextService;
 
     @RequestMapping(value = "/map", method = RequestMethod.GET)
     public ModelAndView handleDefaultRequest() throws Exception {
@@ -54,6 +60,8 @@ public class MapController extends TerritoryBaseController {
         Map<String, Object> map = new HashMap<String, Object>();
 
         try {
+            User currentUser = (User) securityContextService.getAuthentication().getPrincipal();
+            cong.getUsers().add(currentUser);
             congManager.save(cong);
             map.put("status", TerritoryConstants.JSON_OK_RESPONSE.getValue());
             map.put("message", "The map has been successfully created.");
@@ -70,7 +78,7 @@ public class MapController extends TerritoryBaseController {
         Model model = new ExtendedModelMap();
         Cong cong = congManager.findByCongName(congName);
 
-        if(cong == null) {
+        if (cong == null) {
             throw new CongNotExistsException(congName);
         }
 
@@ -83,7 +91,7 @@ public class MapController extends TerritoryBaseController {
     public @ResponseBody Map<String, Object> handleCheckIfExistsRequest(@PathVariable String congName) throws Exception {
         Map<String, Object> map = new HashMap<String, Object>();
 
-        if(congManager.findByCongName(congName) == null) {
+        if (congManager.findByCongName(congName) == null) {
             map.put("status", TerritoryConstants.JSON_OK_RESPONSE.getValue());
             map.put("message", "Success");
         } else {

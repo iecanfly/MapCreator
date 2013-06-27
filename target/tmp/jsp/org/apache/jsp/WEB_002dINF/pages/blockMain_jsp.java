@@ -185,8 +185,10 @@ public final class blockMain_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("\n");
       out.write("<div style=\"display:none\" id=\"printCheckTempl\">\n");
-      out.write("\t<span class=\"printlabel\">{block}</span>\n");
-      out.write("\t<input type=\"checkbox\" name=\"{block}\" id=\"{blockName}^{blockNumber}\" class=\"printcheck\" />\n");
+      out.write("\t<label class=\"printlabel\">\n");
+      out.write("\t    <input type=\"checkbox\" name=\"{block}\" id=\"{blockName}^{blockNumber}\" class=\"printcheck\" />\n");
+      out.write("        &nbsp;{block}\n");
+      out.write("    </label>\n");
       out.write("</div>\n");
       out.write("\n");
       out.write("<div style=\"display:none\" id=\"printHeaderTempl\">\n");

@@ -1,5 +1,7 @@
 package com.gooki.webapp.controller;
 
+import com.gooki.service.CongManager;
+import com.gooki.webapp.constant.TerritoryConstants;
 import org.apache.commons.lang.StringUtils;
 import com.gooki.Constants;
 import com.gooki.model.Role;
@@ -38,10 +40,16 @@ import java.util.Locale;
 @RequestMapping("/userform*")
 public class UserFormController extends BaseFormController {
     private RoleManager roleManager;
+    private CongManager congManager;
 
     @Autowired
     public void setRoleManager(RoleManager roleManager) {
         this.roleManager = roleManager;
+    }
+
+    @Autowired
+    public void setCongManager(CongManager congManager) {
+        this.congManager = congManager;
     }
 
     public UserFormController() {
@@ -50,9 +58,7 @@ public class UserFormController extends BaseFormController {
     }
 
     @RequestMapping(method = RequestMethod.POST)
-    public String onSubmit(User user, BindingResult errors, HttpServletRequest request,
-                           HttpServletResponse response)
-            throws Exception {
+    public String onSubmit(User user, BindingResult errors, HttpServletRequest request, HttpServletResponse response) throws Exception {
         if (request.getParameter("cancel") != null) {
             if (!StringUtils.equals(request.getParameter("from"), "list")) {
                 return getCancelView();
@@ -92,13 +98,24 @@ public class UserFormController extends BaseFormController {
                         user.addRole(roleManager.getRole(roleName));
                     }
                 }
+
+                String[] userCongs = request.getParameterValues("userCongs");
+
+                if(userCongs != null) {
+                    user.getCongs().clear();
+                    for(String congName : userCongs) {
+                        user.addCong(congManager.findByCongName(congName));
+                    }
+                }
+
             } else {
                 // if user is not an admin then load roles from the database
                 // (or any other user properties that should not be editable 
                 // by users without admin role) 
-                User cleanUser = getUserManager().getUserByUsername(
-                        request.getRemoteUser());
+                User cleanUser = getUserManager().getUserByUsername(request.getRemoteUser());
                 user.setRoles(cleanUser.getRoles());
+                user.setCongs(cleanUser.getCongs());
+
             }
 
             Integer originalVersion = user.getVersion();
@@ -155,6 +172,7 @@ public class UserFormController extends BaseFormController {
     @RequestMapping(method = RequestMethod.GET)
     protected User showForm(HttpServletRequest request, HttpServletResponse response)
             throws Exception {
+        getServletContext().setAttribute(TerritoryConstants.ALL_CONGREGATION_LIST.getValue(), congManager.getAllUniqueCongs());
         // If not an administrator, make sure user is not trying to add or edit another user
         if (!request.isUserInRole(Constants.ADMIN_ROLE) && !isFormSubmission(request)) {
             if (isAdd(request) || request.getParameter("id") != null) {

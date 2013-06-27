@@ -6,9 +6,12 @@ public enum TerritoryConstants {
 	BLOCK_LIST("blockList"),
     CONGREGATION("cong"),
     CONGREGATION_LIST("congList"),
+    ALL_CONGREGATION_LIST("allCongList"),
+    ALL_USER_LIST("allUserList"),
+    USER_LIST("userList"),
     JSON_OK_RESPONSE("OK"),
     JSON_FAIL_RESPONSE("KO"),
-    JSON_NO_PERMISSION_RESPONSE("NO_PERMISSION");
+    JSON_NO_PERMISSION_RESPONSE("NO_PERMISSION"), ;
 
     private String value;
 		

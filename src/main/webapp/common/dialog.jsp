@@ -70,8 +70,10 @@
 
 
 <div style="display:none" id="printCheckTempl">
-	<span class="printlabel">{block}</span>
-	<input type="checkbox" name="{block}" id="{blockName}^{blockNumber}" class="printcheck" />
+	<label class="printlabel">
+	    <input type="checkbox" name="{block}" id="{blockName}^{blockNumber}" class="printcheck" />
+        &nbsp;{block}
+    </label>
 </div>
 
 <div style="display:none" id="printHeaderTempl">

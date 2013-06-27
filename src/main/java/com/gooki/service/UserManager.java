@@ -4,6 +4,7 @@ import com.gooki.dao.UserDao;
 import com.gooki.model.User;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
+import java.util.HashSet;
 import java.util.List;
 
 
@@ -73,4 +74,6 @@ public interface UserManager extends GenericManager<User, Long> {
      * @return a list of matches, or all if no searchTerm.
      */
     List<User> search(String searchTerm);
+
+    HashSet<User> searchUnique(String searchTerm);
 }

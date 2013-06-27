@@ -31,9 +31,11 @@
 
     <script type="text/javascript" src="<c:url value='/scripts/classHelper.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/dao/congDAO.js'/>"></script>
+    <script type="text/javascript" src="<c:url value='/scripts/dao/aclDAO.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/dao/blockDAO.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/dao/recordDAO.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/editBlocks.js'/>"></script>
+    <script type="text/javascript" src="<c:url value='/scripts/editAcls.js'/>"></script>
 
 </head>
 <body<decorator:getProperty property="body.id" writeEntireProperty="true"/><decorator:getProperty property="body.class" writeEntireProperty="true"/>>

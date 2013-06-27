@@ -197,12 +197,34 @@ public class User extends BaseObject implements Serializable, UserDetails {
     }
 
     /**
+     * Convert user congs to LabelValue objects for convenience.
+     *
+     * @return a list of LabelValue objects with cong information
+     */
+    @Transient
+    public List<LabelValue> getCongList() {
+        List<LabelValue> userCongs = new ArrayList<LabelValue>();
+
+        if (this.congs != null) {
+            for (Cong cong : congs) {
+                userCongs.add(new LabelValue(cong.getName(), cong.getName()));
+            }
+        }
+
+        return userCongs;
+    }
+
+    /**
      * Adds a role for the user
      *
      * @param role the fully instantiated role
      */
     public void addRole(Role role) {
         getRoles().add(role);
+    }
+
+    public void addCong(Cong cong) {
+        getCongs().add(cong);
     }
 
     /**

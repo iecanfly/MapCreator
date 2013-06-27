@@ -36,7 +36,7 @@ public class UserController {
     public ModelAndView handleRequest(@RequestParam(required = false, value = "q") String query) throws Exception {
         Model model = new ExtendedModelMap();
         try {
-            model.addAttribute(Constants.USER_LIST, userManager.search(query));
+            model.addAttribute(Constants.USER_LIST, userManager.searchUnique(query));
         } catch (SearchException se) {
             model.addAttribute("searchError", se.getMessage());
             model.addAttribute(userManager.getUsers());

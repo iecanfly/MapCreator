@@ -15,6 +15,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import javax.jws.WebService;
+import java.util.HashSet;
 import java.util.List;
 
 
@@ -141,5 +142,9 @@ public class UserManagerImpl extends GenericManagerImpl<User, Long> implements U
      */
     public List<User> search(String searchTerm) {
         return super.search(searchTerm, User.class);
+    }
+
+    public HashSet<User> searchUnique(String searchTerm) {
+        return new HashSet<User>(search(searchTerm));
     }
 }

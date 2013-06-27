@@ -27,11 +27,11 @@ div#users-contain table td, div#users-contain table th { border: 1px solid #eee;
 }
 #firstContainer { height:80%;margin: 0px 0px 0px 8px;}
 #sideControl { width:200; float:right; margin: 0px 10px 0px 8px; }
-.printcheck { display:inline; margin: 5px 10px 0px 0px; padding: 0px 0px 0px 0px; }
-.printcheckForOptionRecord { display:inline; margin: 5px 10px 0px 0px; padding: 0px 0px 0px 0px; }
-.printlabel { display:inline; margin: 0px 0px 0px 0px; }
+.printBlockUnit {display:inline; float:left }
+.printlabel { display:inline; float: left; margin:0px 5px 0px 2px;}
+.printcheck { display:inline; float: left; }
+.printcheckForOptionRecord { display:inline; float: left}
 .printBlockHeader { clear:both; margin: 0px 0px 0px 0px;}
-.printBlockUnit {display:inline; float: left}
 .printBlockDiv {clear:left; display:block; margin: 10px 0px 0px 10px;}
 #printBody h4 {padding: 0px 0px 10px 0px}
 #printContainer{ position: absolute; top: 0; left: 0; }

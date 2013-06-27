@@ -217,7 +217,7 @@ Territory.Dialogue = Class.extend({
 			
 			for(var j = 0; j < _blocks.length; j++) {
 				if(uniqueBlockNames[i] == _blocks[j].block) {
-					printHtml += "<div class=\"printBlockUnit\">" + checkboxTempl.replace(/{block}/gi, uniqueBlockNames[i] + "-" + _blocks[j].number).replace(/{blockName}/gi, uniqueBlockNames[i]).replace(/{blockNumber}/gi, _blocks[j].number) + "</div>";
+					printHtml +=  checkboxTempl.replace(/{block}/gi, uniqueBlockNames[i] + "-" + _blocks[j].number).replace(/{blockName}/gi, uniqueBlockNames[i]).replace(/{blockNumber}/gi, _blocks[j].number);
 				}
 			}
 			

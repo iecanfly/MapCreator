@@ -20,7 +20,7 @@
                 <option value="${cong.name}">${cong.name}</option>
             </c:forEach>
         </select>
-        <button id="btnGoToEditScreen" class="btn btn-primary" type="button">Edit Blocks</button>
+        <button id="btnGoToEditScreen" class="btn btn-primary" type="button">Edit Access Control List</button>
       </div>
     </div>
 
