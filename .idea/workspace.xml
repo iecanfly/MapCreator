@@ -14,7 +14,7 @@
     <file path="/TerritoryManagerImplTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365499674926" ignored="false" />
     <file path="/TerritoryManagerImpl.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365500279386" ignored="false" />
     <file path="/TerritoryManager.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365499934038" ignored="false" />
-    <file path="/sample-data.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371716123054" ignored="false" />
+    <file path="/sample-data.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372319256979" ignored="false" />
     <file path="/TerritoryDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365527606249" ignored="false" />
     <file path="/a.dummy" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372073445465" ignored="false" />
     <file path="/BlockDao.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371179033266" ignored="false" />
@@ -301,10 +301,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BlockController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/BlockController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="0" selection-start="3980" selection-end="3980" vertical-scroll-proportion="0.33333334">
+            <state line="92" column="0" selection-start="3980" selection-end="3980" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample-data.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/sample-data.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="168" column="19" selection-start="0" selection-end="12729" vertical-scroll-proportion="-3.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default-data.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/default-data.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="272" column="10" selection-start="12729" selection-end="12729" vertical-scroll-proportion="0.96450937">
               <folding />
             </state>
           </provider>
@@ -328,24 +346,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/UserManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="20" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserManagerImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/UserManagerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="4" selection-start="4682" selection-end="4682" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -363,8 +363,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/impl/MapSecurityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/sample-data.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/decorators/default.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/dao/aclDAO.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/AclController.java" />
@@ -379,6 +377,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/common/dialog.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/styles/main.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/sample-data.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/default-data.xml" />
       </list>
     </option>
   </component>
@@ -2418,20 +2418,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/CongDaoHibernate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/GenericManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/CongManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="21" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
@@ -2527,7 +2513,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/BlockController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="0" selection-start="3980" selection-end="3980" vertical-scroll-proportion="0.33333334">
+        <state line="92" column="0" selection-start="3980" selection-end="3980" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/sample-data.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="19" selection-start="0" selection-end="12729" vertical-scroll-proportion="-3.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/default-data.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="272" column="10" selection-start="12729" selection-end="12729" vertical-scroll-proportion="0.96450937">
           <folding />
         </state>
       </provider>
