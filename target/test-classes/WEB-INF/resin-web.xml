@@ -3,9 +3,9 @@
 
     <!--database>
         <jndi-name>jdbc/appfuse</jndi-name>
-        <driver type="com.mysql.jdbc.Driver">
-            <url>jdbc:mysql://127.0.0.1:3306/hibernate?createDatabaseIfNotExist=true&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true</url>
-            <user>root</user>
+        <driver type="org.postgresql.Driver">
+            <url>jdbc:postgresql://127.0.0.1:5432/hibernate</url>
+            <user>postgres</user>
             <password>happy1</password>
         </driver>
     </database-->
