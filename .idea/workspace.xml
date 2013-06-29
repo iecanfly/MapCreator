@@ -259,10 +259,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1004" column="27" selection-start="42058" selection-end="42058" vertical-scroll-proportion="0.0">
+            <state line="236" column="21" selection-start="10004" selection-end="10004" vertical-scroll-proportion="0.9264706">
               <folding />
             </state>
           </provider>
@@ -286,10 +286,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="12" selection-start="7" selection-end="7" vertical-scroll-proportion="0.033632286">
+            <state line="1" column="12" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -379,9 +379,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java" />
         <option value="$PROJECT_DIR$/src/test/resources/sample-data.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/default-data.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1601,13 +1601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1004" column="27" selection-start="42058" selection-end="42058" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1624,7 +1617,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="7" selection-end="7" vertical-scroll-proportion="0.033632286">
+        <state line="1" column="12" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="236" column="21" selection-start="10004" selection-end="10004" vertical-scroll-proportion="0.9264706">
           <folding />
         </state>
       </provider>
