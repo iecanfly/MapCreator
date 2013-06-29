@@ -2,6 +2,7 @@ package com.gooki.model;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
+import org.hibernate.annotations.Type;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -244,11 +245,13 @@ public class User extends BaseObject implements Serializable, UserDetails {
     }
 
     @Column(name = "account_enabled")
+    @Type(type="true_false")
     public boolean isEnabled() {
         return enabled;
     }
 
     @Column(name = "account_expired", nullable = false)
+    @Type(type="true_false")
     public boolean isAccountExpired() {
         return accountExpired;
     }
@@ -263,6 +266,7 @@ public class User extends BaseObject implements Serializable, UserDetails {
     }
 
     @Column(name = "account_locked", nullable = false)
+    @Type(type="true_false")
     public boolean isAccountLocked() {
         return accountLocked;
     }
@@ -277,6 +281,7 @@ public class User extends BaseObject implements Serializable, UserDetails {
     }
 
     @Column(name = "credentials_expired", nullable = false)
+    @Type(type="true_false")
     public boolean isCredentialsExpired() {
         return credentialsExpired;
     }
