@@ -286,10 +286,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.properties" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="database.properties" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+            <state line="0" column="112" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -331,10 +331,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="283" column="28" selection-start="7855" selection-end="7855" vertical-scroll-proportion="0.8445946">
+            <state line="283" column="28" selection-start="7855" selection-end="7855" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -377,11 +377,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/styles/main.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java" />
         <option value="$PROJECT_DIR$/src/main/resources/default-data.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/sample-data.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gooki/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties" />
       </list>
     </option>
   </component>
@@ -1627,23 +1627,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="12" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1678,7 +1664,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="283" column="28" selection-start="7855" selection-end="7855" vertical-scroll-proportion="0.8445946">
+        <state line="283" column="28" selection-start="7855" selection-end="7855" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="112" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
