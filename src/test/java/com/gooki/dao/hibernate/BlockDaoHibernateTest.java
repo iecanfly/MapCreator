@@ -80,7 +80,7 @@ public class BlockDaoHibernateTest extends BaseDaoTestCase {
     @Test
     public void testUpdate()  throws Exception {
         Block block = blockDao.findBlock("ningbo_east_temp", "C", "1");
-        block.setBlock("D");
+        block.setBlock("E");
         blockDao.update(block);
         assertNull(blockDao.findBlock("ningbo_east_temp", "C", "1"));
     }

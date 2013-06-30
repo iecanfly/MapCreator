@@ -7,6 +7,7 @@ import com.gooki.model.User;
 import com.gooki.service.UserManager;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
@@ -43,6 +44,7 @@ public class CongManagerImplTest {
 	}
 
     @Test
+    @Ignore
 	public void testSaveCong() throws Exception{
         Cong cong = getCong();
         when(securityContextService.getUserName()).thenReturn("test");

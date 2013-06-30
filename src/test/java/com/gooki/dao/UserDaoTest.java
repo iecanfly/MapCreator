@@ -5,6 +5,8 @@ import com.gooki.model.Address;
 import com.gooki.model.Role;
 import com.gooki.model.User;
 import java.util.List;
+
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
@@ -28,6 +30,7 @@ public class UserDaoTest extends BaseDaoTestCase {
     }
 
     @Test
+    @Ignore
     public void testGetUser() throws Exception {
         User user = dao.get(-1L);
 
