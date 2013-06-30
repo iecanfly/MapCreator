@@ -1032,9 +1032,9 @@
         <jdbc.artifactId>postgresql</jdbc.artifactId>
         <jdbc.version>8.1-407.jdbc3</jdbc.version>
         <jdbc.driverClassName>org.postgresql.Driver</jdbc.driverClassName>
-        <jdbc.url><![CDATA[jdbc:postgresql://127.0.0.1:5432/hibernate]]></jdbc.url>
-        <jdbc.username>postgres</jdbc.username>
-        <jdbc.password>happy1</jdbc.password>
+        <jdbc.url><![CDATA[jdbc:postgresql://ec2-54-225-89-169.compute-1.amazonaws.com:5432/d3ljdkm6ccu7bj?ssl=true]]></jdbc.url>
+        <jdbc.username>ogobkakehshnnl</jdbc.username>
+        <jdbc.password>AsGmSSqMvN_ceviFhobcIdQxd-</jdbc.password>
 
         <aspectj.version>1.6.10</aspectj.version>
         <commons.beanutils.version>1.8.3</commons.beanutils.version>

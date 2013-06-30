@@ -4,7 +4,7 @@
     <!--database>
         <jndi-name>jdbc/appfuse</jndi-name>
         <driver type="org.postgresql.Driver">
-            <url>jdbc:postgresql://127.0.0.1:5432/hibernate</url>
+            <url>jdbc:postgresql://localhost:5432/hibernate</url>
             <user>postgres</user>
             <password>happy1</password>
         </driver>
