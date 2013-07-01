@@ -34,7 +34,7 @@
         p:userPropertyToUse="username"/>
 
     <!-- Override the default password-encoder (SHA) by uncommenting the following and changing the class -->
-    <!-- <bean id="passwordEncoder" class="org.springframework.security.authentication.encoding.ShaPasswordEncoder"/> -->
+    <beans:bean id="passwordEncoder" class="org.springframework.security.authentication.encoding.ShaPasswordEncoder"/>
     <global-method-security pre-post-annotations="enabled">
         <protect-pointcut expression="execution(* *..service.UserManager.getUsers(..))" access="ROLE_ADMIN"/>
         <protect-pointcut expression="execution(* *..service.UserManager.removeUser(..))" access="ROLE_ADMIN"/>
