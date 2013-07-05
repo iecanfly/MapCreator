@@ -265,7 +265,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1041" column="111" selection-start="44029" selection-end="44029" vertical-scroll-proportion="0.61160713">
+            <state line="1056" column="50" selection-start="44903" selection-end="44903" vertical-scroll-proportion="0.250591">
               <folding />
             </state>
           </provider>
@@ -377,7 +377,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/gooki/dao/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gooki/dao/hibernate/BlockDaoHibernateTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blockMain.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mainMenu.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/GenericManager.java" />
@@ -387,6 +386,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/AclController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/UserManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1921,7 +1921,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1041" column="111" selection-start="44029" selection-end="44029" vertical-scroll-proportion="0.61160713">
+        <state line="1056" column="50" selection-start="44903" selection-end="44903" vertical-scroll-proportion="0.250591">
           <folding />
         </state>
       </provider>
