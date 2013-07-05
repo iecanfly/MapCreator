@@ -8,7 +8,7 @@
     <file path="/UserController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372079651534" ignored="false" />
     <file path="/UserFormController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372077470056" ignored="false" />
     <file path="/fragment.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372318582322" ignored="false" />
-    <file path="/Dummy.txt" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372599017403" ignored="false" />
+    <file path="/Dummy.txt" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372655707654" ignored="false" />
     <file path="/applicationContext.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371638485638" ignored="false" />
     <file path="/TerritoryDaoHibernateTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365670158885" ignored="false" />
     <file path="/TerritoryManagerImplTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365499674926" ignored="false" />
@@ -21,7 +21,7 @@
     <file path="/Territory.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365670608702" ignored="false" />
     <file path="/TerritoryConstants.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372051404999" ignored="false" />
     <file path="/TerritoryExistsException.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365670913845" ignored="false" />
-    <file path="/BlockDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372318988793" ignored="false" />
+    <file path="/BlockDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1373033355821" ignored="false" />
     <file path="/TerritoryController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365671314051" ignored="false" />
     <file path="/BlockManagerImplTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371607401618" ignored="false" />
     <file path="/BlockDaoHibernateTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371179084459" ignored="false" />
@@ -30,10 +30,10 @@
     <file path="/hibernate.cfg.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371607612433" ignored="false" />
     <file path="/Cong.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371738713230" ignored="false" />
     <file path="/Record.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365691273542" ignored="false" />
-    <file path="/BlockController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371625756873" ignored="false" />
+    <file path="/BlockController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1373032574188" ignored="false" />
     <file path="/BlockManagerImpl.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371543527152" ignored="false" />
     <file path="/ApplicationResources.properties" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371794965481" ignored="false" />
-    <file path="/blockMain.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371050833717" ignored="false" />
+    <file path="/blockMain.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372657699955" ignored="false" />
     <file path="/map.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371533552523" ignored="false" />
     <file path="/default.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372072169403" ignored="false" />
     <file path="/jquery-ui-1.8.18.custom.css" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365932460000" ignored="false" />
@@ -69,7 +69,7 @@
     <file path="$PROJECT_DIR$/../leyuan/territory/app/models/Block.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1367770380512" ignored="false" />
     <file path="/PrintController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369240597587" ignored="false" />
     <file path="/BlockManager.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371543502040" ignored="false" />
-    <file path="/pom.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372654601108" ignored="false" />
+    <file path="/pom.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372655678912" ignored="false" />
     <file path="/printSingleDefault.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369270574137" ignored="false" />
     <file path="/printMultiple.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369213993957" ignored="false" />
     <file path="/printOverallMultiple.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371121817125" ignored="false" />
@@ -122,7 +122,7 @@
     <file path="/UserCongDaoHibernateTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371624562178" ignored="false" />
     <file path="/SecurityContextService.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371639305715" ignored="false" />
     <file path="/SecurityContextServiceImpl.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371640771805" ignored="false" />
-    <file path="/AclController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372072451696" ignored="false" />
+    <file path="/AclController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1373033068282" ignored="false" />
     <file path="/editAclDefault.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371737020554" ignored="false" />
     <file path="/MapUser.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371695406740" ignored="false" />
     <file path="/User.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372521697075" ignored="false" />
@@ -138,12 +138,14 @@
     <file path="/editAcl.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372071224466" ignored="false" />
     <file path="/editAcls.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372074045306" ignored="false" />
     <file path="/aclDAO.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372072653856" ignored="false" />
-    <file path="/UserManager.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372079609689" ignored="false" />
+    <file path="/UserManager.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1373032906801" ignored="false" />
     <file path="/UserManagerImpl.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372079638510" ignored="false" />
     <file path="/dummy.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372502705221" ignored="false" />
     <file path="/database.properties" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372520093944" ignored="false" />
     <file path="/.gitignore" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372520255497" ignored="false" />
     <file path="/UserDaoTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372599435671" ignored="false" />
+    <file path="/mainMenu.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1373032291024" ignored="false" />
+    <file path="/GenericManager.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1373032545906" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,8 +169,44 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/BlockController.java" line="82" class="com.gooki.webapp.controller.BlockController" package="com.gooki.webapp.controller">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/BlockController.java" line="84" class="com.gooki.webapp.controller.BlockController" package="com.gooki.webapp.controller">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -215,42 +253,6 @@
       </breakpoint>
     </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -260,97 +262,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1038" column="8" selection-start="43831" selection-end="43831" vertical-scroll-proportion="0.9298642">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserManagerImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/UserManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="23" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0">
+            <state line="28" column="86" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PasswordEncoder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.3.RELEASE/spring-security-core-3.1.3.RELEASE-sources.jar!/org/springframework/security/authentication/encoding/PasswordEncoder.java">
+      <file leaf-file-name="UserController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="26" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0">
+            <state line="33" column="40" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="security.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
+      <file leaf-file-name="GenericDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/GenericDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="11" selection-start="2308" selection-end="2308" vertical-scroll-proportion="-13.32">
+            <state line="34" column="12" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CongManagerImplTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gooki/service/impl/CongManagerImplTest.java">
+      <file leaf-file-name="BlockController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/BlockController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="13" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0">
+            <state line="40" column="86" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/BlockManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="26" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockManagerImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/BlockManagerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="33" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockDaoHibernate.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="12" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.8035714">
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="e#739#769#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDaoTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gooki/dao/UserDaoTest.java">
+      <file leaf-file-name="MapController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/MapController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="56" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockDaoHibernateTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gooki/dao/hibernate/BlockDaoHibernateTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="25" selection-start="3291" selection-end="3291" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="24" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+            <state line="36" column="94" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
+      <file leaf-file-name="GenericManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/GenericManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="132" selection-start="13" selection-end="128" vertical-scroll-proportion="0.0">
+            <state line="23" column="13" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Role.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/model/Role.java">
+      <file leaf-file-name="AclController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/AclController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="30" selection-start="1247" selection-end="1273" vertical-scroll-proportion="0.0">
+            <state line="48" column="35" selection-start="1808" selection-end="1808" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -373,15 +371,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/common/dialog.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/styles/main.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/default-data.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/resources/sample-data.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/test/java/com/gooki/service/impl/CongManagerImplTest.java" />
@@ -389,6 +378,15 @@
         <option value="$PROJECT_DIR$/src/test/java/com/gooki/dao/hibernate/BlockDaoHibernateTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blockMain.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mainMenu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/GenericManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/BlockController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/MapController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/impl/UserManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/AclController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/UserManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java" />
       </list>
     </option>
   </component>
@@ -950,6 +948,92 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="decorators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1026,6 +1110,96 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gooki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gooki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gooki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1381,7 +1555,7 @@
               <list>
                 <option value="jetty:run" />
                 <option value="-Djetty.port=8070" />
-                <option value="-Ppostgresql" />
+                <option value="-Ppostgresql,local" />
               </list>
             </option>
             <option name="profilesMap">
@@ -1530,7 +1704,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1538,10 +1712,10 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23441397" sideWeight="0.49713057" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32095492" sideWeight="0.6599713" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32095492" sideWeight="0.6599713" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29575598" sideWeight="0.8938307" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29575598" sideWeight="0.8938307" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33819628" sideWeight="0.1061693" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1812227" sideWeight="0.21823618" order="2" side_tool="true" content_ui="tabs" />
@@ -1554,7 +1728,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22525108" sideWeight="0.704244" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22525108" sideWeight="0.6790451" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26309228" sideWeight="0.7819225" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1638,131 +1812,117 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/BlockController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="0" selection-start="3980" selection-end="3980" vertical-scroll-proportion="0.0">
+        <state line="6" column="134" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/sample-data.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blockMain.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="58" selection-start="9727" selection-end="9773" vertical-scroll-proportion="-7.745098">
-          <folding>
-            <marker date="1372521835000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1372521835000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="15" column="64" selection-start="391" selection-end="391" vertical-scroll-proportion="-9.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mainMenu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="12" column="34" selection-start="301" selection-end="301" vertical-scroll-proportion="-7.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editBlocks.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="97" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
+        <state line="24" column="52" selection-start="777" selection-end="777" vertical-scroll-proportion="-15.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/CongManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="38" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2459#2465#0" expanded="false" />
-            <element signature="e#2510#2516#0" expanded="false" />
-            <element signature="e#5324#5336#0" expanded="false" />
-            <element signature="e#5879#5891#0" expanded="false" />
-            <element signature="e#6639#6657#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/model/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="30" selection-start="1247" selection-end="1273" vertical-scroll-proportion="0.0">
+        <state line="13" column="17" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gooki/service/impl/CongManagerImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/MapController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="13" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gooki/dao/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="56" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gooki/dao/hibernate/BlockDaoHibernateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="25" selection-start="3291" selection-end="3291" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="132" selection-start="13" selection-end="128" vertical-scroll-proportion="0.0">
+        <state line="36" column="94" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/GenericManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+        <state line="23" column="13" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/GenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="12" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="40" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/UserManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="23" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0">
+        <state line="28" column="86" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.3.RELEASE/spring-security-core-3.1.3.RELEASE-sources.jar!/org/springframework/security/authentication/encoding/PasswordEncoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/UserManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="26" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0">
+        <state line="45" column="28" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.93492407">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/AclController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="11" selection-start="2308" selection-end="2308" vertical-scroll-proportion="-13.32">
+        <state line="48" column="35" selection-start="1808" selection-end="1808" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/BlockManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1038" column="8" selection-start="43831" selection-end="43831" vertical-scroll-proportion="0.9298642">
+        <state line="17" column="26" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/BlockController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="86" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/BlockManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="33" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="12" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.8035714">
+          <folding>
+            <element signature="e#739#769#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

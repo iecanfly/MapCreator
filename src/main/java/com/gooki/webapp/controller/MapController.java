@@ -34,7 +34,7 @@ public class MapController extends TerritoryBaseController {
     @RequestMapping(value = "/map", method = RequestMethod.GET)
     public ModelAndView handleDefaultRequest() throws Exception {
         Model model = new ExtendedModelMap();
-        model.addAttribute(TerritoryConstants.CONGREGATION_LIST.getValue(), congManager.getAll());
+        model.addAttribute(TerritoryConstants.CONGREGATION_LIST.getValue(), congManager.getAllUniqueCongs());
 
         return new ModelAndView("mapMain", model.asMap());
     }
@@ -42,7 +42,7 @@ public class MapController extends TerritoryBaseController {
     @RequestMapping(value = "/map-create", method = RequestMethod.GET)
     public ModelAndView handleCreateMapRequest() throws Exception {
         Model model = new ExtendedModelMap();
-        model.addAttribute(TerritoryConstants.CONGREGATION_LIST.getValue(), congManager.getAll());
+        model.addAttribute(TerritoryConstants.CONGREGATION_LIST.getValue(), congManager.getAllUniqueCongs());
 
         return new ModelAndView("createMapStep1", model.asMap());
     }

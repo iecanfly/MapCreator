@@ -45,7 +45,7 @@ public class AclController extends TerritoryBaseController {
     public ModelAndView handleEditCongAclRequest(@PathVariable String congName) throws Exception {
         Model model = new ExtendedModelMap();
         Cong cong = congManager.findByCongName(congName);
-        List<User> allUserList = userManager.getAll();
+        List<User> allUserList = userManager.getUsers();
         model.addAttribute(TerritoryConstants.ALL_USER_LIST.getValue(), allUserList);
         model.addAttribute(TerritoryConstants.USER_LIST.getValue(), cong.getUsers());
         model.addAttribute(TerritoryConstants.CONGREGATION.getValue(), congName);
@@ -58,7 +58,7 @@ public class AclController extends TerritoryBaseController {
         Model model = new ExtendedModelMap();
 
         if(request.isUserInRole(Constants.ADMIN_ROLE)) {
-            model.addAttribute(TerritoryConstants.CONGREGATION_LIST.getValue(), congManager.getAll());
+            model.addAttribute(TerritoryConstants.CONGREGATION_LIST.getValue(), congManager.getAllUniqueCongs());
         } else {
             Set<Cong> congs = ((User)securityContextService.getAuthentication().getPrincipal()).getCongs();
             model.addAttribute(TerritoryConstants.CONGREGATION_LIST.getValue(), congs);

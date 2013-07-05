@@ -50,12 +50,15 @@ public class UserManagerImpl extends GenericManagerImpl<User, Long> implements U
         return userDao.get(new Long(userId));
     }
 
+
     /**
      * {@inheritDoc}
      */
     public List<User> getUsers() {
         return userDao.getAllDistinct();
     }
+
+
 
     /**
      * {@inheritDoc}

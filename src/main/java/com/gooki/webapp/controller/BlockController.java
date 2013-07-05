@@ -1,6 +1,7 @@
 package com.gooki.webapp.controller;
 
 import com.gooki.model.Block;
+import com.gooki.model.Cong;
 import com.gooki.service.BlockManager;
 import com.gooki.service.CongManager;
 import com.gooki.webapp.constant.TerritoryConstants;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 
@@ -44,7 +46,7 @@ public class BlockController extends TerritoryBaseController {
     @RequestMapping(value = "/editBlocks", method = RequestMethod.GET)
     public ModelAndView handleEditBlockRequest() throws Exception {
         Model model = new ExtendedModelMap();
-        model.addAttribute(TerritoryConstants.CONGREGATION_LIST.getValue(), congManager.getAll());
+        model.addAttribute(TerritoryConstants.CONGREGATION_LIST.getValue(), congManager.getAllUniqueCongs());
 
         return new ModelAndView("editBlocksDefault", model.asMap());
     }
