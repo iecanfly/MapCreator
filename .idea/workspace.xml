@@ -262,6 +262,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1041" column="111" selection-start="44029" selection-end="44029" vertical-scroll-proportion="0.61160713">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserManagerImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/UserManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -316,22 +325,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockDaoHibernate.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BlockDaoHibernate.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="12" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.8035714">
+            <state line="16" column="114" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#739#769#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/MapController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="94" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1812,13 +1812,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="134" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blockMain.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="64" selection-start="391" selection-end="391" vertical-scroll-proportion="-9.375">
@@ -1919,10 +1912,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.8035714">
+        <state line="16" column="114" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#739#769#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1041" column="111" selection-start="44029" selection-end="44029" vertical-scroll-proportion="0.61160713">
+          <folding />
         </state>
       </provider>
     </entry>
