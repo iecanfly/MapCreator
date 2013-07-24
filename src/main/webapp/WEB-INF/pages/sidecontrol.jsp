@@ -16,13 +16,14 @@
 		</select>
 	</div>
 
+    <!--
 	<div id="coverageDiv">
 		<h5 class="sideControlHeader">Coverage</h5>
         <div class="datepicker datepicker-inline"></div>
 		<input type="button" class="btn" value="Block View" onclick="territoryMap.openBlockViewCoverage();" />
 		<input type="button" class="btn" value="Chart View" onclick="territoryMap.openChartViewCoverage();" />
 	</div>
-
+    -->
 </div>
 
 <div id="viewFilterOptionTmpl" style="display:none">
