@@ -117,7 +117,6 @@
                 <artifactId>dbunit-maven-plugin</artifactId>
                 <version>1.0-beta-3</version>
                 <configuration>
-                    <skip>${skipDBUnitRun}</skip>
                     <dataTypeFactoryName>${dbunit.dataTypeFactoryName}</dataTypeFactoryName>
                     <driver>${jdbc.driverClassName}</driver>
                     <username>${jdbc.username}</username>
@@ -954,7 +953,6 @@
                 <jdbc.url>jdbc:postgresql://ec2-54-225-89-169.compute-1.amazonaws.com:5432/d3ljdkm6ccu7bj</jdbc.url>
                 <jdbc.username>ogobkakehshnnl</jdbc.username>
                 <jdbc.password>AsGmSSqMvN_ceviFhobcIdQxd-</jdbc.password>
-                <skipDBUnitRun>true</skipDBUnitRun>
             </properties>
         </profile>
         <profile>
