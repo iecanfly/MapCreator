@@ -69,7 +69,7 @@
     <file path="$PROJECT_DIR$/../leyuan/territory/app/models/Block.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1367770380512" ignored="false" />
     <file path="/PrintController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377836105239" ignored="false" />
     <file path="/BlockManager.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371543502040" ignored="false" />
-    <file path="/pom.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377841929010" ignored="false" />
+    <file path="/pom.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377842848928" ignored="false" />
     <file path="/printSingleDefault.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369270574137" ignored="false" />
     <file path="/printMultiple.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377838000174" ignored="false" />
     <file path="/printOverallMultiple.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371121817125" ignored="false" />
@@ -391,7 +391,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="955" column="24" selection-start="39723" selection-end="39723" vertical-scroll-proportion="0.73170733">
+            <state line="946" column="45" selection-start="39137" selection-end="39137" vertical-scroll-proportion="0.42682928">
               <folding />
             </state>
           </provider>
@@ -2084,7 +2084,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="955" column="24" selection-start="39723" selection-end="39723" vertical-scroll-proportion="0.73170733">
+        <state line="946" column="45" selection-start="39137" selection-end="39137" vertical-scroll-proportion="0.42682928">
           <folding />
         </state>
       </provider>
