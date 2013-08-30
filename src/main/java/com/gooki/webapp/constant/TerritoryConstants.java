@@ -3,6 +3,7 @@ package com.gooki.webapp.constant;
 public enum TerritoryConstants {
     SEPERATOR("\\^"),
 	A_BLOCK("block"),
+    IS_DISPLAY_BUS_INFO("isDisplayBusInfo"),
 	BLOCK_LIST("blockList"),
     CONGREGATION("cong"),
     CONGREGATION_LIST("congList"),

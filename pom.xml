@@ -944,7 +944,7 @@
             <id>heroku</id>
             <properties>
                 <dbunit.dataTypeFactoryName>org.dbunit.ext.postgresql.PostgresqlDataTypeFactory</dbunit.dataTypeFactoryName>
-                <dbunit.operation.type>CLEAN_INSERT</dbunit.operation.type>
+                <dbunit.operation.type>UPDATE</dbunit.operation.type>
                 <hibernate.dialect>org.hibernate.dialect.ProgressDialect</hibernate.dialect>
                 <jdbc.groupId>postgresql</jdbc.groupId>
                 <jdbc.artifactId>postgresql</jdbc.artifactId>
@@ -1056,17 +1056,7 @@
         -->
         <!-- Database settings Heroku Postgres -->
         <dbunit.dataTypeFactoryName>org.dbunit.ext.postgresql.PostgresqlDataTypeFactory</dbunit.dataTypeFactoryName>
-        <dbunit.operation.type>CLEAN_INSERT</dbunit.operation.type>
-        <hibernate.dialect>org.hibernate.dialect.ProgressDialect</hibernate.dialect>
-        <jdbc.groupId>postgresql</jdbc.groupId>
-        <jdbc.artifactId>postgresql</jdbc.artifactId>
-        <jdbc.version>8.1-407.jdbc3</jdbc.version>
-        <jdbc.driverClassName>org.postgresql.Driver</jdbc.driverClassName>
-        <jdbc.url>jdbc:postgresql://ec2-54-225-89-169.compute-1.amazonaws.com:5432/d3ljdkm6ccu7bj</jdbc.url>
-        <jdbc.username>ogobkakehshnnl</jdbc.username>
-        <jdbc.password>AsGmSSqMvN_ceviFhobcIdQxd-</jdbc.password>
-
-
+        <dbunit.operation.type>UPDATE</dbunit.operation.type>
 
 
         <aspectj.version>1.6.10</aspectj.version>

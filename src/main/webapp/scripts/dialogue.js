@@ -119,11 +119,11 @@ Territory.Dialogue = Class.extend({
             });
 
             if(_this._printOptionForRecord) {
-                window.open("/print/printRecordSheetMultiple/" + _cong + "/" + blocks.join(",") + ",");
+                window.open("/print/printRecordSheetMultiple/" + _cong + "/" + $("#printOptionForBusInfo").is(":checked") + "/" + blocks.join(",") + ",");
             } else if(_this._printOptionForOverall) {
-                window.open("/print/printOverallMultiple/" + _cong + "/" + blocks.join(",") + ",");
+                window.open("/print/printOverallMultiple/" + _cong + "/" + $("#printOptionForBusInfo").is(":checked") + "/" +blocks.join(",") + ",");
             } else {
-                window.open("/print/printMultiple/" + _cong + "/" + blocks.join(",") + ",");
+                window.open("/print/printMultiple/" + _cong + "/" + $("#printOptionForBusInfo").is(":checked") + "/" +blocks.join(",") + ",");
             }
 
             $("#print_dialog_form").modal("hide");
@@ -200,7 +200,6 @@ Territory.Dialogue = Class.extend({
 	},
 	
 	openPrintDialogue : function(_blocks) {
-
 		var printOptionTempl = $("#printOptionTempl").html();
 		var headerTempl = $("#printHeaderTempl").html();
 		var checkboxTempl = $("#printCheckTempl").html();

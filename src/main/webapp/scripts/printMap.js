@@ -20,7 +20,6 @@ Territory.PrintMap = Class.extend({
 		_centerPoint = new BMap.Point(_this.getCentreCoord()[0], _this.getCentreCoord()[1]);
 		_map = new BMap.Map("printContainer", {enableHighResolution : true});
 		_map.addControl(new BMap.ScaleControl());
-		console.log(_this.getPrintZoomLevel());
 		_map.centerAndZoom(_centerPoint, _this.getPrintZoomLevel());
 		_map.enableScrollWheelZoom();
 		
@@ -58,20 +57,25 @@ Territory.PrintMap = Class.extend({
 						pois[j].marker.remove();
 					}
 				}
-				
+
+
 				_this._addBusStationInfo(stationInfoHtml);
 
-			    // Scale control takes time to initialize. Without this line, it won't be printed out.
-				setTimeout(function(){
-        				$(".BMap_scaleCtrl").css("display", "inline");
-        			        $("html body div#printContainer div.anchorBL a img").css("display", "none");
-        			}, 2000);
+
 			}
 		});
-		
-		_localSearch.searchNearby("公交车站", _centerPoint, 800);
+
+        if(isDisplayBusInfo) {
+		    _localSearch.searchNearby("公交车站", _centerPoint, 800);
+		}
 		_this.drawBlock(blockInfo["blockName"], blockInfo["blockNumber"], blockInfo["coord"]);
 		_this._drawBlockMarker(blockInfo["blockName"], blockInfo["blockNumber"], blockInfo["coord"]);
+
+		// Scale control takes time to initialize. Without this line, it won't be printed out.
+        setTimeout(function(){
+                $(".BMap_scaleCtrl").css("display", "inline");
+                    $("html body div#printContainer div.anchorBL a img").css("display", "none");
+            }, 5000);
 	},
 	
 	_getCleanedBusNumberInfo : function(busInfo) {

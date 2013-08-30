@@ -7,8 +7,8 @@
     <file path="/TerritoryDao.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365433486053" ignored="false" />
     <file path="/UserController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372079651534" ignored="false" />
     <file path="/UserFormController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372077470056" ignored="false" />
-    <file path="/fragment.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372318582322" ignored="false" />
-    <file path="/Dummy.txt" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372655707654" ignored="false" />
+    <file path="/fragment.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375523374030" ignored="false" />
+    <file path="/Dummy.txt" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377833233232" ignored="false" />
     <file path="/applicationContext.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371638485638" ignored="false" />
     <file path="/TerritoryDaoHibernateTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365670158885" ignored="false" />
     <file path="/TerritoryManagerImplTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365499674926" ignored="false" />
@@ -16,10 +16,10 @@
     <file path="/TerritoryManager.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365499934038" ignored="false" />
     <file path="/sample-data.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372521767496" ignored="false" />
     <file path="/TerritoryDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365527606249" ignored="false" />
-    <file path="/a.dummy" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372654728700" ignored="false" />
+    <file path="/a.dummy" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377831834272" ignored="false" />
     <file path="/BlockDao.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371179033266" ignored="false" />
     <file path="/Territory.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365670608702" ignored="false" />
-    <file path="/TerritoryConstants.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372051404999" ignored="false" />
+    <file path="/TerritoryConstants.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377836094624" ignored="false" />
     <file path="/TerritoryExistsException.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365670913845" ignored="false" />
     <file path="/BlockDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1373033355821" ignored="false" />
     <file path="/TerritoryController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365671314051" ignored="false" />
@@ -27,7 +27,7 @@
     <file path="/BlockDaoHibernateTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371179084459" ignored="false" />
     <file path="/Block.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371693429070" ignored="false" />
     <file path="/persistence.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371712746695" ignored="false" />
-    <file path="/hibernate.cfg.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371607612433" ignored="false" />
+    <file path="/hibernate.cfg.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375502309207" ignored="false" />
     <file path="/Cong.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371738713230" ignored="false" />
     <file path="/Record.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1365691273542" ignored="false" />
     <file path="/BlockController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1373032574188" ignored="false" />
@@ -48,37 +48,37 @@
     <file path="/CongManagerImpl.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372077445532" ignored="false" />
     <file path="/CongManagerImplTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372599402853" ignored="false" />
     <file path="/MapController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371737766654" ignored="false" />
-    <file path="/dialogue.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369239990394" ignored="false" />
+    <file path="/dialogue.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377840467821" ignored="false" />
     <file path="$PROJECT_DIR$/../leyuan/territory/app/views/first.scala.html" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366853674670" ignored="false" />
     <file path="/GlobalExceptionHandler.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366902777706" ignored="false" />
-    <file path="/usr/local/apache-maven-3.0.4/conf/settings.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371708076516" ignored="false" />
+    <file path="/usr/local/apache-maven-3.0.4/conf/settings.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377832835499" ignored="false" />
     <file path="/TerritoryBaseController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366961553636" ignored="false" />
     <file path="/applicationContext-exception.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366960804660" ignored="false" />
     <file path="/noCongFound.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366962772529" ignored="false" />
     <file path="/CongNotExistsException.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366961529415" ignored="false" />
     <file path="/blockDAO.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371623372490" ignored="false" />
-    <file path="/dialog.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372318259739" ignored="false" />
+    <file path="/dialog.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377831925756" ignored="false" />
     <file path="/UserControllerTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366970755436" ignored="false" />
     <file path="/ajaxResponse.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1366972244125" ignored="false" />
     <file path="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371122815502" ignored="false" />
-    <file path="$PROJECT_DIR$/../leyuan/territory/public/javascripts/dialogue.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1367770380512" ignored="false" />
+    <file path="$PROJECT_DIR$/../leyuan/territory/public/javascripts/dialogue.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1374736691549" ignored="false" />
     <file path="$PROJECT_DIR$/../leyuan/territory/app/views/dialog.scala.html" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1367770380512" ignored="false" />
     <file path="$PROJECT_DIR$/../leyuan/territory/public/javascripts/map.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1367770380512" ignored="false" />
     <file path="$PROJECT_DIR$/../leyuan/territory/public/javascripts/dao/blockDAO.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1367770380512" ignored="false" />
     <file path="$PROJECT_DIR$/../leyuan/territory/app/controllers/BlockController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1367770380512" ignored="false" />
     <file path="$PROJECT_DIR$/../leyuan/territory/app/models/Block.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1367770380512" ignored="false" />
-    <file path="/PrintController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369240597587" ignored="false" />
+    <file path="/PrintController.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377836105239" ignored="false" />
     <file path="/BlockManager.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371543502040" ignored="false" />
-    <file path="/pom.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372655678912" ignored="false" />
+    <file path="/pom.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377833284727" ignored="false" />
     <file path="/printSingleDefault.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369270574137" ignored="false" />
-    <file path="/printMultiple.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369213993957" ignored="false" />
+    <file path="/printMultiple.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377838000174" ignored="false" />
     <file path="/printOverallMultiple.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371121817125" ignored="false" />
     <file path="/printRecordSheetMultiple.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369144519388" ignored="false" />
     <file path="/web.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1370991270607" ignored="false" />
     <file path="/printMultipleDefault.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369213713792" ignored="false" />
-    <file path="/printSingle.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369270590515" ignored="false" />
+    <file path="/printSingle.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377837878742" ignored="false" />
     <file path="$PROJECT_DIR$/../leyuan/territory/public/javascripts/printMap.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369240259405" ignored="false" />
-    <file path="/printMap.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369278519379" ignored="false" />
+    <file path="/printMap.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377838997108" ignored="false" />
     <file path="/menu-config.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371646565151" ignored="false" />
     <file path="/menu.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371646529772" ignored="false" />
     <file path="/UserCong.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371608497580" ignored="false" />
@@ -102,7 +102,7 @@
     <file path="/congDAO.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371112459127" ignored="false" />
     <file path="/createMapStep2.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371636508544" ignored="false" />
     <file path="/createCong.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371112434375" ignored="false" />
-    <file path="/printRecordSheetSingle.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371122767631" ignored="false" />
+    <file path="/printRecordSheetSingle.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377838789091" ignored="false" />
     <file path="$PROJECT_DIR$/.settings/.jsdtscope" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371122815502" ignored="false" />
     <file path="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371122815502" ignored="false" />
     <file path="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371122815502" ignored="false" />
@@ -146,6 +146,51 @@
     <file path="/UserDaoTest.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1372599435671" ignored="false" />
     <file path="/mainMenu.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1373032291024" ignored="false" />
     <file path="/GenericManager.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1373032545906" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/.idea/workspace.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375501405094" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/resources/META-INF/spring/module-context.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375507360712" ignored="false" />
+    <file path="/module-context.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375507360712" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/dao/player/HibernatePlayerDao.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375435713056" ignored="false" />
+    <file path="/HibernatePlayerDao.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375435067906" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/dao/player/PlayerDAO.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375433036851" ignored="false" />
+    <file path="/PlayerDAO.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375433036489" ignored="false" />
+    <file path="$PROJECT_DIR$/../spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/domain/trade/internal/HibernateCreditDao.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375434874256" ignored="false" />
+    <file path="/*.regexp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375434346624" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/pom.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375544925782" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/KBOBatch.iml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375544928893" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/resources/hibernate-context.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375436103056" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/resources/domain/player/Player.hbm.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375436175744" ignored="false" />
+    <file path="/Player.hbm.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375436175744" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/resources/launch-context.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375545083169" ignored="false" />
+    <file path="/launch-context.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375545081400" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/ExampleConfiguration.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375502996774" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/resources/META-INF/hibernate/hibernate-context.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375464074614" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/model/player/Player.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375463796917" ignored="false" />
+    <file path="/Player.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375507269630" ignored="false" />
+    <file path="/hibernate-context.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375463880226" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/resources/business-schema-hsqldb.sql" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375545436991" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/resources/batch.properties" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375545121244" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/player/PlayerInfoItemReader.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375501327698" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/resources/applicationContext-dao.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375503273365" ignored="false" />
+    <file path="/applicationContext-dao.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375502564479" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/resources/hibernate.cfg.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375502309207" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/model/Player.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375545280577" ignored="false" />
+    <file path="/batch.properties" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375502474951" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/player/PlayerInfoItemProcessor.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375545835458" ignored="false" />
+    <file path="/PlayerInfoItemProcessor.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375545833475" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/player/PlayerInfoItemWriter.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375543365152" ignored="false" />
+    <file path="/PlayerInfoItemWriter.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375543364699" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/dao/PlayerDao.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375523399027" ignored="false" />
+    <file path="/PlayerDao.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375543317649" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/dao/GenericDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375523323789" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/dao/GenericDao.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375522733774" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/dao/SearchException.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375522780083" ignored="false" />
+    <file path="/GenericDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375523320485" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/dao/hibernate/HibernateSearchTools.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375523376847" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/dao/hibernate/GenericDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375523414157" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/dao/hibernate/PlayerDao.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375543341734" ignored="false" />
+    <file path="$PROJECT_DIR$/../KBOBatch/src/main/java/com/iecanfly/kbo/dao/hibernate/PlayerDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375543355820" ignored="false" />
+    <file path="/PlayerDaoHibernate.java" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1375543354007" ignored="false" />
+    <file path="/printOverallSingle.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377838905937" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,91 +307,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserManagerImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/UserManagerImpl.java">
+      <file leaf-file-name="printMap.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/printMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="32" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0">
+            <state line="77" column="16" selection-start="2633" selection-end="2633" vertical-scroll-proportion="-14.48">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidecontrol.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sidecontrol.jsp">
+      <file leaf-file-name="dialogue.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="21" selection-start="790" selection-end="790" vertical-scroll-proportion="0.46255508">
+            <state line="198" column="102" selection-start="5835" selection-end="5835" vertical-scroll-proportion="-7.2">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/UserController.java">
+      <file leaf-file-name="PrintController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/PrintController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="40" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
+            <state line="45" column="96" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenericDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/GenericDao.java">
+      <file leaf-file-name="printMultiple.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printMultiple.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="12" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
+            <state line="5" column="55" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/BlockController.java">
+      <file leaf-file-name="printOverallMultiple.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallMultiple.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="86" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0">
+            <state line="5" column="62" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/BlockManager.java">
+      <file leaf-file-name="printRecordSheetMultiple.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printRecordSheetMultiple.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="26" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="63" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockManagerImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/BlockManagerImpl.java">
+      <file leaf-file-name="printOverallSingle.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingle.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="33" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+            <state line="9" column="4" selection-start="347" selection-end="505" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockDaoHibernate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java">
+      <file leaf-file-name="printSingle.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingle.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="114" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
+            <state line="26" column="65" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenericManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/GenericManager.java">
+      <file leaf-file-name="printRecordSheetSingle.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printRecordSheetSingle.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="13" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+            <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AclController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/AclController.java">
+      <file leaf-file-name="TerritoryConstants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/constant/TerritoryConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="35" selection-start="1808" selection-end="1808" vertical-scroll-proportion="0.0">
+            <state line="5" column="41" selection-start="135" selection-end="151" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -369,22 +414,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gooki/service/impl/CongManagerImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gooki/dao/UserDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gooki/dao/hibernate/BlockDaoHibernateTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blockMain.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mainMenu.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/GenericManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/BlockController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/MapController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/impl/UserManagerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/AclController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/service/UserManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sidecontrol.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/model/Cong.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/activeUsers.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/userList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/common/dialog.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/constant/TerritoryConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/PrintController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printMultiple.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallMultiple.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printRecordSheetMultiple.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingle.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingle.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/printMap.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printRecordSheetSingle.jsp" />
       </list>
     </option>
   </component>
@@ -465,6 +510,44 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="hibernate">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="hibernate">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="hibernate">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -859,50 +942,436 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Production">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="hibernate">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="hibernate">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="All">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="hibernate">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="hibernate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="print" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gooki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gooki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gooki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gooki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gooki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gooki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1411,33 +1880,33 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855093" sideWeight="0.7369077" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23441397" sideWeight="0.49713057" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32095492" sideWeight="0.6599713" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29575598" sideWeight="0.8938307" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33819628" sideWeight="0.1061693" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1812227" sideWeight="0.21823618" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268366" sideWeight="0.49713057" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1812227" sideWeight="0.21823618" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22525108" sideWeight="0.73740053" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26259947" sideWeight="0.7819225" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22525108" sideWeight="0.6790451" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26309228" sideWeight="0.7819225" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32095492" sideWeight="0.6599713" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32668328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1500,12 +1969,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js</url>
-          <line>234</line>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
@@ -1514,104 +1977,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mainMenu.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/activeUsers.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="301" selection-end="301" vertical-scroll-proportion="-7.5" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editBlocks.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="52" selection-start="777" selection-end="777" vertical-scroll-proportion="-15.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/CongManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/MapController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="94" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0">
+        <state line="4" column="45" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/GenericManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/userList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+        <state line="26" column="33" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/GenericDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/editAcls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="12" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/mapMain.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="40" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/UserManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="28" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.93492407" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/AclController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="35" selection-start="1808" selection-end="1808" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/BlockManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="26" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/BlockController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="86" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/BlockManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="33" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/dao/hibernate/BlockDaoHibernate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="114" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
+        <state line="11" column="30" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1080" column="88" selection-start="46201" selection-end="46201" vertical-scroll-proportion="0.564539" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/service/impl/UserManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="32" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0">
+        <state line="878" column="25" selection-start="35496" selection-end="35496" vertical-scroll-proportion="-1.627409">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sidecontrol.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/dialog.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="790" selection-end="790" vertical-scroll-proportion="0.46255508">
+        <state line="80" column="32" selection-start="2728" selection-end="2728" vertical-scroll-proportion="0.7621951">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/constant/TerritoryConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="41" selection-start="135" selection-end="151" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gooki/webapp/controller/PrintController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="96" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printMultiple.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="55" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallMultiple.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="62" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="347" selection-end="505" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="65" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/printMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="16" selection-start="2633" selection-end="2633" vertical-scroll-proportion="-14.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="102" selection-start="5835" selection-end="5835" vertical-scroll-proportion="-7.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printRecordSheetMultiple.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printRecordSheetSingle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

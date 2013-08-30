@@ -28,21 +28,22 @@ public class PrintController extends TerritoryBaseController {
         this.blockManager = blockManager;
     }
 
-    @RequestMapping(value = "/{printType}Multiple/{congName}/{block}", method = RequestMethod.GET)
-    public ModelAndView handlePrintMultipleRequest(@PathVariable String congName, @PathVariable String block, @PathVariable String printType) throws Exception {
+    @RequestMapping(value = "/{printType}Multiple/{congName}/{isDisplayBusInfo}/{block}", method = RequestMethod.GET)
+    public ModelAndView handlePrintMultipleRequest(@PathVariable String congName, @PathVariable String block, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo) throws Exception {
         Model model = new ExtendedModelMap();
         String[] blockArray = block.split(",");
         model.addAttribute(TerritoryConstants.BLOCK_LIST.getValue(), blockManager.getBlocks(congName, blockArray));
+        model.addAttribute(TerritoryConstants.IS_DISPLAY_BUS_INFO.getValue(), isDisplayBusInfo);
         return new ModelAndView("print/" + printType + "Multiple", model.asMap());
     }
 
-    @RequestMapping(value = "/{printType}Single/{congName}/{block}", method = RequestMethod.GET)
-    public ModelAndView handlePrintRequest(@PathVariable String congName, @PathVariable String block, @PathVariable String printType) throws Exception {
+    @RequestMapping(value = "/{printType}Single/{congName}/{isDisplayBusInfo}/{block}", method = RequestMethod.GET)
+    public ModelAndView handlePrintRequest(@PathVariable String congName, @PathVariable String block, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo) throws Exception {
         Model model = new ExtendedModelMap();
         String blockName = block.split(TerritoryConstants.SEPERATOR.getValue())[0];
         String blockNumber = block.split(TerritoryConstants.SEPERATOR.getValue())[1];
         model.addAttribute(TerritoryConstants.A_BLOCK.getValue(), blockManager.getBlock(congName, blockName, blockNumber));
-
+        model.addAttribute(TerritoryConstants.IS_DISPLAY_BUS_INFO.getValue(), isDisplayBusInfo);
         return new ModelAndView("print/" + printType + "Single", model.asMap());
     }
 }

@@ -82,12 +82,14 @@
 
 <div style="display:none" id="printOptionTempl">
 	<div class="printBlockDiv">
-    <span class="printlabel" >Select All</span>
-    <input type="checkbox" name="printAll" id="printAll" class="printcheck" />
-    <span class="printlabel" >For Record</span>
-    <input type="checkbox" name="printOptionForRecord" id="printOptionForRecord" class="printcheckForOptionRecord" />
-    <span class="printlabel" >For Overall</span>
-    <input type="checkbox" name="printOptionForOverall" id="printOptionForOverall" class="printcheckForOptionRecord" />
+        <span class="printlabel" >Select All</span>
+        <input type="checkbox" name="printAll" id="printAll" class="printcheck" />
+        <span class="printlabel" >For Record</span>
+        <input type="checkbox" name="printOptionForRecord" id="printOptionForRecord" class="printcheckForOptionRecord" />
+        <span class="printlabel" >For Overall</span>
+        <input type="checkbox" name="printOptionForOverall" id="printOptionForOverall" class="printcheckForOptionRecord" />
+        <span class="printlabel" >Bus Info</span>
+        <input type="checkbox" name="printOptionForBusInfo" id="printOptionForBusInfo" class="printcheckForOptionRecord" />
     </div>
 </div>
 

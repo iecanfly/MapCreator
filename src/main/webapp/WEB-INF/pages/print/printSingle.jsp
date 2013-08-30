@@ -9,6 +9,7 @@
     blockInfo["printCoord"] = "${block.printCoord}";
     blockInfo["printZoomLevel"] = "${block.printZoomLevel}";
 
+    var isDisplayBusInfo = ${isDisplayBusInfo};
     var printMap;
 
     $(document).ready(function(){
@@ -24,7 +25,9 @@
         <img src="/images/num_people.png">
     </span>
     <span style="font-family: Microsoft YaHei;font-size:150%;position:absolute;top:513px;left: 51px;" >${block.recommendedWorkerNum}</span>
-    <div id="busInfoDiv" style="width: 95px; border:1px solid;background-color:white; position:absolute;top:5px;left: 690px;font-size: 68%;font-family: Microsoft YaHei;padding:3px 3px 3px 3px;"></div>
+    <c:if test="${isDisplayBusInfo}">
+        <div id="busInfoDiv" style="width: 95px; border:1px solid;background-color:white; position:absolute;top:5px;left: 690px;font-size: 68%;font-family: Microsoft YaHei;padding:3px 3px 3px 3px;"></div>
+    </c:if>
 </body>
 
 
