@@ -8,7 +8,7 @@
 
 
 <body>
-<div id="sideControl">
+<div id="sideControl" class="span3">
     <div class="input-prepend">
         <span class="add-on">Latitude</span>
         <input class="span2" id="inputLat" type="text" readonly>

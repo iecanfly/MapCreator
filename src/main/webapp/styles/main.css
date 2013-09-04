@@ -25,6 +25,7 @@ div#users-contain table td, div#users-contain table th { border: 1px solid #eee;
     height: calc(100% - 55px);
     border:1px solid gray
 }
+
 #firstContainer { height:80%;margin: 0px 0px 0px 8px;}
 #sideControl { width:200; float:right; margin: 0px 10px 0px 8px; }
 .printBlockUnit {display:inline; float:left }
