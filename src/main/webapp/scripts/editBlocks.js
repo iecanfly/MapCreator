@@ -13,7 +13,7 @@ Territory.EditBlock = Class.extend({
         _dataTable = $("#editTable").dataTable({
             "sScrollY": "450px",
             "bFilter": false,
-            "bSort": false,
+            "aaSorting": [],
             "bPaginate": false,
             "aoColumns": [
                 { "sWidth": "10%" }, // 1st column width

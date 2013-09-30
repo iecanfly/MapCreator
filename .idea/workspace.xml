@@ -385,7 +385,7 @@
       <file leaf-file-name="editBlocks.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/editBlocks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="358" selection-end="358" vertical-scroll-proportion="0.25531915">
+            <state line="15" column="28" selection-start="359" selection-end="359" vertical-scroll-proportion="0.25531915">
               <folding />
             </state>
           </provider>
@@ -1948,7 +1948,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/editBlocks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="358" selection-end="358" vertical-scroll-proportion="0.25531915">
+        <state line="15" column="28" selection-start="359" selection-end="359" vertical-scroll-proportion="0.25531915">
           <folding />
         </state>
       </provider>
