@@ -16,12 +16,13 @@ Territory.EditBlock = Class.extend({
             "aaSorting": [],
             "bPaginate": false,
             "aoColumns": [
-                { "sWidth": "10%" }, // 1st column width
+                { "sWidth": "5%" }, // 1st column width
                 { "sWidth": "10%" }, // 2nd column width
                 { "sWidth": "10%" }, // 3rd column width
-                { "sWidth": "50%" }, // 4th column width
-                { "sWidth": "10%" }, // 5th column width
-                { "sWidth": "10%" } // 6th column width
+                { "sWidth": "10%" }, // 4th column width
+                { "sWidth": "55%" }, // 5th column width
+                { "sWidth": "5%" }, // 6th column width
+                { "sWidth": "5" } // 7th column width
             ]
         });
 
@@ -33,6 +34,7 @@ Territory.EditBlock = Class.extend({
             block["block"] = $("#txtBlock" + block["id"]).val();
             block["number"] = $("#txtNumber" + block["id"]).val();
             block["recommendedWorkerNum"] = $("#txtWorkerNum" + block["id"]).val();
+            block["note"] = $("#txtNote" + block["id"]).val();
             block["cong"] = blockAttributeArray[4];
             block["coord"] = blockAttributeArray[5];
             _this._updateBlock(block);

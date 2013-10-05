@@ -28,6 +28,8 @@ public class Block implements Serializable {
     private Integer number;
     @Column(name = "coord", nullable = false, length = 2000)
     private String coord;
+    @Column(name = "note", nullable = true, length = 500)
+    private String note;
     @Column(name = "marker_coord", nullable = true, length = 50)
     private String markerCoord;
     @Column(name = "print_coord", nullable = true, length = 50)
@@ -79,6 +81,14 @@ public class Block implements Serializable {
 
     public void setCoord(String coord) {
         this.coord = coord;
+    }
+
+    public String getNote() {
+        return note;
+    }
+
+    public void setNote(String note) {
+        this.note = note;
     }
 
     public String getMarkerCoord() {

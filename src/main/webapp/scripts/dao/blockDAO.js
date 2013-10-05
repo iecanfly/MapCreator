@@ -48,7 +48,7 @@ Territory.DAO.Block = Class.extend({
             type: "POST",
             dataType : 'json',
             contentType : "application/json",
-            data : JSON.stringify({ id: block.id, block: block.block, cong:block.cong, coord:block.coord, number: block.number, recommendedWorkerNum: block.recommendedWorkerNum })
+            data : JSON.stringify({ id: block.id, block: block.block, cong:block.cong, coord:block.coord, number: block.number, recommendedWorkerNum: block.recommendedWorkerNum, note: block.note })
         }).done(function(result) {
             alert(result.message);
         });

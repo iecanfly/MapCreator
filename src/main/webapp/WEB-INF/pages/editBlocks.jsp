@@ -17,6 +17,7 @@
                         <th>Block</th>
                         <th>Number</th>
                         <th>Recommended Worker #</th>
+                        <th>Note</th>
                         <th>Update</th>
                         <th>Delete</th>
                     </tr>
@@ -28,6 +29,7 @@
                         <td><input id="txtBlock${block.id}" class="input-mini input-narrow" type="text" value="${block.block}"></td>
                         <td><input id="txtNumber${block.id}" class="input-mini input-narrow" type="text" value="${block.number}"></td>
                         <td><input id="txtWorkerNum${block.id}" class="input-mini input-narrow" type="text" value="${block.recommendedWorkerNum}"></td>
+                        <td><input id="txtNote${block.id}" class="input-xxlarge input-narrow" type="text" value="${block.note}"></td>
                         <td><button blockAttribute="${block.id}:${block.block}:${block.number}:${block.recommendedWorkerNum}:${block.cong}:${block.coord}" class="btnUpdate btn btn-small" type="button">Update</button></td>
                         <td><button blockAttribute="${block.id}" class="btnDelete btn btn-primary btn-small" type="button">Delete</button></td>
                     </tr>
