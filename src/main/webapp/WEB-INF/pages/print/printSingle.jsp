@@ -28,6 +28,9 @@
     <c:if test="${isDisplayBusInfo}">
         <div id="busInfoDiv" style="width: 95px; border:1px solid;background-color:white; position:absolute;top:5px;left: 690px;font-size: 68%;font-family: Microsoft YaHei;padding:3px 3px 3px 3px;"></div>
     </c:if>
+    <c:if test="${not empty block.note}">
+        <div id="noteDiv" style="font-family: Microsoft YaHei;font-size:80%;position:absolute;top:517px;left: 170px; border:1px solid; background-color:white;width:600px; height:20px; padding:3px 3px 3px 5px;">${block.note}</div>
+    </c:if>
 </body>
 
 

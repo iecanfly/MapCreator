@@ -76,7 +76,7 @@
     <file path="/printRecordSheetMultiple.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369144519388" ignored="false" />
     <file path="/web.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1370991270607" ignored="false" />
     <file path="/printMultipleDefault.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369213713792" ignored="false" />
-    <file path="/printSingle.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377837878742" ignored="false" />
+    <file path="/printSingle.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1380989805158" ignored="false" />
     <file path="$PROJECT_DIR$/../leyuan/territory/public/javascripts/printMap.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1369240259405" ignored="false" />
     <file path="/printMap.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1377838997108" ignored="false" />
     <file path="/menu-config.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1371646565151" ignored="false" />
@@ -307,13 +307,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ApplicationResources.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationResources.properties">
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
+      <file leaf-file-name="printSingle.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingle.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="58" selection-start="4516" selection-end="4516" vertical-scroll-proportion="-0.5555556">
+            <state line="30" column="4" selection-start="1446" selection-end="1725" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="printRecordSheetSingle.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printRecordSheetSingle.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="4" selection-start="1863" selection-end="1863" vertical-scroll-proportion="0.9262948">
               <folding />
             </state>
           </provider>
@@ -337,15 +343,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createMapStep1.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createMapStep1.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="12" selection-start="406" selection-end="531" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="createMapStep2.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createMapStep2.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -364,10 +361,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blockDAO.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="blockDAO.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dao/blockDAO.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="194" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.6680162">
+            <state line="50" column="194" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -417,9 +414,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/scripts/printMap.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printRecordSheetSingle.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/styles/lib/bootstrap-2.2.1.min.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/styles/lib/bootstrap-2.2.1.css" />
@@ -433,6 +428,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editBlocks.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/editBlocks.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/dao/blockDAO.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingle.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printRecordSheetSingle.jsp" />
       </list>
     </option>
   </component>
@@ -1080,6 +1077,40 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="print" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -1601,8 +1632,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1812227" sideWeight="0.21823618" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22525108" sideWeight="0.7380952" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26190478" sideWeight="0.7819225" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22525108" sideWeight="0.74867725" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25132275" sideWeight="0.7819225" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1684,18 +1715,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="2" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/printSingleDefault.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="24" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
@@ -1794,7 +1813,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dao/blockDAO.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="194" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.6680162">
+        <state line="50" column="194" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="4" selection-start="1446" selection-end="1725" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printRecordSheetSingle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="4" selection-start="1863" selection-end="1863" vertical-scroll-proportion="0.9262948">
           <folding />
         </state>
       </provider>

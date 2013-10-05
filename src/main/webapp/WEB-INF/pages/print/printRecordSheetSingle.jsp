@@ -29,6 +29,7 @@
         <div id="busInfoDiv" style="width: 95px; border:1px solid;background-color:white; position:absolute;top:5px;left: 690px;font-size: 68%;font-family: Microsoft YaHei;padding:3px 3px 3px 3px;"></div>
     </c:if>
     <span id="lastWorkedDateSpan"  style="width:110px;border:1px solid;background-color:white; position:absolute;top:520px;left: 675px;font-size: 60%;font-family: Microsoft YaHei;padding:3px 3px 3px 3px;">最近工作日:${block.lastWorkedDateString}</span>
+
 </body>
 
 
