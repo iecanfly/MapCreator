@@ -958,7 +958,7 @@
         <profile>
             <id>local</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <properties>
                 <dbunit.dataTypeFactoryName>org.dbunit.ext.postgresql.PostgresqlDataTypeFactory</dbunit.dataTypeFactoryName>
