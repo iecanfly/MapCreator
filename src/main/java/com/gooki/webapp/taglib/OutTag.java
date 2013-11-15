@@ -25,8 +25,9 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.gooki.webapp.taglib;
 
-import javax.servlet.jsp.tagext.TagSupport;
 import com.gooki.webapp.jsp.EscapeXmlELResolver;
+
+import javax.servlet.jsp.tagext.TagSupport;
 
 /**
  * Tag surrounds JSP code in which EL expressions should not be XML-escaped.

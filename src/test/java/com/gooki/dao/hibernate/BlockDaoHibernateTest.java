@@ -1,21 +1,17 @@
 package com.gooki.dao.hibernate;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
-
-import java.util.List;
-
-import com.gooki.dao.BlockDao;
-import com.gooki.webapp.exception.BlockExistsException;
 import com.gooki.dao.BaseDaoTestCase;
+import com.gooki.dao.BlockDao;
+import com.gooki.model.Block;
+import com.gooki.webapp.exception.BlockExistsException;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.gooki.model.Block;
+import java.util.List;
+
+import static org.junit.Assert.*;
 
 public class BlockDaoHibernateTest extends BaseDaoTestCase {
 	@Autowired

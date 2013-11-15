@@ -1,12 +1,9 @@
 package com.gooki.dao.hibernate;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.gooki.dao.BlockDao;
+import com.gooki.model.Block;
 import com.gooki.webapp.constant.TerritoryConstants;
 import com.gooki.webapp.exception.BlockExistsException;
-import com.gooki.dao.hibernate.GenericDaoHibernate;
 import org.hibernate.Criteria;
 import org.hibernate.criterion.Criterion;
 import org.hibernate.criterion.Disjunction;
@@ -14,7 +11,7 @@ import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 
-import com.gooki.model.Block;
+import java.util.List;
 
 @Repository("blockDao")
 public class BlockDaoHibernate extends GenericDaoHibernate<Block, Long> implements BlockDao {

@@ -1,13 +1,11 @@
 package com.gooki.service.impl;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import com.gooki.dao.GenericDao;
 import com.gooki.service.GenericManager;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 
 /**

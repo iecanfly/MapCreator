@@ -1,11 +1,8 @@
 package com.gooki.webapp.controller;
 
-import com.gooki.model.Block;
-import com.gooki.model.Cong;
 import com.gooki.service.BlockManager;
+import com.gooki.service.BuildingManager;
 import com.gooki.webapp.constant.TerritoryConstants;
-import com.gooki.webapp.exception.BlockExistsException;
-import com.gooki.webapp.exception.CongNotExistsException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ExtendedModelMap;
@@ -13,37 +10,57 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 @Controller
 @RequestMapping("/print")
 public class PrintController extends TerritoryBaseController {
 	private BlockManager blockManager = null;
+    private BuildingManager buildingManager = null;
+
+    @Autowired
+    public void setBuildingManager(BuildingManager buildingManager) {
+        this.buildingManager = buildingManager;
+    }
 
     @Autowired
     public void setBlockManager(BlockManager blockManager) {
         this.blockManager = blockManager;
     }
 
-    @RequestMapping(value = "/{printType}Multiple/{congName}/{isDisplayBusInfo}/{block}", method = RequestMethod.GET)
-    public ModelAndView handlePrintMultipleRequest(@PathVariable String congName, @PathVariable String block, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo) throws Exception {
+    @RequestMapping(value = "/blocks/{printType}Multiple/{congName}/{isDisplayBusInfo}/{block}", method = RequestMethod.GET)
+    public ModelAndView handlePrintMultipleBlocksRequest(@PathVariable String congName, @PathVariable String block, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo) throws Exception {
         Model model = new ExtendedModelMap();
         String[] blockArray = block.split(",");
         model.addAttribute(TerritoryConstants.BLOCK_LIST.getValue(), blockManager.getBlocks(congName, blockArray));
         model.addAttribute(TerritoryConstants.IS_DISPLAY_BUS_INFO.getValue(), isDisplayBusInfo);
-        return new ModelAndView("print/" + printType + "Multiple", model.asMap());
+        return new ModelAndView("print/" + printType + "MultipleBlocks", model.asMap());
     }
 
-    @RequestMapping(value = "/{printType}Single/{congName}/{isDisplayBusInfo}/{block}", method = RequestMethod.GET)
-    public ModelAndView handlePrintRequest(@PathVariable String congName, @PathVariable String block, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo) throws Exception {
+    @RequestMapping(value = "/blocks/{printType}Single/{congName}/{isDisplayBusInfo}/{block}", method = RequestMethod.GET)
+    public ModelAndView handlePrintBlockRequest(@PathVariable String congName, @PathVariable String block, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo) throws Exception {
         Model model = new ExtendedModelMap();
         String blockName = block.split(TerritoryConstants.SEPERATOR.getValue())[0];
         String blockNumber = block.split(TerritoryConstants.SEPERATOR.getValue())[1];
         model.addAttribute(TerritoryConstants.A_BLOCK.getValue(), blockManager.getBlock(congName, blockName, blockNumber));
         model.addAttribute(TerritoryConstants.IS_DISPLAY_BUS_INFO.getValue(), isDisplayBusInfo);
-        return new ModelAndView("print/" + printType + "Single", model.asMap());
+        return new ModelAndView("print/" + printType + "SingleBlock", model.asMap());
+    }
+
+    @RequestMapping(value = "/buildings/{printType}Multiple/{congName}/{isDisplayBusInfo}/{buildingBlock}", method = RequestMethod.GET)
+    public ModelAndView handlePrintMultipleBuildingsRequest(@PathVariable String congName, @PathVariable String buildingBlock, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo) throws Exception {
+        Model model = new ExtendedModelMap();
+        String[] buildingArray = buildingBlock.split(",");
+        model.addAttribute(TerritoryConstants.BUILDING_LIST.getValue(), buildingManager.getBuildings(congName, buildingArray));
+        model.addAttribute(TerritoryConstants.IS_DISPLAY_BUS_INFO.getValue(), isDisplayBusInfo);
+        return new ModelAndView("print/" + printType + "MultipleBuildings", model.asMap());
+    }
+
+    @RequestMapping(value = "/buildings/{printType}Single/{congName}/{isDisplayBusInfo}/{buildingBlock}", method = RequestMethod.GET)
+    public ModelAndView handlePrintBuildingRequest(@PathVariable String congName, @PathVariable String buildingBlock, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo) throws Exception {
+        Model model = new ExtendedModelMap();
+        String buildingBlockName = buildingBlock.split(TerritoryConstants.SEPERATOR.getValue())[0];
+        String buildingBlockNumber = buildingBlock.split(TerritoryConstants.SEPERATOR.getValue())[1];
+        model.addAttribute(TerritoryConstants.A_BUILDING.getValue(), buildingManager.getBuilding(congName, buildingBlockName, buildingBlockNumber));
+        model.addAttribute(TerritoryConstants.IS_DISPLAY_BUS_INFO.getValue(), isDisplayBusInfo);
+        return new ModelAndView("print/" + printType + "SingleBuilding", model.asMap());
     }
 }

@@ -7,7 +7,7 @@
         <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.2"></script>
 		<script type="text/javascript" src="http://api.map.baidu.com/library/DistanceTool/1.2/src/DistanceTool_min.js"></script>
 		<script type="text/javascript" src="http://api.map.baidu.com/library/GeoUtils/1.2/src/GeoUtils_min.js"></script>
-		<link rel="stylesheet" media="screen" href="<c:url value='/styles/main.css'/>">
+		<link rel="stylesheet" href="<c:url value='/styles/main.css'/>">
 		<script type="text/javascript" src="<c:url value='/scripts/lib/jquery-1.8.2.min.js'/>"></script>
 		<script type="text/javascript" src="<c:url value='/scripts/lib/jquery-ui-1.8.18.min.js'/>"></script>
 		<script type="text/javascript" src="<c:url value='/scripts/classHelper.js'/>"></script>

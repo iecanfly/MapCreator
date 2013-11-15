@@ -1,11 +1,6 @@
 package com.gooki.model;
 
 
-import org.apache.commons.lang.builder.EqualsBuilder;
-import org.apache.commons.lang.builder.HashCodeBuilder;
-import org.apache.commons.lang.builder.ReflectionToStringBuilder;
-import com.gooki.model.BaseObject;
-
 import javax.persistence.*;
 import java.io.Serializable;
 import java.text.DateFormat;

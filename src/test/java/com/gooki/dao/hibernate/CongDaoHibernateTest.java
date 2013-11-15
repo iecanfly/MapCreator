@@ -1,8 +1,8 @@
 package com.gooki.dao.hibernate;
 
+import com.gooki.dao.BaseDaoTestCase;
 import com.gooki.dao.CongDao;
 import com.gooki.model.Cong;
-import com.gooki.dao.BaseDaoTestCase;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

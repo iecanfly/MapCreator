@@ -4,23 +4,16 @@ import com.gooki.model.Cong;
 import com.gooki.model.User;
 import com.gooki.service.CongManager;
 import com.gooki.service.SecurityContextService;
-import com.gooki.webapp.exception.BlockExistsException;
+import com.gooki.webapp.constant.TerritoryConstants;
 import com.gooki.webapp.exception.CongNotExistsException;
-import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ExtendedModelMap;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.gooki.webapp.constant.TerritoryConstants;
-import com.gooki.service.BlockManager;
-import sun.rmi.runtime.Log;
-
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 @Controller

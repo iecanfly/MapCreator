@@ -6,7 +6,10 @@
     <Menus>
         <Menu name="MainMenu" title="mainMenu.title" page="/mainMenu" roles="ROLE_ADMIN,ROLE_USER,ROLE_APPROVED_USER"/>
         <Menu name="MapMenu" title="mapMenu.title" page="/map" roles="ROLE_ADMIN,ROLE_USER,ROLE_APPROVED_USER"/>
-        <Menu name="EditBlockMenu" title="editBlockMenu.title" page="/blocks/editBlocks" roles="ROLE_ADMIN,ROLE_APPROVED_USER"/>
+        <Menu name="EditMenu" title="editMenu.title" page="/blocks/editBlocks" roles="ROLE_ADMIN,ROLE_APPROVED_USER">
+            <Item name="EditBlockMenu" title="editBlockMenu.title" page="/blocks/editBlocks"/>
+            <Item name="EditBuildingMenu" title="editBuildingMenu.title" page="/buildings/editBuildings"/>
+        </Menu>
         <Menu name="EditACLMenu" title="editAclMenu.title" page="/acl/edit" roles="ROLE_ADMIN,ROLE_APPROVED_USER"/>
         <Menu name="UserMenu" title="menu.user" description="User Menu" page="/userform" roles="ROLE_ADMIN,ROLE_USER,ROLE_APPROVED_USER"/>
         <Menu name="SuperAdminMenu" title="menu.admin" description="Admin Menu" roles="ROLE_ADMIN" page="/admin/users">

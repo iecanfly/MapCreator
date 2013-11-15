@@ -1,10 +1,7 @@
 package com.gooki.service;
 
-import com.gooki.dao.CongDao;
 import com.gooki.model.Cong;
 import com.gooki.model.User;
-import com.gooki.webapp.exception.CongExistsException;
-import com.gooki.service.GenericManager;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashSet;

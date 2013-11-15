@@ -1,9 +1,9 @@
 package com.gooki.service.impl;
 
+import com.gooki.util.ConvertUtil;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import com.gooki.util.ConvertUtil;
 import org.jmock.Mockery;
 import org.jmock.integration.junit4.JMock;
 import org.jmock.integration.junit4.JUnit4Mockery;

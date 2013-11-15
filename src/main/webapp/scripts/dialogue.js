@@ -1,22 +1,20 @@
 Territory.Dialogue = Class.extend({
 	_territoryMap : null,
+	_pt : null,
 	_pts : null,
 	_currentBlock : null,
 	_cong : null,
 	_recordTable : null,
-	_printDialogInitialized : false,
-	_members : [
-	            "ANON", "JY", "ZQM", "SH", "WLC", "WL", "YAJ"
-	            ],
+	_printBlockDialogInitialized : false,
+	_printBuildingDialogInitialized : false,
+	_members : [],
 	
 	
 	init : function(cong, map) {
 		_territoryMap = map;
 		_cong = cong;
 		this._prepareSaveBlockDialogue();
-		//this._prepareWriteRecordDialogue();
-		//this._prepareViewRecordDialogue();
-		
+		this._prepareSaveBuildingDialogue();
 	},
 	
 	_prepareSaveBlockDialogue : function() {
@@ -26,12 +24,18 @@ Territory.Dialogue = Class.extend({
             _territoryMap.saveBlock($("#block").val(), $("#number").val(), _pts);
             $("#save_block_dialog_form").modal("hide");
 		});
-
-		$("#btnCancelSaveBlock").click(function(e){
-		    _territoryMap.finishDrawingBlocks();
-        });
-
 	},
+
+	_prepareSaveBuildingDialogue : function() {
+        $("#save_building_dialog_form").modal({show: false});
+
+        $("#btnSaveBuilding").click(function(e){
+            _territoryMap.saveBuilding( $("#buildingBlock").val(), $("#buildingNumber").val(), $("#buildingName").val(),
+                                        $("#buildingAddress").val(), $("#buildingFloor").val(), _pt);
+
+            $("#save_building_dialog_form").modal("hide");
+        });
+    },
 	
 	_prepareWriteRecordDialogue : function() {
 		$("#save_record_dialog_form").dialog({
@@ -104,26 +108,24 @@ Territory.Dialogue = Class.extend({
 		
 	},
 	
-	_preparePrintDialogue : function() {
-	    if(this._printDialogInitialized) return;
+	_preparePrintBlocksDialogue : function() {
+	    if(this._printBlockDialogInitialized) return;
 
-	    this._printDialogInitialized = true;
+	    this._printBlockDialogInitialized = true;
 	    $("#save_block_dialog_form").modal({show: false});
 
 	    $("#btnPrintBlocks").click(function(e){
             var blocks = [];
-            $("form .printcheck:checked").each(function(){
-                if($(this).attr("id") != "printAll") {
+            $("form .printBlocksCheck:checked").each(function(){
+                if($(this).attr("id") != "printAllBlocks") {
                     blocks.push($(this).attr("id"));
                 }
             });
 
-            if(_this._printOptionForRecord) {
-                window.open("/print/printRecordSheetMultiple/" + _cong + "/" + $("#printOptionForBusInfo").is(":checked") + "/" + blocks.join(",") + ",");
-            } else if(_this._printOptionForOverall) {
-                window.open("/print/printOverallMultiple/" + _cong + "/" + $("#printOptionForBusInfo").is(":checked") + "/" +blocks.join(",") + ",");
+            if(_this._printBlocksOptionForOverall) {
+                window.open("/print/blocks/printOverallMultiple/" + _cong + "/" + $("#printBlocksOptionForBusInfo").is(":checked") + "/" +blocks.join(",") + ",");
             } else {
-                window.open("/print/printMultiple/" + _cong + "/" + $("#printOptionForBusInfo").is(":checked") + "/" +blocks.join(",") + ",");
+                window.open("/print/blocks/printMultiple/" + _cong + "/" + $("#printBlocksOptionForBusInfo").is(":checked") + "/" +blocks.join(",") + ",");
             }
 
             $("#print_dialog_form").modal("hide");
@@ -133,38 +135,69 @@ Territory.Dialogue = Class.extend({
              $("#print_dialog_form").modal("hide");
         });
 
-        $(document).on("click", "#printAll", function () {
+        $(document).on("click", "#printAllBlocks", function () {
             if($(this).is(":checked")) {
-                $(".printcheck").attr("checked", true);
+                $(".printBlocksCheck").attr("checked", true);
             } else {
-                $(".printcheck").attr("checked", false);
+                $(".printBlocksCheck").attr("checked", false);
             }
         });
 
-        $(document).on("click", "#printOptionForRecord", function () {
-            _this._printOptionForRecord = $(this).is(":checked");
-
-            if($(this).is(":checked")) {
-                $("form #printOptionForOverall").attr("checked", false);
-                _this._printOptionForOverall = false;
-            }
-        });
-
-        $(document).on("click", "#printOptionForOverall", function () {
+        $(document).on("click", "#printBlocksOptionForOverall", function () {
             _this._printOptionForOverall = $(this).is(":checked");
-
-            if($(this).is(":checked")) {
-                $("form #printOptionForRecord").attr("checked", false);
-                _this._printOptionForRecord = false;
-            }
         });
 	},
-	
+
+	_preparePrintBuildingsDialogue : function() {
+	    if(this._printBuildingDialogInitialized) return;
+
+	    this._printBuildingDialogInitialized = true;
+	    $("#save_building_dialog_form").modal({show: false});
+
+	    $("#btnPrintBuildings").click(function(e){
+            var blocks = [];
+            $("form .printBuildingsCheck:checked").each(function(){
+                if($(this).attr("id") != "printAllBuildings") {
+                    blocks.push($(this).attr("id"));
+                }
+            });
+
+            if(_this._printBuildingOptionForOverall) {
+                window.open("/print/buildings/printOverallMultiple/" + _cong + "/" + $("#printBuildingsOptionForOverall").is(":checked") + "/" +blocks.join(",") + ",");
+            } else {
+                window.open("/print/buildings/printMultiple/" + _cong + "/" + $("#printBuildingsOptionForBusInfo").is(":checked") + "/" +blocks.join(",") + ",");
+            }
+
+            $("#print_buildings_dialog_form").modal("hide");
+        });
+
+        $("#btnCancelPrintBuildings").click(function(e){
+             $("#print_buildings_dialog_form").modal("hide");
+        });
+
+        $(document).on("click", "#printAllBuildings", function () {
+            if($(this).is(":checked")) {
+                $(".printBuildingsCheck").attr("checked", true);
+            } else {
+                $(".printBuildingsCheck").attr("checked", false);
+            }
+        });
+
+        $(document).on("click", "#printBuildingsOptionForOverall", function () {
+            _this._printOptionForOverall = $(this).is(":checked");
+        });
+	},
+
 	openSaveBlockDialogue : function(pts) {
 		$("#save_block_dialog_form").modal("show");
 		_pts = pts;
 	},
-	
+
+	openSaveBuildingDialogue : function(pt) {
+		$("#save_building_dialog_form").modal("show");
+		_pt = pt;
+	},
+
 	openSaveRecordDialogue : function(block) {
 		_currentBlock = block;
 		$("#save_record_dialog_form").dialog("open");
@@ -199,13 +232,13 @@ Territory.Dialogue = Class.extend({
 		$("#view_record_dialog").dialog("open");
 	},
 	
-	openPrintDialogue : function(_blocks) {
-		var printOptionTempl = $("#printOptionTempl").html();
-		var headerTempl = $("#printHeaderTempl").html();
-		var checkboxTempl = $("#printCheckTempl").html();
+	openPrintBlocksDialogue : function(_blocks) {
+		var printOptionTempl = $("#printBlocksOptionTempl").html();
+		var headerTempl = $("#printBlocksHeaderTempl").html();
+		var checkboxTempl = $("#printBlocksCheckTempl").html();
 		
-		$("#printFieldSet").html("");
-		$("#printFieldSet").append(printOptionTempl);
+		$("#printBlocksFieldSet").html("");
+		$("#printBlocksFieldSet").append(printOptionTempl);
 		
 		var uniqueBlockNames = this._getUniqueBlockNames(_blocks);
 		var printHtml = "";
@@ -223,13 +256,44 @@ Territory.Dialogue = Class.extend({
 			printHtml += "</div>";
 		}
 		
-		$("#printFieldSet").append(printHtml);
+		$("#printBlocksFieldSet").append(printHtml);
 		
-		this._preparePrintDialogue();
-        $("#print_dialog_form").modal("show");
+		this._preparePrintBlocksDialogue();
+        $("#print_blocks_dialog_form").modal("show");
 
 	},
-	
+
+	openPrintBuildingsDialogue : function(buildings) {
+		var printOptionTempl = $("#printBuildingsOptionTempl").html();
+		var headerTempl = $("#printBuildingsHeaderTempl").html();
+		var checkboxTempl = $("#printBuildingsCheckTempl").html();
+
+		$("#printBuildingsFieldSet").html("");
+		$("#printBuildingsFieldSet").append(printOptionTempl);
+
+		var uniqueBlockNames = this._getUniqueBlockNames(buildings);
+		var printHtml = "";
+
+		for(var i = 0; i < uniqueBlockNames.length; i++) {
+			printHtml += "<div class=\"printBlockDiv\">";
+			printHtml += headerTempl.replace(/{blockName}/gi, uniqueBlockNames[i]);
+
+			for(var j = 0; j < buildings.length; j++) {
+				if(uniqueBlockNames[i] == buildings[j].block) {
+					printHtml +=  checkboxTempl.replace(/{block}/gi, uniqueBlockNames[i] + "-" + buildings[j].number).replace(/{blockName}/gi, uniqueBlockNames[i]).replace(/{blockNumber}/gi, buildings[j].number);
+				}
+			}
+
+			printHtml += "</div>";
+		}
+
+		$("#printBuildingsFieldSet").append(printHtml);
+
+		this._preparePrintBuildingsDialogue();
+        $("#print_buildings_dialog_form").modal("show");
+
+	},
+
 	_getUniqueBlockNames : function(_blocks) {
 		var currentBlock = "";
 		var blockNameArray = [];

@@ -2,11 +2,11 @@ package com.gooki.dao.hibernate;
 
 import com.gooki.dao.RoleDao;
 import com.gooki.model.Role;
-import java.util.List;
-import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 
 /**

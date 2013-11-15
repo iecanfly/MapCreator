@@ -9,9 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="<c:url value="/images/favicon.ico"/>"/>
     <title><decorator:title/> | <fmt:message key="webapp.name"/></title>
-
     <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/styles/lib/bootstrap.min.css'/>" />
-    <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/styles/lib/bootstrap-responsive-2.2.1.min.css'/>" />
+    <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/styles/lib/bootstrap-responsive.min.css'/>" />
     <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/scripts/datepicker/css/datepicker.css'/>" />
     <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/styles/style.css'/>" />
     <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/scripts/lib/select2/select2.css'/>" />
@@ -34,6 +33,7 @@
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7a47709620e13098e9ac9539b39ddf9a"></script>
     <script type="text/javascript" src="http://api.map.baidu.com/library/DistanceTool/1.2/src/DistanceTool_min.js"></script>
     <script type="text/javascript" src="http://api.map.baidu.com/library/GeoUtils/1.2/src/GeoUtils_min.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/library/MarkerTool/1.2/src/MarkerTool_min.js"></script>
     <script type="text/javascript" src="<c:url value='/scripts/classHelper.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/printPage.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/createMap.js'/>"></script>
@@ -41,6 +41,7 @@
     <script type="text/javascript" src="<c:url value='/scripts/dialogue.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/dao/congDAO.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/dao/blockDAO.js'/>"></script>
+    <script type="text/javascript" src="<c:url value='/scripts/dao/buildingDAO.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/dao/recordDAO.js'/>"></script>
     <script type="text/javascript" src="<c:url value='/scripts/map.js'/>"></script>
 

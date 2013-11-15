@@ -1,6 +1,7 @@
 package com.gooki.webapp.controller;
 
 import com.gooki.Constants;
+import com.gooki.service.UserManager;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +9,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 import java.util.Map;
-import com.gooki.service.UserManager;
 
 import static org.junit.Assert.*;
 

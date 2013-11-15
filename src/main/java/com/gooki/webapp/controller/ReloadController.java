@@ -1,8 +1,8 @@
 package com.gooki.webapp.controller;
 
+import com.gooki.webapp.listener.StartupListener;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import com.gooki.webapp.listener.StartupListener;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

@@ -2,15 +2,12 @@ package com.gooki.service.impl;
 
 import com.gooki.model.Cong;
 import com.gooki.model.User;
-import com.gooki.service.CongManager;
 import com.gooki.service.MapSecurityService;
 import com.gooki.service.SecurityContextService;
-import com.gooki.service.UserManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.stereotype.Component;
 
-import java.security.Principal;
 import java.util.Iterator;
 import java.util.Set;
 

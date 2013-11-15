@@ -6,6 +6,7 @@
         <class>com.gooki.model.User</class>
         <class>com.gooki.model.Role</class>
         <class>com.gooki.model.Block</class>
+        <class>com.gooki.model.Bulding</class>
         <class>com.gooki.model.Cong</class>
         <class>com.gooki.model.Record</class>
     </persistence-unit>

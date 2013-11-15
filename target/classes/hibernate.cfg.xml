@@ -9,6 +9,7 @@
         <mapping class="com.gooki.model.User"/>
         <mapping class="com.gooki.model.Role"/>
         <mapping class="com.gooki.model.Block"/>
+        <mapping class="com.gooki.model.Building"/>
         <mapping class="com.gooki.model.Cong"/>
         <mapping class="com.gooki.model.Record"/>
     </session-factory>

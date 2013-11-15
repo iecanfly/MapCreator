@@ -1,7 +1,6 @@
 package com.gooki.webapp.controller;
 
 import com.gooki.model.Block;
-import com.gooki.model.Cong;
 import com.gooki.service.BlockManager;
 import com.gooki.service.CongManager;
 import com.gooki.webapp.constant.TerritoryConstants;
@@ -15,7 +14,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 

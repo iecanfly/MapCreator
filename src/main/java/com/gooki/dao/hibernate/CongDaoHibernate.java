@@ -2,7 +2,6 @@ package com.gooki.dao.hibernate;
 
 import com.gooki.dao.CongDao;
 import com.gooki.model.Cong;
-import com.gooki.dao.hibernate.GenericDaoHibernate;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 

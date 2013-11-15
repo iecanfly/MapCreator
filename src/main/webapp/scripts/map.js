@@ -1,8 +1,14 @@
 Territory.Map = Class.extend({
+	DEFAULT_CURSOR : null,
+	BUILDING_CURSOR : null,
+	BLOCK : null,
+	BUILDING : null,
+	NON_DRAWING : null,
 	_this : null,
 	_map : null,
 	_myDis : null,
 	_blockDAO : null,
+	_buildingDAO : null,
 	_recordDAO : null,
 	_congDAO : null,
 	_dialogue : null,
@@ -10,9 +16,17 @@ Territory.Map = Class.extend({
 	_centerCoord : null,
 	_zoomLevel : null,
 	_blocks : null,
+	_buildings : null,
 	_currentBlock : null,
+    _currentDrawingMode : null,
 
 	init : function(cong, centerCoord, zoomLevel) {
+	    DEFAULT_CURSOR = "url(http://api0.map.bdimg.com/images/openhand.cur) 8 8,default";
+        BUILDING_CURSOR = "url('../images/building-icon.png')25 23, default";
+        BLOCK = "block";
+        BUILDING = "building";
+        NON_DRAWING = "non_drawing";
+
 		_this = this;
 		_cong = cong;
 		_centerCoord = centerCoord;
@@ -23,34 +37,55 @@ Territory.Map = Class.extend({
 		_map.addControl(new BMap.OverviewMapControl());
 		_map.addControl(new BMap.MapTypeControl());
 		_map.enableScrollWheelZoom();
+		_map.disableDoubleClickZoom();
+
 		_myDis = new BMapLib.DistanceTool(_map);
+		_myDis.addEventListener("drawend", function(e) {
+		        _this._openSaveBlockDialogue(e.points);
+		    });
 
 		_blockDAO = new Territory.DAO.Block(_this);
+		_buildingDAO = new Territory.DAO.Building(_this);
 		_recordDAO = new Territory.DAO.Record(_this);
 		_congDAO = new Territory.DAO.Cong(_this);
 		_dialogue = new Territory.Dialogue(_cong, _this);
-		_myDis.addEventListener("drawend", function(e) {
-			_this._openSaveBlockDialogue(e.points);
-		});
 
 		_this._init();
-		
 	},
 	
-	_initViewFilterCombo : function(blocks) {
-		var uniqueBlockNames = this._getUniqueBlockNames(blocks);
-		$("#cboViewFilter").html("");
-		$("#cboViewFilter").unbind("change");
-		$("#cboViewFilter").on("change", function(){ _this._filterBlocks(this.value); });
-		var options = $("#viewFilterOptionTmpl").html().replace(/{val}/gi, "").replace(/{name}/gi, "View All");
-		
-		for(var i = 0; i < uniqueBlockNames.length; i++) {
-			options = options + $("#viewFilterOptionTmpl").html().replace(/{val}/gi, uniqueBlockNames[i]).replace(/{name}/gi, uniqueBlockNames[i]);
-		}
-		
-		$("#cboViewFilter").html(options);
+	_initViewFilterCombo : function(type, data) {
+	    var seperator = $("#viewFilterSeperatorTmpl").html();
+	    var currentComboHTML = $("#cboViewFilter").html();
+	    var currentComboBlockHTML = currentComboHTML.split(seperator)[0];
+	    var currentComboBuildingHTML = currentComboHTML.split(seperator)[1];
+
+        $("#cboViewFilter").unbind("change");
+        $("#cboViewFilter").on("change", function(){
+            _this._filterBlocks($("#cboViewFilter option:selected").attr("class"), this.value);
+        });
+
+	    if(type == BLOCK) {
+	        var uniqueBlockNames = this._getUniqueBlockNames(data);
+            var options = $("#viewFilterBlockOptionTmpl").html().replace(/{val}/gi, "").replace(/{name}/gi, "View All");
+
+            for(var i = 0; i < uniqueBlockNames.length; i++) {
+                options = options + $("#viewFilterBlockOptionTmpl").html().replace(/{val}/gi, uniqueBlockNames[i]).replace(/{name}/gi, uniqueBlockNames[i]);
+            }
+
+            options = options + seperator + currentComboBuildingHTML;
+            $("#cboViewFilter").html(options);
+	    } else if(type == BUILDING) {
+            var uniqueBlockNames = this._getUniqueBlockNames(data);
+            var options = currentComboBlockHTML +  seperator;
+
+            for(var i = 0; i < uniqueBlockNames.length; i++) {
+                options = options + $("#viewFilterBuildingOptionTmpl").html().replace(/{val}/gi, uniqueBlockNames[i]).replace(/{name}/gi, uniqueBlockNames[i]);
+            }
+
+            $("#cboViewFilter").html(options);
+	    }
+
 	},
-	
 
 	saveBlock : function(block, number, pts) {
 		var coord = "";
@@ -63,9 +98,14 @@ Territory.Map = Class.extend({
 		_blockDAO.saveBlock(_cong, block,number, coord);
 	},
 
-	_openSaveBlockDialogue : function(pts) {
-		_dialogue.openSaveBlockDialogue(pts);
+	saveBuilding : function(buildingBlock, buildingNumber, buildingName, buildingAddress, floor, pt) {
+        _buildingDAO.saveBuilding(_cong, buildingBlock, buildingNumber, buildingName, buildingAddress, floor, pt["lat"]  + "," + pt["lng"]);
+    },
 
+	_openSaveBlockDialogue : function(pts) {
+	    if(_currentDrawingMode == BLOCK) {
+	        _dialogue.openSaveBlockDialogue(pts);
+	    }
 	},
 	
 	openBlockViewCoverage : function() {
@@ -76,27 +116,52 @@ Territory.Map = Class.extend({
 		window.open("/coverage/chartView/" + _cong + "/" + $("#coverageFromDate").val());
 	},
 	
-	openPrintDialogue : function() {
-		_dialogue.openPrintDialogue(_blocks);
+	openPrintBlocksDialogue : function() {
+		_dialogue.openPrintBlocksDialogue(_this._blocks);
 	},
 
+    openPrintBuildingsDialogue : function() {
+        _dialogue.openPrintBuildingsDialogue(_this._buildings);
+    },
+
 	startDrawingBlocks : function() {
+	    _this._changeDrawingMode(BLOCK);
 		_myDis.open();
 	},
 
-	finishDrawingBlocks : function() {
-		_myDis.close();
+	startDrawingBuildings : function() {
+	   _this._changeDrawingMode(BUILDING);
+    },
+
+	_finishDrawingBuildings : function(e) {
+		_this._buildingMarkEnd(e);
+		_this._changeDrawingMode(NON_DRAWING);
+	},
+
+	_changeDrawingMode : function(drawingMode) {
+	    _currentDrawingMode = drawingMode;
+
+	    if(_currentDrawingMode == BLOCK) {
+            _map.removeEventListener("dblclick", _this._finishDrawingBuildings);
+            _map.setDefaultCursor(DEFAULT_CURSOR);
+	    } else if(_currentDrawingMode == BUILDING) {
+	        _myDis.close();
+	        _map.addEventListener("dblclick", _this._finishDrawingBuildings);
+            _map.setDefaultCursor(BUILDING_CURSOR);
+	    } else if(_currentDrawingMode == NON_DRAWING) {
+	        _map.removeEventListener("dblclick", _this._finishDrawingBuildings);
+            _map.setDefaultCursor(DEFAULT_CURSOR);
+            _myDis.close();
+	    }
+	},
+
+	_buildingMarkEnd : function(e) {
+        _dialogue.openSaveBuildingDialogue(e.point);
 	},
 
 	_init : function() {
 		_this._centerAndZoom(_centerCoord, _zoomLevel);
-		_blockDAO.getAllBlocks(_cong);
-		$(".datepicker").datepicker("show").
-		    on('changeDate', function(ev){
-		        console.log(ev.date.valueOf());
-
-        });
-
+		_this.refreshMap();
 	},
 	
 	_centerAndZoom : function(centerCoord, zoomLevel) {
@@ -104,42 +169,60 @@ Territory.Map = Class.extend({
         var lng = centerCoord.split(",")[1];
         _map.centerAndZoom(new BMap.Point(parseFloat(lng), parseFloat(lat)), parseInt(zoomLevel));
 	},
+
+	refreshMap : function() {
+        _map.clearOverlays();
+		_blockDAO.getAllBlocks(_cong);
+		_buildingDAO.getAllBuildings(_cong);
+	},
 	
-	_filterBlocks : function(blockName) {
+	_filterBlocks : function(type, blockName) {
 		if(blockName === "") {
 			_this._init();
-		} else {
-			_map.clearOverlays();
-			var centerPoint;
-			var appendedCoord = "";
-			
-			for (var i = 0; i < _blocks.length; i++) {
-				var block = _blocks[i];
-				if(block.block === blockName) {
-					_this.drawBlock(block.block, block.number, block.coord, block.lastWorkedDate);
-					appendedCoord = appendedCoord + block.coord;
-				}
-			}
-			
-			centerPoint = _this._findMarkerPosition(appendedCoord);
-			_map.centerAndZoom(new BMap.Point(centerPoint[0], centerPoint[1]), _map.getZoom());
+			return;
 		}
+
+        _map.clearOverlays();
+        var centerPoint;
+        var appendedCoord = "";
+
+        if(type == BLOCK) {
+            for (var i = 0; i < _this._blocks.length; i++) {
+                var block = _this._blocks[i];
+                if(block.block === blockName) {
+                    _this.drawBlock(block.block, block.number, block.coord);
+                    appendedCoord = appendedCoord + block.coord;
+                }
+            }
+
+            centerPoint = _this._findMarkerPosition(appendedCoord);
+        } else if(type == BUILDING) {
+            for (var i = 0; i < _this._buildings.length; i++) {
+                var building = _this._buildings[i];
+                if(building.block === blockName) {
+                    _this.drawBuilding(building.block, building.number, building.name, building.coord);
+                    appendedCoord = appendedCoord + building.coord;
+                }
+            }
+
+            centerPoint = _this._findMarkerPosition(appendedCoord);
+        }
+
+        _map.centerAndZoom(new BMap.Point(centerPoint[0], centerPoint[1]), _map.getZoom());
 	},
 
 	drawBlocks : function(data) {
-		_blocks = data;
-		_map.clearOverlays();
-		
-		for ( var i = 0; i < _blocks.length; i++) {
-			var block = _blocks[i];
-			_this.drawBlock(block.block, block.number, block.coord, block.lastWorkedDate);
+		_this._blocks = data;
+
+		for ( var i = 0; i < _this._blocks.length; i++) {
+			var block = _this._blocks[i];
+			_this.drawBlock(block.block, block.number, block.coord);
 		}
-		
-		// After drawing new blocks, update the view filter
-		_this._initViewFilterCombo(_blocks);
+
+		_this._initViewFilterCombo(BLOCK, _this._blocks);
 	},
 
-	drawBlock : function(block, number, pts, lastWorkedDate) {
+	drawBlock : function(block, number, pts) {
 		var pointStrArray = pts.split(";");
 		var pointArray = [];
 
@@ -149,9 +232,23 @@ Territory.Map = Class.extend({
 		}
 
 		_this._drawPolygon(pointArray);
-		_this._drawBlockMarker(block, number, pts, lastWorkedDate);
-
+		_this._drawBlockMarker(block, number, pts);
 	},
+
+	drawBuildings : function(data) {
+        _this._buildings = data;
+
+        for ( var i = 0; i < _this._buildings.length; i++) {
+            var building = _this._buildings[i];
+            _this.drawBuilding(building.block, building.number, building.name, building.coord);
+        }
+
+        _this._initViewFilterCombo(BUILDING, _this._buildings);
+    },
+
+    drawBuilding : function(block, number, name, pt) {
+        _this.addBuilding(block, number, name, pt);
+    },
 
 	_drawPolygon : function(pts) {
 		var ply = new BMap.Polygon(pts);
@@ -160,6 +257,16 @@ Territory.Map = Class.extend({
 	
 	showRecords : function(data) {
 		_dialogue.openViewRecordDialogue(data);
+	},
+
+	addBuilding : function(block, number, buildingName, pt) {
+	    var lat = pt.split(",")[0];
+        var lng = pt.split(",")[1];
+        var mkr = new BMap.Marker(new BMap.Point(parseFloat(lng), parseFloat(lat)) , {icon: new BMap.Icon("../images/building-icon.png", new BMap.Size(50, 55))});
+        var lbl = new BMap.Label(block + "-" + number + ":" + buildingName, { offset : new BMap.Size(12, -20) });
+        lbl.setStyle({ border : "solid 1px gray" });
+        mkr.setLabel(lbl);
+        _map.addOverlay(mkr);
 	},
 
 	_getMarkerContextMenu : function() {
@@ -212,7 +319,7 @@ Territory.Map = Class.extend({
 		_recordDAO.returnCard(record);
 	},
 
-	_drawBlockMarker : function(block, number, pts, lastWorkedDate) {
+	_drawBlockMarker : function(block, number, pts) {
 		var markerPosition = _this._findMarkerPosition(pts);
 		var icon = new BMap.Icon("/images/red_marker.png", new BMap.Size(14,23))
 		var mkr = new BMap.Marker(new BMap.Point(markerPosition[0],	markerPosition[1]));
@@ -225,7 +332,6 @@ Territory.Map = Class.extend({
 		var lbl = new BMap.Label(block + "-" + number, { offset : new BMap.Size(20, 1) });
 		lbl.setStyle({ border : "solid 1px gray" });
 		mkr.setLabel(lbl);
-		mkr.setTitle("Block : " + block + "- " + number + "\n" + "Last worked : " + lastWorkedDate);
 		_map.addOverlay(mkr);
 	},
 

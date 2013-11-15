@@ -2,9 +2,10 @@ package com.gooki.dao.hibernate;
 
 import com.gooki.dao.UserDao;
 import com.gooki.model.User;
+import org.hibernate.Query;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.simple.SimpleJdbcTemplate;
 import org.springframework.orm.hibernate4.SessionFactoryUtils;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -13,10 +14,6 @@ import org.springframework.stereotype.Repository;
 
 import javax.persistence.Table;
 import java.util.List;
-import org.hibernate.Query;
-import org.hibernate.SQLQuery;
-import org.hibernate.Session;
-import org.hibernate.criterion.Restrictions;
 
 /**
  * This class interacts with Hibernate session to save/delete and

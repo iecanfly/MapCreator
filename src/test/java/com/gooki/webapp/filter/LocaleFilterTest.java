@@ -1,7 +1,7 @@
 package com.gooki.webapp.filter;
 
-import junit.framework.TestCase;
 import com.gooki.Constants;
+import junit.framework.TestCase;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.mock.web.MockFilterConfig;
 import org.springframework.mock.web.MockHttpServletRequest;

@@ -14,18 +14,25 @@ Territory.DAO.Block = Class.extend({
               dataType : 'json',
               contentType : "application/json"
 			}).done(function(msg) {
-				if(msg.status != "OK") {
+				if(msg.status == "OK") {
+				     me.refreshMap();
+				} else {
 				    alert(msg.message);
 				}
 			}).fail(function(e){
 			    alert("Unexpected error occurred. Please try again later.");
-			}).always(function(e){
-			    me.getAllBlocks(cong);
 			});
 
-		
 	},
-	
+
+	refreshMap : function() {
+        _territoryMap.refreshMap();
+    },
+
+	drawBlock : function(block, number, coord) {
+        _territoryMap.drawBlock(block, number, coord);
+    },
+
 	getAllBlocks : function(cong) {
 		$.ajax({
 			  url: "/blocks/" + cong

@@ -2,8 +2,8 @@ package com.gooki.service.impl;
 
 import com.gooki.dao.CongDao;
 import com.gooki.model.Cong;
-import com.gooki.service.SecurityContextService;
 import com.gooki.model.User;
+import com.gooki.service.SecurityContextService;
 import com.gooki.service.UserManager;
 import org.junit.After;
 import org.junit.Before;

@@ -1,7 +1,7 @@
 package com.gooki.webapp.listener;
 
-import junit.framework.TestCase;
 import com.gooki.Constants;
+import junit.framework.TestCase;
 import org.springframework.mock.web.MockServletContext;
 import org.springframework.web.context.ContextLoader;
 import org.springframework.web.context.ContextLoaderListener;
@@ -9,7 +9,6 @@ import org.springframework.web.context.WebApplicationContext;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
-import java.util.Map;
 
 
 /**

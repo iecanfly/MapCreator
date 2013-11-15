@@ -1,6 +1,5 @@
 package com.gooki.webapp.controller;
 
-import org.apache.commons.lang.StringUtils;
 import com.gooki.Constants;
 import com.gooki.model.User;
 import com.gooki.service.RoleManager;

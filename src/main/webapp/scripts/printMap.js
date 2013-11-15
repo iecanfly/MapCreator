@@ -5,19 +5,30 @@ Territory.PrintMap = Class.extend({
 	_this : null,
 	_map : null,
 	_centerPoint : null,
-	_myDis : null,
-	_blockDAO : null,
 	_blockInfo : null,
+	_buildingInfo : null,
 	_defaultZoomLevel : null,
 	_localSearch : null,
+	_type : null,
+	BUILDING : "building",
+	BLOCK : "block",
 	DISTANCE_BASED_STATION_FILTER_COUNT : 10,
 	NUM_BUS_STATIONS : 4,
 	
-	init: function(blockInfo){
-		_this = this;
+	init: function(type, blockOrBuildingInfo){
+	    _this = this;
+	    _type = type;
+
+		if(_type == _this.BUILDING) {
+		    _buildingInfo = blockOrBuildingInfo;
+		    _centerPoint = new BMap.Point(_buildingInfo["coord"].split(",")[1], _buildingInfo["coord"].split(",")[0]);
+		} else if(_type ==  _this.BLOCK) {
+		    _blockInfo = blockOrBuildingInfo;
+		    _centerPoint = new BMap.Point(_this.getCentreCoord()[0], _this.getCentreCoord()[1]);
+		}
+
 		_defaultZoomLevel = 17;
-		_blockInfo = blockInfo;
-		_centerPoint = new BMap.Point(_this.getCentreCoord()[0], _this.getCentreCoord()[1]);
+
 		_map = new BMap.Map("printContainer", {enableHighResolution : true});
 		_map.addControl(new BMap.ScaleControl());
 		_map.centerAndZoom(_centerPoint, _this.getPrintZoomLevel());
@@ -58,18 +69,22 @@ Territory.PrintMap = Class.extend({
 					}
 				}
 
-
 				_this._addBusStationInfo(stationInfoHtml);
-
-
 			}
 		});
 
         if(isDisplayBusInfo) {
 		    _localSearch.searchNearby("公交车站", _centerPoint, 800);
 		}
-		_this.drawBlock(blockInfo["blockName"], blockInfo["blockNumber"], blockInfo["coord"]);
-		_this._drawBlockMarker(blockInfo["blockName"], blockInfo["blockNumber"], blockInfo["coord"]);
+
+		if(_type == _this.BLOCK) {
+		    _this.drawBlock(blockInfo["blockName"], blockInfo["blockNumber"], blockInfo["coord"]);
+            _this._drawBlockMarker(blockInfo["blockName"], blockInfo["blockNumber"], blockInfo["coord"]);
+		} else if(_type == _this.BUILDING) {
+            _this.drawBuilding(buildingInfo);
+            _this._drawFloorInfo(buildingInfo);
+		}
+
 
 		// Scale control takes time to initialize. Without this line, it won't be printed out.
         setTimeout(function(){
@@ -108,10 +123,14 @@ Territory.PrintMap = Class.extend({
 	},
 	
 	getPrintZoomLevel : function() {
-		if(_blockInfo["printZoomLevel"] != "") {
+		if(_type == _this.BLOCK && _blockInfo["printZoomLevel"] != "") {
 			return _blockInfo["printZoomLevel"];
+        }
+
+		if(_type == _this.BUILDING && _buildingInfo["printZoomLevel"] != "") {
+			return _buildingInfo["printZoomLevel"];
 		}
-		
+
 		return _defaultZoomLevel;
 	},
 	
@@ -126,7 +145,34 @@ Territory.PrintMap = Class.extend({
 		
 		_this._drawPolygon(pointArray);
 	},
-	
+
+	drawBuilding : function(buildingInfo) {
+		var lat = buildingInfo["coord"].split(",")[0];
+        var lng = buildingInfo["coord"].split(",")[1];
+        var block = buildingInfo["blockName"];
+        var number = buildingInfo["blockNumber"];
+        var buildingName = buildingInfo["name"];
+        var address = buildingInfo["address"];
+        var mkr = new BMap.Marker(new BMap.Point(parseFloat(lng), parseFloat(lat)) , {icon: new BMap.Icon("/images/building-icon.png", new BMap.Size(50, 55))});
+        var lbl = new BMap.Label(buildingName + ", " + address, { offset : new BMap.Size(12, -20) });
+        lbl.setStyle({ border : "solid 1px gray" });
+        mkr.setLabel(lbl);
+        _map.addOverlay(mkr);
+	},
+
+	_drawFloorInfo : function(buildingInfo)   {
+	    var floorInfo = buildingInfo["floor"];
+	    var sortedFloors = _this._getReverseSortedIndividualFloors(floorInfo);
+	    var floorTmplHtml = $("#floorTmpl").html();
+	    var floorInfoHtml = "";
+
+	    for(var i = 0; i < sortedFloors.length; i++) {
+	        floorInfoHtml += floorTmplHtml.replace("{floor}", sortedFloors[i]);
+	    }
+
+        $("#floorInfoDiv").html(floorInfoHtml);
+	},
+
 	_drawPolygon : function(pts){
 		var ply = new BMap.Polygon(pts, { strokeColor: "blue", strokeWeight: 3, strokeOpacity: 0.6, fillOpacity: 0.000001 });    
 	    _map.addOverlay(ply);  
@@ -140,6 +186,29 @@ Territory.PrintMap = Class.extend({
 		mkr.setTitle(title); 
 		mkr.setIcon(icon);
 		_map.addOverlay(mkr);
+	},
+
+	_getReverseSortedIndividualFloors : function(floorInfo) {
+	    var sortedFloorInfo = [];
+	    var floorInfoArray = floorInfo.split(",");
+
+	    for(var i = 0; i < floorInfoArray.length; i++) {
+	        var floorInfo = floorInfoArray[i];
+
+	        if(floorInfo.indexOf("-") != -1) {
+	            for(var j = parseInt(floorInfo.split("-")[0]); j <= parseInt(floorInfo.split("-")[1]); j++) {
+	                sortedFloorInfo.push(j);
+	            }
+	        } else {
+	            sortedFloorInfo.push(parseInt(floorInfo));
+	        }
+	    }
+
+	    sortedFloorInfo.sort(function(a, b){
+            return parseInt(b) - parseInt(a);
+        });
+
+        return sortedFloorInfo;
 	},
 	
 	_findMarkerPosition : function(pts) {

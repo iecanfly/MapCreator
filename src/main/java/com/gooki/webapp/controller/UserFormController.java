@@ -1,15 +1,15 @@
 package com.gooki.webapp.controller;
 
-import com.gooki.service.CongManager;
-import com.gooki.webapp.constant.TerritoryConstants;
-import org.apache.commons.lang.StringUtils;
 import com.gooki.Constants;
 import com.gooki.model.Role;
 import com.gooki.model.User;
+import com.gooki.service.CongManager;
 import com.gooki.service.RoleManager;
 import com.gooki.service.UserExistsException;
 import com.gooki.service.UserManager;
+import com.gooki.webapp.constant.TerritoryConstants;
 import com.gooki.webapp.util.RequestUtil;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;
 import org.springframework.security.access.AccessDeniedException;

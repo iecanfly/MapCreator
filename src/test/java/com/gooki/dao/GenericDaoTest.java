@@ -1,9 +1,9 @@
 package com.gooki.dao;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import com.gooki.dao.hibernate.GenericDaoHibernate;
 import com.gooki.model.User;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.hibernate.SessionFactory;
 import org.junit.Before;
 import org.junit.Test;

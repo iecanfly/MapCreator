@@ -1,13 +1,10 @@
 package com.gooki.service;
 
-import java.util.List;
-
-import com.gooki.dao.BlockDao;
-import com.gooki.service.GenericManager;
-
-import com.gooki.webapp.exception.BlockExistsException;
 import com.gooki.model.Block;
+import com.gooki.webapp.exception.BlockExistsException;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
 
 @Transactional
 public interface BlockManager extends GenericManager<Block, Long>{

@@ -1,10 +1,9 @@
 package com.gooki.service.impl;
 
 import com.gooki.dao.BlockDao;
-import com.gooki.webapp.exception.BlockExistsException;
 import com.gooki.model.Block;
 import com.gooki.service.BlockManager;
-import com.gooki.service.impl.GenericManagerImpl;
+import com.gooki.webapp.exception.BlockExistsException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;
