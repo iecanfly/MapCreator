@@ -15,7 +15,7 @@ Territory.DAO.Building = Class.extend({
               contentType : "application/json"
 			}).done(function(msg) {
 				if(msg.status == "OK") {
-				    me.refreshMap();
+				    me.addBuilding(buildingBlock, buildingNumber, buildingName, pt);
 				} else {
 				    alert(msg.message);
 				}
@@ -60,7 +60,7 @@ Territory.DAO.Building = Class.extend({
         });
     },
 	
-	deleteBuiding : function(id, callback) {
+	deleteBuilding : function(id, callback) {
 		$.ajax({
             url: "/buildings/delete",
             type: "POST",

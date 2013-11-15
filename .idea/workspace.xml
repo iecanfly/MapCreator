@@ -40,7 +40,7 @@
     <file path="/dialog.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1384528453696" ignored="false" />
     <file path="/dialogue.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1384527950208" ignored="false" />
     <file path="/pom.xml" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1384531052269" ignored="false" />
-    <file path="/buildingDAO.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1384531830106" ignored="false" />
+    <file path="/buildingDAO.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1384532158266" ignored="false" />
     <file path="/editBuildings.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1384531908403" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -184,19 +184,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buildingDAO.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="buildingDAO.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dao/buildingDAO.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="15" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.0">
+            <state line="22" column="81" selection-start="813" selection-end="813" vertical-scroll-proportion="0.65909094">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editBuildings.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="editBuildings.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/editBuildings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="19" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.39637828">
+            <state line="59" column="35" selection-start="2188" selection-end="2202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -233,8 +233,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/dao/blockDAO.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scripts/dao/buildingDAO.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/editBuildings.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/dao/buildingDAO.js" />
       </list>
     </option>
   </component>
@@ -1839,6 +1839,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/editBuildings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="35" selection-start="2188" selection-end="2202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dao/blockDAO.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="54" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
@@ -1848,14 +1855,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dao/buildingDAO.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="15" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/editBuildings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="19" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.39637828">
+        <state line="22" column="81" selection-start="813" selection-end="813" vertical-scroll-proportion="0.65909094">
           <folding />
         </state>
       </provider>
