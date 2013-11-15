@@ -56,7 +56,7 @@ Territory.EditBuilding = Class.extend({
 	    _buildingDAO.updateBuilding(building);
 	},
 
-	_deleteBlock : function(id) {
+	_deleteBuilding : function(id) {
 	    _buildingDAO.deleteBuilding(id, _this._deleteBuildingCallback);
 	},
 

@@ -60,7 +60,7 @@ Territory.DAO.Building = Class.extend({
         });
     },
 	
-	deleteBlock : function(id, callback) {
+	deleteBuiding : function(id, callback) {
 		$.ajax({
             url: "/buildings/delete",
             type: "POST",
