@@ -19,9 +19,9 @@
 
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="org.postgresql.Driver"/>
-        <property name="url" value="jdbc:postgresql://127.0.0.1:5432/hibernate"/>
-        <property name="username" value="postgres"/>
-        <property name="password" value="happy1"/>
+        <property name="url" value="jdbc:postgresql://ec2-54-225-89-169.compute-1.amazonaws.com:5432/d3ljdkm6ccu7bj"/>
+        <property name="username" value="ogobkakehshnnl"/>
+        <property name="password" value="AsGmSSqMvN_ceviFhobcIdQxd-"/>
         <property name="maxActive" value="100"/>
         <property name="maxWait" value="1000"/>
         <property name="poolPreparedStatements" value="true"/>

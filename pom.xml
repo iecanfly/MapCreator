@@ -1004,6 +1004,17 @@
     </profiles>
 
     <properties>
+        <dbunit.dataTypeFactoryName>org.dbunit.ext.postgresql.PostgresqlDataTypeFactory</dbunit.dataTypeFactoryName>
+        <dbunit.operation.type>UPDATE</dbunit.operation.type>
+        <hibernate.dialect>org.hibernate.dialect.ProgressDialect</hibernate.dialect>
+        <jdbc.groupId>postgresql</jdbc.groupId>
+        <jdbc.artifactId>postgresql</jdbc.artifactId>
+        <jdbc.version>8.1-407.jdbc3</jdbc.version>
+        <jdbc.driverClassName>org.postgresql.Driver</jdbc.driverClassName>
+        <jdbc.url>jdbc:postgresql://ec2-54-225-89-169.compute-1.amazonaws.com:5432/d3ljdkm6ccu7bj</jdbc.url>
+        <jdbc.username>ogobkakehshnnl</jdbc.username>
+        <jdbc.password>AsGmSSqMvN_ceviFhobcIdQxd-</jdbc.password>
+
         <!-- Application settings -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <copyright.year>2012</copyright.year>
