@@ -95,6 +95,7 @@ Territory.Map = Class.extend({
 				coord = coord.concat(";");
 			}
 		}
+
 		_blockDAO.saveBlock(_cong, block,number, coord);
 	},
 

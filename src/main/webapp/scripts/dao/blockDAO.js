@@ -15,7 +15,7 @@ Territory.DAO.Block = Class.extend({
               contentType : "application/json"
 			}).done(function(msg) {
 				if(msg.status == "OK") {
-				     me.drawBlock(block, number, coord);
+				     me.drawBlock({block : block, number : number, coord : coord});
 				} else {
 				    alert(msg.message);
 				}
@@ -29,8 +29,8 @@ Territory.DAO.Block = Class.extend({
         _territoryMap.refreshMap();
     },
 
-	drawBlock : function(block, number, coord) {
-        _territoryMap.drawBlock(block, number, coord);
+	drawBlock : function(block) {
+        _territoryMap.drawBlock(block);
     },
 
 	getAllBlocks : function(cong) {

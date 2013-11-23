@@ -15,7 +15,7 @@ Territory.DAO.Building = Class.extend({
               contentType : "application/json"
 			}).done(function(msg) {
 				if(msg.status == "OK") {
-				    me.addBuilding(buildingBlock, buildingNumber, buildingName, pt);
+				    me.addBuilding({block : buildingBlock, number : buildingNumber, name : buildingName, coord : pt});
 				} else {
 				    alert(msg.message);
 				}
@@ -28,8 +28,8 @@ Territory.DAO.Building = Class.extend({
 	    _territoryMap.refreshMap();
 	},
 	
-	addBuilding : function(block, number, buildingName, pt) {
-		_territoryMap.addBuilding(block, number, buildingName, pt);
+	addBuilding : function(building) {
+		_territoryMap.addBuilding(building);
 	},
 
 	getAllBuildings : function(cong, buildingBlock) {
