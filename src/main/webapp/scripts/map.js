@@ -223,7 +223,7 @@ Territory.Map = Class.extend({
 
 	drawBlock : function(block) {
 		_this._blocks.push(block)
-		var pointStrArray = block.pts.split(";");
+		var pointStrArray = block.coord.split(";");
 		var pointArray = [];
 
 		for ( var i = 0; i < pointStrArray.length; i++) {
@@ -232,7 +232,7 @@ Territory.Map = Class.extend({
 		}
 
 		_this._drawPolygon(pointArray);
-		_this._drawBlockMarker(block.block, block.number, block.pts);
+		_this._drawBlockMarker(block.block, block.number, block.coord);
 	},
 
 	drawBuildings : function(buildings) {
