@@ -218,8 +218,6 @@ Territory.Map = Class.extend({
 		for ( var i = 0; i < blocks.length; i++) {
 			_this.drawBlock(blocks[i]);
 		}
-
-		_this._initViewFilterCombo(BLOCK, _this._blocks);
 	},
 
 	drawBlock : function(block) {
@@ -234,6 +232,7 @@ Territory.Map = Class.extend({
 
 		_this._drawPolygon(pointArray);
 		_this._drawBlockMarker(block.block, block.number, block.coord);
+		_this._initViewFilterCombo(BLOCK, _this._blocks);
 	},
 
 	drawBuildings : function(buildings) {
@@ -242,13 +241,12 @@ Territory.Map = Class.extend({
         for ( var i = 0; i < buildings.length; i++) {
             _this.drawBuilding(buildings[i]);
         }
-
-        _this._initViewFilterCombo(BUILDING, _this._buildings);
     },
 
     drawBuilding : function(building) {
         _this._buildings.push(building);
         _this.addBuilding(building.block, building.number, building.name, building.coord);
+        _this._initViewFilterCombo(BUILDING, _this._buildings);
     },
 
 	_drawPolygon : function(pts) {

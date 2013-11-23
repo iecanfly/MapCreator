@@ -123,10 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="map.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="60" selection-start="3353" selection-end="3401" vertical-scroll-proportion="-11.52">
+            <state line="234" column="57" selection-start="7621" selection-end="7621" vertical-scroll-proportion="0.7254902">
               <folding />
             </state>
           </provider>
@@ -150,10 +150,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buildingDAO.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="buildingDAO.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dao/buildingDAO.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="42" selection-start="998" selection-end="998" vertical-scroll-proportion="0.83677685">
+            <state line="22" column="17" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -198,9 +198,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/editBuildings.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/createCong.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scripts/map.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/dao/blockDAO.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/dao/buildingDAO.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/map.js" />
       </list>
     </option>
   </component>
@@ -1796,13 +1796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="60" selection-start="3353" selection-end="3401" vertical-scroll-proportion="-11.52">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dao/blockDAO.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="5" selection-start="766" selection-end="841" vertical-scroll-proportion="0.0">
@@ -1812,7 +1805,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dao/buildingDAO.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="42" selection-start="998" selection-end="998" vertical-scroll-proportion="0.83677685">
+        <state line="22" column="17" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="234" column="57" selection-start="7621" selection-end="7621" vertical-scroll-proportion="0.7254902">
           <folding />
         </state>
       </provider>
