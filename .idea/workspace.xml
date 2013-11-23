@@ -5,7 +5,7 @@
     <ignored path="hibernate.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/createCong.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385198170204" ignored="false" />
-    <file path="/map.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385214246995" ignored="false" />
+    <file path="/map.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385214782480" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +124,7 @@
       <file leaf-file-name="map.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="214" column="32" selection-start="7074" selection-end="7074" vertical-scroll-proportion="0.37190083">
+            <state line="249" column="64" selection-start="8022" selection-end="8022" vertical-scroll-proportion="0.65082645">
               <folding />
             </state>
           </provider>
@@ -1810,7 +1810,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="214" column="32" selection-start="7074" selection-end="7074" vertical-scroll-proportion="0.37190083">
+        <state line="249" column="64" selection-start="8022" selection-end="8022" vertical-scroll-proportion="0.65082645">
           <folding />
         </state>
       </provider>

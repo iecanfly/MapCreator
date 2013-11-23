@@ -215,16 +215,15 @@ Territory.Map = Class.extend({
 		_this._blocks = [];
 
 		for ( var i = 0; i < blocks.length; i++) {
-			var block = blocks[i];
-             _this._blocks.push(block)
-			_this.drawBlock(block.block, block.number, block.coord);
+			_this.drawBlock(blocks[i]);
 		}
 
 		_this._initViewFilterCombo(BLOCK, _this._blocks);
 	},
 
-	drawBlock : function(block, number, pts) {
-		var pointStrArray = pts.split(";");
+	drawBlock : function(block) {
+		_this._blocks.push(block)
+		var pointStrArray = block.pts.split(";");
 		var pointArray = [];
 
 		for ( var i = 0; i < pointStrArray.length; i++) {
@@ -233,23 +232,22 @@ Territory.Map = Class.extend({
 		}
 
 		_this._drawPolygon(pointArray);
-		_this._drawBlockMarker(block, number, pts);
+		_this._drawBlockMarker(block.block, block.number, block.pts);
 	},
 
 	drawBuildings : function(buildings) {
         _this._buildings = [];
 
         for ( var i = 0; i < buildings.length; i++) {
-            var building = buildings[i];
-            _this._buildings.push(building);
-            _this.drawBuilding(building.block, building.number, building.name, building.coord);
+            _this.drawBuilding(buildings[i]);
         }
 
         _this._initViewFilterCombo(BUILDING, _this._buildings);
     },
 
-    drawBuilding : function(block, number, name, pt) {
-        _this.addBuilding(block, number, name, pt);
+    drawBuilding : function(building) {
+        _this._buildings.push(building);
+        _this.addBuilding(building.block, building.number, building.name, building.coord);
     },
 
 	_drawPolygon : function(pts) {
