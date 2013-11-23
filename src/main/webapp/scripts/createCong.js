@@ -15,14 +15,14 @@ Territory.NewCong = Class.extend({
 		_map.centerAndZoom(new BMap.Point(105.561739, 35.821825), 5);
 		_map.enableScrollWheelZoom();
 		_map.addEventListener("moving", function(e) {
-			$("#inputLat").val(e.currentTarget.centerPoint.lat);
-			$("#inputLng").val(e.currentTarget.centerPoint.lng);
+			$("#inputLat").val(e.currentTarget.getCenter().lat);
+			$("#inputLng").val(e.currentTarget.getCenter().lng);
 		});
 		
 		_map.addEventListener("zoomend", function(e) {
-			$("#inputZoom").val(e.currentTarget.zoomLevel);
-			$("#inputLat").val(e.currentTarget.centerPoint.lat);
-			$("#inputLng").val(e.currentTarget.centerPoint.lng);
+			$("#inputZoom").val(e.currentTarget.getZoom());
+			$("#inputLat").val(e.currentTarget.getCenter().lat);
+			$("#inputLng").val(e.currentTarget.getCenter().lng);
 		});
 		
 		$("#inputLat").val(_map.getCenter().lat);

@@ -212,6 +212,7 @@ Territory.Map = Class.extend({
 	},
 
 	drawBlocks : function(data) {
+		//TODO : Initialize the blocks and then add blocks inside the drawBlock, same with the buildings
 		_this._blocks = data;
 
 		for ( var i = 0; i < _this._blocks.length; i++) {
