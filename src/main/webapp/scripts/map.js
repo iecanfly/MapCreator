@@ -191,7 +191,7 @@ Territory.Map = Class.extend({
             for (var i = 0; i < _this._blocks.length; i++) {
                 var block = _this._blocks[i];
                 if(block.block === blockName) {
-                    _this.drawBlock(block.block, block.number, block.coord);
+                    _this.drawBlock(block);
                     appendedCoord = appendedCoord + block.coord;
                 }
             }
@@ -201,7 +201,7 @@ Territory.Map = Class.extend({
             for (var i = 0; i < _this._buildings.length; i++) {
                 var building = _this._buildings[i];
                 if(building.block === blockName) {
-                    _this.drawBuilding(building.block, building.number, building.name, building.coord);
+                    _this.drawBuilding(building);
                     appendedCoord = appendedCoord + building.coord;
                 }
             }
