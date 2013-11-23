@@ -211,12 +211,12 @@ Territory.Map = Class.extend({
         _map.centerAndZoom(new BMap.Point(centerPoint[0], centerPoint[1]), _map.getZoom());
 	},
 
-	drawBlocks : function(data) {
-		//TODO : Initialize the blocks and then add blocks inside the drawBlock, same with the buildings
-		_this._blocks = data;
+	drawBlocks : function(blocks) {
+		_this._blocks = [];
 
-		for ( var i = 0; i < _this._blocks.length; i++) {
-			var block = _this._blocks[i];
+		for ( var i = 0; i < blocks.length; i++) {
+			var block = blocks[i];
+             _this._blocks.push(block)
 			_this.drawBlock(block.block, block.number, block.coord);
 		}
 
@@ -236,11 +236,12 @@ Territory.Map = Class.extend({
 		_this._drawBlockMarker(block, number, pts);
 	},
 
-	drawBuildings : function(data) {
-        _this._buildings = data;
+	drawBuildings : function(buildings) {
+        _this._buildings = [];
 
-        for ( var i = 0; i < _this._buildings.length; i++) {
-            var building = _this._buildings[i];
+        for ( var i = 0; i < buildings.length; i++) {
+            var building = buildings[i];
+            _this._buildings.push(building);
             _this.drawBuilding(building.block, building.number, building.name, building.coord);
         }
 
