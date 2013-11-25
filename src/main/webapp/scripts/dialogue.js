@@ -144,7 +144,7 @@ Territory.Dialogue = Class.extend({
         });
 
         $(document).on("click", "#printBlocksOptionForOverall", function () {
-            _this._printOptionForOverall = $(this).is(":checked");
+            _this._printBlocksOptionForOverall = $(this).is(":checked");
         });
 	},
 
@@ -162,7 +162,7 @@ Territory.Dialogue = Class.extend({
                 }
             });
 
-            if(_this._printBuildingOptionForOverall) {
+            if(_this._printBuildingsOptionForOverall) {
                 window.open("/print/buildings/printOverallMultiple/" + _cong + "/" + $("#printBuildingsOptionForOverall").is(":checked") + "/" +blocks.join(",") + ",");
             } else {
                 window.open("/print/buildings/printMultiple/" + _cong + "/" + $("#printBuildingsOptionForBusInfo").is(":checked") + "/" +blocks.join(",") + ",");
@@ -184,7 +184,7 @@ Territory.Dialogue = Class.extend({
         });
 
         $(document).on("click", "#printBuildingsOptionForOverall", function () {
-            _this._printOptionForOverall = $(this).is(":checked");
+            _this._printBuildingsOptionForOverall = $(this).is(":checked");
         });
 	},
 

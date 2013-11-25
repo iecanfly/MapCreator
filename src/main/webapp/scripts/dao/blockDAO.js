@@ -30,7 +30,9 @@ Territory.DAO.Block = Class.extend({
     },
 
 	drawBlock : function(block) {
+        _territoryMap.addBlock(block);
         _territoryMap.drawBlock(block);
+        _territoryMap.initViewFilterCombo("block");
     },
 
 	getAllBlocks : function(cong) {

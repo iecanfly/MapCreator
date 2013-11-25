@@ -5,9 +5,14 @@
     <ignored path="hibernate.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/createCong.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385198170204" ignored="false" />
-    <file path="/map.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385214782480" ignored="false" />
-    <file path="/blockDAO.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385216028936" ignored="false" />
-    <file path="/buildingDAO.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385216091512" ignored="false" />
+    <file path="/map.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385368578130" ignored="false" />
+    <file path="/blockDAO.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385369063772" ignored="false" />
+    <file path="/buildingDAO.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385369077245" ignored="false" />
+    <file path="/a.dummy" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385367272240" ignored="false" />
+    <file path="/printSingleBuilding.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385369874790" ignored="false" />
+    <file path="/main.css" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385369957407" ignored="false" />
+    <file path="/dialog.jsp" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385370363499" ignored="false" />
+    <file path="/dialogue.js" changelist="874c0c77-05a3-4196-bb73-a3c93c6717f6" time="1385370498259" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,37 +83,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="printSingleBlock.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingleBlock.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="62" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dialogue.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="31" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="970" column="38" selection-start="40583" selection-end="40583" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="55" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.0">
+            <state line="49" column="21" selection-start="2755" selection-end="2775" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dialogue.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="164" column="17" selection-start="5043" selection-end="5043" vertical-scroll-proportion="0.66013074">
               <folding />
             </state>
           </provider>
@@ -117,25 +104,7 @@
       <file leaf-file-name="dialog.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/common/dialog.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="149" column="100" selection-start="6261" selection-end="6291" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="44" selection-start="6701" selection-end="6701" vertical-scroll-proportion="-0.05882353">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createCong.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/createCong.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="44" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0">
+            <state line="141" column="64" selection-start="5622" selection-end="5649" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,7 +113,7 @@
       <file leaf-file-name="blockDAO.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dao/blockDAO.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="5" selection-start="766" selection-end="841" vertical-scroll-proportion="0.0">
+            <state line="34" column="48" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,7 +122,43 @@
       <file leaf-file-name="buildingDAO.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dao/buildingDAO.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="17" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
+            <state line="34" column="6" selection-start="927" selection-end="1093" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="printSingleBuilding.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingleBuilding.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="92" selection-start="875" selection-end="962" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="printOverallSingleBuilding.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBuilding.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="8" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="printOverallSingleBlock.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBlock.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="printMap.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/printMap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="156" column="8" selection-start="5181" selection-end="5181" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -186,21 +191,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printMultipleBuildings.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scripts/printMap.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/decorators/printSingleDefault.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingleBuilding.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBlock.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBuilding.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingleBlock.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/common/dialog.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/styles/main.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/editBuildings.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/createCong.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/map.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/dao/blockDAO.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/dao/buildingDAO.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scripts/map.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/styles/main.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingleBuilding.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBuilding.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/printMap.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/common/dialog.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js" />
       </list>
     </option>
   </component>
@@ -1611,6 +1616,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855093" sideWeight="0.7369077" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23441397" sideWeight="0.49713057" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6599713" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1623,7 +1629,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20014347" sideWeight="0.7248677" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27513227" sideWeight="0.7819225" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27513227" sideWeight="0.7819225" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1638,7 +1644,6 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6599713" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32668328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1717,31 +1722,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/printSingleDefault.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingleBuilding.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="34" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBuilding.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="12" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBlock.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="708" selection-end="730" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printRecordSheetSingle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingleBlock.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="62" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
@@ -1749,30 +1729,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="55" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="87" selection-start="1" selection-end="86" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/editBuildings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="35" selection-start="2191" selection-end="2205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/dialog.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="100" selection-start="6261" selection-end="6291" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1789,30 +1748,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="31" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
+        <state line="248" column="24" selection-start="7795" selection-end="7795" vertical-scroll-proportion="-148.8">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dao/blockDAO.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="5" selection-start="766" selection-end="841" vertical-scroll-proportion="0.0">
+        <state line="34" column="48" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dao/buildingDAO.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="17" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
+        <state line="34" column="6" selection-start="927" selection-end="1093" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/map.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/editBuildings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="44" selection-start="6701" selection-end="6701" vertical-scroll-proportion="-0.05882353">
+        <state line="59" column="35" selection-start="2191" selection-end="2205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="21" selection-start="2755" selection-end="2775" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingleBuilding.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="92" selection-start="875" selection-end="962" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/printMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="8" selection-start="5181" selection-end="5181" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBlock.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBuilding.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="8" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/dialog.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="64" selection-start="5622" selection-end="5649" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/dialogue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="17" selection-start="5043" selection-end="5043" vertical-scroll-proportion="0.66013074">
           <folding />
         </state>
       </provider>

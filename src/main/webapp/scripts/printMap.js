@@ -154,9 +154,6 @@ Territory.PrintMap = Class.extend({
         var buildingName = buildingInfo["name"];
         var address = buildingInfo["address"];
         var mkr = new BMap.Marker(new BMap.Point(parseFloat(lng), parseFloat(lat)) , {icon: new BMap.Icon("/images/building-icon.png", new BMap.Size(50, 55))});
-        var lbl = new BMap.Label(buildingName + ", " + address, { offset : new BMap.Size(12, -20) });
-        lbl.setStyle({ border : "solid 1px gray" });
-        mkr.setLabel(lbl);
         _map.addOverlay(mkr);
 	},
 

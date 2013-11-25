@@ -30,6 +30,8 @@ Territory.DAO.Building = Class.extend({
 	
 	addBuilding : function(building) {
 		_territoryMap.addBuilding(building);
+		_territoryMap.drawBuilding(building);
+		_territoryMap.initViewFilterCombo("building");
 	},
 
 	getAllBuildings : function(cong, buildingBlock) {

@@ -21,6 +21,7 @@
 <body id="printBody">
     <div style="width: 100%; height: 100%; border:none;" id="printContainer"></div>
     <h4 id="printBlockNumberHeader">${building.block}-${building.number}</h4>
+    <div id="printBuildingInfoDiv"><span>${building.name}, ${building.address}</span></div>
      <c:if test="${isDisplayBusInfo}">
         <div id="busInfoDiv"></div>
      </c:if>

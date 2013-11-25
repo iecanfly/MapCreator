@@ -53,7 +53,7 @@ Territory.Map = Class.extend({
 		_this._init();
 	},
 	
-	_initViewFilterCombo : function(type, data) {
+	initViewFilterCombo : function(type) {
 	    var seperator = $("#viewFilterSeperatorTmpl").html();
 	    var currentComboHTML = $("#cboViewFilter").html();
 	    var currentComboBlockHTML = currentComboHTML.split(seperator)[0];
@@ -65,7 +65,7 @@ Territory.Map = Class.extend({
         });
 
 	    if(type == BLOCK) {
-	        var uniqueBlockNames = this._getUniqueBlockNames(data);
+	        var uniqueBlockNames = this._getUniqueBlockNames(_this._blocks);
             var options = $("#viewFilterBlockOptionTmpl").html().replace(/{val}/gi, "").replace(/{name}/gi, "View All");
 
             for(var i = 0; i < uniqueBlockNames.length; i++) {
@@ -75,7 +75,7 @@ Territory.Map = Class.extend({
             options = options + seperator + currentComboBuildingHTML;
             $("#cboViewFilter").html(options);
 	    } else if(type == BUILDING) {
-            var uniqueBlockNames = this._getUniqueBlockNames(data);
+            var uniqueBlockNames = this._getUniqueBlockNames(_this._buildings);
             var options = currentComboBlockHTML +  seperator;
 
             for(var i = 0; i < uniqueBlockNames.length; i++) {
@@ -213,15 +213,16 @@ Territory.Map = Class.extend({
 	},
 
 	drawBlocks : function(blocks) {
-		_this._blocks = [];
+		_this._blocks = blocks;
 
 		for ( var i = 0; i < blocks.length; i++) {
 			_this.drawBlock(blocks[i]);
 		}
+
+		_this.initViewFilterCombo(BLOCK);
 	},
 
 	drawBlock : function(block) {
-		_this._blocks.push(block)
 		var pointStrArray = block.coord.split(";");
 		var pointArray = [];
 
@@ -232,21 +233,34 @@ Territory.Map = Class.extend({
 
 		_this._drawPolygon(pointArray);
 		_this._drawBlockMarker(block.block, block.number, block.coord);
-		_this._initViewFilterCombo(BLOCK, _this._blocks);
+	},
+
+	addBlock : function(block) {
+	    _this._blocks.push(block);
 	},
 
 	drawBuildings : function(buildings) {
-        _this._buildings = [];
+        _this._buildings = buildings;
 
         for ( var i = 0; i < buildings.length; i++) {
             _this.drawBuilding(buildings[i]);
         }
+
+        _this.initViewFilterCombo(BUILDING);
     },
 
     drawBuilding : function(building) {
+        var lat = building.coord.split(",")[0];
+        var lng = building.coord.split(",")[1];
+        var mkr = new BMap.Marker(new BMap.Point(parseFloat(lng), parseFloat(lat)) , {icon: new BMap.Icon("../images/building-icon.png", new BMap.Size(50, 55))});
+        var lbl = new BMap.Label(building.block + "-" + building.number + ":" + building.name, { offset : new BMap.Size(12, -20) });
+        lbl.setStyle({ border : "solid 1px gray" });
+        mkr.setLabel(lbl);
+        _map.addOverlay(mkr);
+    },
+
+    addBuilding : function(building) {
         _this._buildings.push(building);
-        _this.addBuilding(building.block, building.number, building.name, building.coord);
-        _this._initViewFilterCombo(BUILDING, _this._buildings);
     },
 
 	_drawPolygon : function(pts) {
@@ -256,16 +270,6 @@ Territory.Map = Class.extend({
 	
 	showRecords : function(data) {
 		_dialogue.openViewRecordDialogue(data);
-	},
-
-	addBuilding : function(block, number, buildingName, pt) {
-	    var lat = pt.split(",")[0];
-        var lng = pt.split(",")[1];
-        var mkr = new BMap.Marker(new BMap.Point(parseFloat(lng), parseFloat(lat)) , {icon: new BMap.Icon("../images/building-icon.png", new BMap.Size(50, 55))});
-        var lbl = new BMap.Label(block + "-" + number + ":" + buildingName, { offset : new BMap.Size(12, -20) });
-        lbl.setStyle({ border : "solid 1px gray" });
-        mkr.setLabel(lbl);
-        _map.addOverlay(mkr);
 	},
 
 	_getMarkerContextMenu : function() {
