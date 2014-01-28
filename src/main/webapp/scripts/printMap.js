@@ -41,19 +41,19 @@ Territory.PrintMap = Class.extend({
 							 },
 			pageCapacity : 70,
 			onSearchComplete : function(result) {
-				
+
 			},
-			
+
 			onMarkersSet : function(pois) {
 				// sort by number of buses available
 				pois.sort(function(a, b){
 					return b.address.split(";").length - a.address.split(";").length;
 				});
-				
+
 				var lbl;
 				var selectedStationCnt = 0;
 				var stationInfoHtml = "";
-				
+
 				for(var j = 0; j < pois.length; j++) {
 					if((selectedStationCnt < _this.NUM_BUS_STATIONS) && (_this._getDistanceFromCenterMarker(pois[j]) < 400)) {
 						selectedStationCnt++;
@@ -62,8 +62,8 @@ Territory.PrintMap = Class.extend({
 						lbl = new BMap.Label(selectedStationCnt, {offset: new BMap.Size(15, 1)});
 						lbl.setStyle({paddingBottom:"5px",fontSize:"15px", color:"black", border: "1px solid"});
 						var icon = new BMap.Icon("/images/no_marker.png", new BMap.Size(14,23))
-						pois[j].marker.setLabel(lbl);	
-						pois[j].marker.setIcon(icon);	
+						pois[j].marker.setLabel(lbl);
+						pois[j].marker.setIcon(icon);
 					} else {
 						pois[j].marker.remove();
 					}
@@ -74,7 +74,7 @@ Territory.PrintMap = Class.extend({
 		});
 
         if(isDisplayBusInfo) {
-		    _localSearch.searchNearby("公交车站", _centerPoint, 800);
+		    _localSearch.searchNearby("公交", _centerPoint, 800);
 		}
 
 		if(_type == _this.BLOCK) {
