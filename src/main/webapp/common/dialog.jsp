@@ -142,6 +142,8 @@
         <input type="checkbox" name="printBlocksOptionForOverall" id="printBlocksOptionForOverall" class="printcheckForOptionRecord" />
         <span class="printlabel" >Bus Info</span>
         <input type="checkbox" name="printBlocksOptionForBusInfo" id="printBlocksOptionForBusInfo" class="printcheckForOptionRecord" />
+        <span class="printlabel" >Business Type Info</span>
+        <input type="checkbox" name="printBlocksOptionForBusinessTypeInfo" id="printBlocksOptionForBusinessTypeInfo" class="printcheckForOptionRecord" />
     </div>
 </div>
 <div style="display:none" id="printBuildingsOptionTempl">
@@ -152,6 +154,8 @@
         <input type="checkbox" name="printBuildingsOptionForOverall" id="printBuildingsOptionForOverall" class="printcheckForOptionRecord" />
         <span class="printlabel" >Bus Info</span>
         <input type="checkbox" name="printBuildingsOptionForBusInfo" id="printBuildingsOptionForBusInfo" class="printcheckForOptionRecord" />
+        <span class="printlabel" >Business Type Info</span>
+        <input type="checkbox" name="printBuildingsOptionForBusinessTypeInfo" id="printBuildingsOptionForBusinessTypeInfo" class="printcheckForOptionRecord" />
     </div>
 </div>
 

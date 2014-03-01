@@ -26,8 +26,8 @@ public class PrintController extends TerritoryBaseController {
         this.blockManager = blockManager;
     }
 
-    @RequestMapping(value = "/blocks/{printType}Multiple/{congName}/{isDisplayBusInfo}/{block}", method = RequestMethod.GET)
-    public ModelAndView handlePrintMultipleBlocksRequest(@PathVariable String congName, @PathVariable String block, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo) throws Exception {
+    @RequestMapping(value = "/blocks/{printType}Multiple/{congName}/{isDisplayBusInfo}/{isDisplayBusinessTypeInfo}/{block}", method = RequestMethod.GET)
+    public ModelAndView handlePrintMultipleBlocksRequest(@PathVariable String congName, @PathVariable String block, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo, @PathVariable Boolean isDisplayBusinessTypeInfo) throws Exception {
         Model model = new ExtendedModelMap();
         String[] blockArray = block.split(",");
         model.addAttribute(TerritoryConstants.BLOCK_LIST.getValue(), blockManager.getBlocks(congName, blockArray));
@@ -35,8 +35,8 @@ public class PrintController extends TerritoryBaseController {
         return new ModelAndView("print/" + printType + "MultipleBlocks", model.asMap());
     }
 
-    @RequestMapping(value = "/blocks/{printType}Single/{congName}/{isDisplayBusInfo}/{block}", method = RequestMethod.GET)
-    public ModelAndView handlePrintBlockRequest(@PathVariable String congName, @PathVariable String block, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo) throws Exception {
+    @RequestMapping(value = "/blocks/{printType}Single/{congName}/{isDisplayBusInfo}/{isDisplayBusinessTypeInfo}/{block}", method = RequestMethod.GET)
+    public ModelAndView handlePrintBlockRequest(@PathVariable String congName, @PathVariable String block, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo, @PathVariable Boolean isDisplayBusinessTypeInfo) throws Exception {
         Model model = new ExtendedModelMap();
         String blockName = block.split(TerritoryConstants.SEPERATOR.getValue())[0];
         String blockNumber = block.split(TerritoryConstants.SEPERATOR.getValue())[1];
@@ -45,8 +45,8 @@ public class PrintController extends TerritoryBaseController {
         return new ModelAndView("print/" + printType + "SingleBlock", model.asMap());
     }
 
-    @RequestMapping(value = "/buildings/{printType}Multiple/{congName}/{isDisplayBusInfo}/{buildingBlock}", method = RequestMethod.GET)
-    public ModelAndView handlePrintMultipleBuildingsRequest(@PathVariable String congName, @PathVariable String buildingBlock, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo) throws Exception {
+    @RequestMapping(value = "/buildings/{printType}Multiple/{congName}/{isDisplayBusInfo}/{isDisplayBusinessTypeInfo}/{buildingBlock}", method = RequestMethod.GET)
+    public ModelAndView handlePrintMultipleBuildingsRequest(@PathVariable String congName, @PathVariable String buildingBlock, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo, @PathVariable Boolean isDisplayBusinessTypeInfo) throws Exception {
         Model model = new ExtendedModelMap();
         String[] buildingArray = buildingBlock.split(",");
         model.addAttribute(TerritoryConstants.BUILDING_LIST.getValue(), buildingManager.getBuildings(congName, buildingArray));
@@ -54,8 +54,8 @@ public class PrintController extends TerritoryBaseController {
         return new ModelAndView("print/" + printType + "MultipleBuildings", model.asMap());
     }
 
-    @RequestMapping(value = "/buildings/{printType}Single/{congName}/{isDisplayBusInfo}/{buildingBlock}", method = RequestMethod.GET)
-    public ModelAndView handlePrintBuildingRequest(@PathVariable String congName, @PathVariable String buildingBlock, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo) throws Exception {
+    @RequestMapping(value = "/buildings/{printType}Single/{congName}/{isDisplayBusInfo}/{isDisplayBusinessTypeInfo}/{buildingBlock}", method = RequestMethod.GET)
+    public ModelAndView handlePrintBuildingRequest(@PathVariable String congName, @PathVariable String buildingBlock, @PathVariable String printType, @PathVariable Boolean isDisplayBusInfo, @PathVariable Boolean isDisplayBusinessTypeInfo) throws Exception {
         Model model = new ExtendedModelMap();
         String buildingBlockName = buildingBlock.split(TerritoryConstants.SEPERATOR.getValue())[0];
         String buildingBlockNumber = buildingBlock.split(TerritoryConstants.SEPERATOR.getValue())[1];

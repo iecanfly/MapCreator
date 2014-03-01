@@ -3,7 +3,7 @@
     <div style="width: 1650px;">
         <c:forEach var="block" items="${blockList}" >
             <iframe style="width: 800px; height: 550px;  margin-right:20px; margin-bottom: 10px; border:dotted 1px"
-                src="/print/blocks/printSingle/${block.cong}/${isDisplayBusInfo}/${block.block}^${block.number}"></iframe>
+                src="/print/blocks/printSingle/${block.cong}/${isDisplayBusInfo}/${isDisplayBusinessTypeInfo}/${block.block}^${block.number}"></iframe>
         </c:forEach>
     </div>
 </body>

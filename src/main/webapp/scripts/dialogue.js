@@ -122,10 +122,13 @@ Territory.Dialogue = Class.extend({
                 }
             });
 
+            var isDisplayBusInfo = $("#printBlocksOptionForBusInfo").is(":checked");
+            var isDisplayBusinessTypeInfo = $("#printBlocksOptionForBusinessTypeInfo").is(":checked");
+
             if(_this._printBlocksOptionForOverall) {
-                window.open("/print/blocks/printOverallMultiple/" + _cong + "/" + $("#printBlocksOptionForBusInfo").is(":checked") + "/" +blocks.join(",") + ",");
+                window.open("/print/blocks/printOverallMultiple/" + _cong + "/" + isDisplayBusInfo + "/" + isDisplayBusinessTypeInfo + "/" + blocks.join(",") + ",");
             } else {
-                window.open("/print/blocks/printMultiple/" + _cong + "/" + $("#printBlocksOptionForBusInfo").is(":checked") + "/" +blocks.join(",") + ",");
+                window.open("/print/blocks/printMultiple/" + _cong + "/" + isDisplayBusInfo + "/" + isDisplayBusinessTypeInfo + "/" + blocks.join(",") + ",");
             }
 
             $("#print_dialog_form").modal("hide");
@@ -162,10 +165,13 @@ Territory.Dialogue = Class.extend({
                 }
             });
 
+            var isDisplayBusInfo = $("#printBuildingsOptionForBusInfo").is(":checked");
+            var isDisplayBusinessTypeInfo = $("#printBuildingsOptionForBusinessTypeInfo").is(":checked");
+
             if(_this._printBuildingsOptionForOverall) {
-                window.open("/print/buildings/printOverallMultiple/" + _cong + "/" + $("#printBuildingsOptionForOverall").is(":checked") + "/" +blocks.join(",") + ",");
+                window.open("/print/buildings/printOverallMultiple/" + _cong + "/" + isDisplayBusInfo + "/" + isDisplayBusinessTypeInfo + "/" + blocks.join(",") + ",");
             } else {
-                window.open("/print/buildings/printMultiple/" + _cong + "/" + $("#printBuildingsOptionForBusInfo").is(":checked") + "/" +blocks.join(",") + ",");
+                window.open("/print/buildings/printMultiple/" + _cong + "/" + isDisplayBusInfo + "/" + isDisplayBusinessTypeInfo + "/" +blocks.join(",") + ",");
             }
 
             $("#print_buildings_dialog_form").modal("hide");
