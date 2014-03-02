@@ -89,7 +89,9 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingleBlock.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="0" selection-start="64" selection-end="150" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="750">
-              <folding />
+              <folding>
+                <marker date="1393682644000" expanded="true" signature="593:663" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,15 +127,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBlock.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="86" selection-start="150" selection-end="150" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="600">
-              <folding />
+              <folding>
+                <marker date="1393683406000" expanded="true" signature="593:663" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="printOverallSingleBuilding.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBuilding.jsp">
+      <file leaf-file-name="mail.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="86" selection-start="150" selection-end="150" vertical-scroll-proportion="0.030425964" vertical-offset="0" max-vertical-offset="645">
+            <state line="7" column="38" selection-start="261" selection-end="261" vertical-scroll-proportion="0.20309478" vertical-offset="0" max-vertical-offset="517">
               <folding />
             </state>
           </provider>
@@ -203,6 +207,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingleBuilding.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBlock.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBuilding.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mail.properties" />
       </list>
     </option>
   </component>
@@ -1914,12 +1919,12 @@
       <workItem from="1393071147475" duration="2534000" />
       <workItem from="1393140578140" duration="597000" />
       <workItem from="1393142993411" duration="1783000" />
-      <workItem from="1393680517580" duration="2962000" />
+      <workItem from="1393680517580" duration="3505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12758000" />
+    <option name="totallyTimeSpent" value="13301000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -2045,11 +2050,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/editBuildings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="35" selection-start="2191" selection-end="2205" vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="1170" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="21" selection-start="2755" selection-end="2775" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="900" />
@@ -2348,7 +2348,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printSingleBlock.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="64" selection-end="150" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="750">
-          <folding />
+          <folding>
+            <marker date="1393682644000" expanded="true" signature="593:663" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2362,13 +2364,22 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBlock.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="86" selection-start="150" selection-end="150" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="600">
-          <folding />
+          <folding>
+            <marker date="1393683406000" expanded="true" signature="593:663" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/print/printOverallSingleBuilding.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="86" selection-start="150" selection-end="150" vertical-scroll-proportion="0.030425964" vertical-offset="0" max-vertical-offset="645">
+        <state line="16" column="40" selection-start="706" selection-end="706" vertical-scroll-proportion="0.48681542" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="38" selection-start="261" selection-end="261" vertical-scroll-proportion="0.20309478" vertical-offset="0" max-vertical-offset="517">
           <folding />
         </state>
       </provider>
