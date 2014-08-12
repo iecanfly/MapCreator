@@ -36,6 +36,15 @@
         <div id="etcDiv"><span id="etcSpan">其他</span></div>
     </c:if>
 
+    <c:if test="${isDisplayColourDivision}">
+        <div id="redDiv"><div id="redInnerDiv"></div></div>
+        <div id="greenDiv"><div id="greenInnerDiv"></div></div>
+        <div id="blueDiv"><div id="blueInnerDiv"></div></div>
+        <div id="yellowDiv"><div id="yellowInnerDiv"></div></div>
+        <div id="etcColDiv"><div id="etcColInnerDiv">其他</div></div>
+    </c:if>
+
+
     <c:if test="${not empty block.note}">
         <div id="noteDiv">${block.note}</div>
     </c:if>

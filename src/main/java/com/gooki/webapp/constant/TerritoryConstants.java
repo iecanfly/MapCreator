@@ -5,6 +5,8 @@ public enum TerritoryConstants {
 	A_BLOCK("block"),
 	A_BUILDING("building"),
     IS_DISPLAY_BUS_INFO("isDisplayBusInfo"),
+    IS_DISPLAY_BUSINESS_TYPE_INFO("isDisplayBusinessTypeInfo"),
+    IS_DISPLAY_COLOUR_DIVISION("isDisplayColourDivision"),
 	BLOCK_LIST("blockList"),
 	BUILDING_LIST("buildingList"),
     CONGREGATION("cong"),

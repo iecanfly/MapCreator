@@ -60,5 +60,17 @@ div#users-contain table td, div#users-contain table th { border: 1px solid #eee;
 #clothingImg {height: 22px;width: 22px;margin:-1px 0px 0px -1px;}
 #electronicsImg {height: 22px;width: 22px;margin:-1px 0px 0px -1px;}
 
+#redDiv {position:absolute;top:360px;left: 6px; border:1px dotted; background-color:white;width:110px; height:20px; padding:2px 2px 2px 2px;}
+#greenDiv {position:absolute;top:390px;left: 6px; border:1px dotted; background-color:white;width:110px; height:20px; padding:2px 2px 2px 2px;}
+#blueDiv {position:absolute;top:420px;left: 6px; border:1px dotted; background-color:white;width:110px; height:20px; padding:2px 2px 2px 2px;}
+#yellowDiv {position:absolute;top:450px;left: 6px; border:1px dotted; background-color:white;width:110px; height:20px; padding:2px 2px 2px 2px;}
+#etcColDiv {position:absolute;top:480px;left: 6px; border:1px dotted; background-color:white;width:110px; height:20px; padding:2px 2px 2px 2px;}
+
+#redInnerDiv {font-family: Microsoft YaHei;font-size:70%;background-color: red; color: white; height: 16px;width: 30px; padding:3px 1px 1px 3px;}
+#greenInnerDiv {font-family: Microsoft YaHei;font-size:70%;background-color: green; color:white; height: 16px;width: 30px; padding:3px 1px 1px 3px;}
+#blueInnerDiv {font-family: Microsoft YaHei;font-size:70%;background-color: blue; height: 16px;width: 30px; padding:3px 1px 1px 3px;}
+#yellowInnerDiv {font-family: Microsoft YaHei;font-size:70%;background-color: yellow; height: 16px;width: 30px; padding:3px 1px 1px 3px;}
+#etcColInnerDiv {font-family: Microsoft YaHei;font-size:70%;background-color: #808080; color: white; height: 16px;width: 30px; padding:3px 1px 1px 3px;}
+
 #recommendedWorkerSpan {font-family: Microsoft YaHei;font-size:150%;position:absolute;top:513px;left: 51px;}
 #recommendedWorkerImageSpan {position:absolute;top:512px;left: 3px;padding:3px 3px 3px 3px;}

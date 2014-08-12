@@ -45,6 +45,10 @@
         <div id="etcDiv"><span id="etcSpan">其他</span></div>
     </c:if>
 
+    <c:if test="${isDisplayColourDivision}">
+
+    </c:if>
+
     <div id="floorTmpl" style="display:none">
         <div class="floor"><div>{floor}</div><div>
     </div>

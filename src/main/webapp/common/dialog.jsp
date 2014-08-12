@@ -144,6 +144,8 @@
         <input type="checkbox" name="printBlocksOptionForBusInfo" id="printBlocksOptionForBusInfo" class="printcheckForOptionRecord" />
         <span class="printlabel" >Business Type Info</span>
         <input type="checkbox" name="printBlocksOptionForBusinessTypeInfo" id="printBlocksOptionForBusinessTypeInfo" class="printcheckForOptionRecord" />
+        <span class="printlabel" >Colour Division</span>
+        <input type="checkbox" name="printBlocksOptionForColourDivision" id="printBlocksOptionForColourDivision" class="printcheckForOptionRecord" />
     </div>
 </div>
 <div style="display:none" id="printBuildingsOptionTempl">
