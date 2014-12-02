@@ -46,11 +46,15 @@
     </c:if>
 
     <c:if test="${isDisplayColourDivision}">
-
+        <div id="redDiv"><div id="redInnerDiv">红色</div></div>
+        <div id="greenDiv"><div id="greenInnerDiv">绿色</div></div>
+        <div id="blueDiv"><div id="blueInnerDiv">蓝色</div></div>
+        <div id="yellowDiv"><div id="yellowInnerDiv">黄色</div></div>
+        <div id="etcColDiv"><div id="etcColInnerDiv">其他</div></div>
     </c:if>
 
     <div id="floorTmpl" style="display:none">
-        <div class="floor"><div>{floor}</div><div>
+        <div class="floor"><div>{floor}</div></div>
     </div>
 </body>
 
