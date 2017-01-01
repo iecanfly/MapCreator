@@ -1011,9 +1011,9 @@
         <jdbc.artifactId>postgresql</jdbc.artifactId>
         <jdbc.version>8.1-407.jdbc3</jdbc.version>
         <jdbc.driverClassName>org.postgresql.Driver</jdbc.driverClassName>
-        <jdbc.url>jdbc:postgresql://ec2-54-225-89-169.compute-1.amazonaws.com:5432/d3ljdkm6ccu7bj</jdbc.url>
-        <jdbc.username>ogobkakehshnnl</jdbc.username>
-        <jdbc.password>AsGmSSqMvN_ceviFhobcIdQxd-</jdbc.password>
+        <jdbc.url>jdbc:postgresql://ec2-54-235-84-244.compute-1.amazonaws.com:5432/d90l2gm3mafbat</jdbc.url>
+        <jdbc.username>oeycdffzcyqlyp</jdbc.username>
+        <jdbc.password>1163234baae1eb25431086d6ee097907278d135dc66e0d610818faf90cfcc28f</jdbc.password>
 
         <!-- Application settings -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
